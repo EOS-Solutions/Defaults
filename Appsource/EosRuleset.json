@@ -1,11 +1,5 @@
 {
     "name": "EOS default ruleset with mandatory rules for builds",
-    "includedRuleSets": [
-                            {
-                                "action": "Default",
-                                "path": ""
-                            }
-                        ],
     "rules": [
                 {
                     "id": "AL0432",
