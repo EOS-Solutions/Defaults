@@ -1,0 +1,137 @@
+﻿{
+  'Languages':
+    [
+      {
+        'Language': 'en-US',
+        'LinkToLanguage': null,
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'en-AU',
+        'LinkToLanguage': 'en-US',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'en-CA',
+        'LinkToLanguage': 'en-US',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'en-GB',
+        'LinkToLanguage': 'en-US',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'en-NZ',
+        'LinkToLanguage': 'en-US',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'it-CH',
+        'LinkToLanguage': 'it-IT',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'it-IT',
+        'LinkToLanguage': null,
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'de-AT',
+        'LinkToLanguage': 'de-DE',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'de-DE',
+        'LinkToLanguage': null,
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'de-CH',
+        'LinkToLanguage': 'de-DE',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'da-DK',
+        'LinkToLanguage': null,
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'fr-BE',
+        'LinkToLanguage': 'fr-FR',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'fr-CA',
+        'LinkToLanguage': 'fr-FR',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'fr-FR',
+        'LinkToLanguage': null,
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'fr-CH',
+        'LinkToLanguage': 'fr-FR',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'es-MX',
+        'LinkToLanguage': 'es-ES',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'es-ES',
+        'LinkToLanguage': null,
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'nl-BE',
+        'LinkToLanguage': 'nl-NL',
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'nl-NL',
+        'LinkToLanguage': null,
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'fi-FI',
+        'LinkToLanguage': null,
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'sv-SE',
+        'LinkToLanguage': null,
+        'Enabled': true,
+        'Hidden': false,
+      },
+      {
+        'Language': 'nb-NO',
+        'LinkToLanguage': null,
+        'Enabled': true,
+        'Hidden': false,
+      },
+    ],
+}
