@@ -51,10 +51,15 @@
             "action": "None",
             "justification": "List of localizations missing in AppSourceCop."
         },
-       {
+        {
             "id": "AW0011",
             "action": "None",
             "justification": "PromotedOnly: ignore"
+        },
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "Explain placeholders in labels: ignore"
         }
     ]
 }
