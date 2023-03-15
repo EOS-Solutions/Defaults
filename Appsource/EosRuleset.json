@@ -1,101 +1,85 @@
 {
-    "name": "EOS default ruleset with mandatory rules for builds",
+    "name": "EOS default ruleset with mandatory rules",
     "rules": [
-                {
-                    "id": "AL0432",
-                    "action": "Warning",
-                    "justification": "Err: Method 'xxxx' is marked for removal. Reason: Replaced by 'yyyyy'"
-                },
-                {
-                    "id": "AL0433",
-                    "action": "Warning",
-                    "justification": "Err: Table 'xxxx' is removed. Reason: Replaced by 'yyyyy'"
-                },
-                {
-                    "id": "AL0603",
-                    "action": "Error",
-                    "justification": "Err: An implicit conversion is being performed from a value of type Option to a value of type Enum yyyyy'"
-                },
-                {
-                    "id": "AL0604",
-                    "action": "Warning",
-                    "justification": "Err: Use of implicit 'with' will be removed in the future. Qualify with 'Rec'"
-                },
-                {
-                    "id": "AL0606",
-                    "action": "Warning",
-                    "justification": "Err: The 'with' statement is deprecated and will be removed for cloud development in a future release. This warning will become an error in a future release"
-                },
-                {
-                    "id": "AL0667",
-                    "action": "Warning",
-                    "justification": "Err: 'PageNo' is being deprecated in the versions: '1.0' or greater. This warning will become an error in a future release"
-                },
-                {
-                    "id": "AL1025",
-                    "action": "Error",
-                    "justification": "The file at location '...permissionset.xml' does NOT match any definition"
-                },
-                {
-                    "id": "AL1027",
-                    "action": "None",
-                    "justification": "The file at location '...permissionset.xml' match definition"
-                },
-
-
-                {
-                    "id": "AA0072",
-                    "action": "None",
-                    "justification": "The name of xxxx is not valid. The name of variables and parameters must be suffixed with the type or object name"
-                },
-                {
-                    "id": "AA0074",
-                    "action": "Warning",
-                    "justification": "Err: Variable 'xxx' must have a suffix from this list: Msg, Tok, Err, Qst, Lbl, Txt"
-                },
-                {
-                    "id": "AA0205",
-                    "action": "None",
-                    "justification": "Variables must be initialized before usage"
-                },
-                {
-                    "id": "AA0214",
-                    "action": "None",
-                    "justification": "The record xxx should be modified before saving to the database"
-                },
-                {
-                    "id": "AA0215",
-                    "action": "None",
-                    "justification": "File name incorrect"
-                },
-                {
-                    "id": "AA0470",
-                    "action": "None",
-                    "justification": "Placeholders should have a comment explaining their content"
-                },
-
-
-                {
-                    "id": "AS0053",
-                    "action": "None",
-                    "justification": "The compilation target is set to 'OnPrem', but it must be set to 'Cloud' or 'Extension'"
-                },
-                {
-                    "id": "AS0055",
-                    "action": "None",
-                    "justification": "List of localizations missing in AppSourceCop"
-                },
-
-                {
-                    "id": "PTE0001",
-                    "action": "None",
-                    "justification": "object outside 50000..99999 range"
-                },
-                {
-                    "id": "PTE0002",
-                    "action": "None",
-                    "justification": "fields outside 50000..99999 range on table extensions"
-                }
-
-            ]
+        {
+            "id": "AA0000",
+            "action": "None",
+            "justification": "=================================================================== AAxxxx"
+        },
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "Hungarian notation: no"
+        },
+        {
+            "id": "AA0074",
+            "action": "Warning",
+            "justification": "Err: Variable 'xxx' must have a suffix from this list: Msg, Tok, Err, Qst, Lbl, Txt."
+        },
+        {
+            "id": "AA0214",
+            "action": "None",
+            "justification": "The record xxx should be modified before saving to the database."
+        },
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "File name incorrect."
+        },
+        {
+            "id": "AL0000",
+            "action": "None",
+            "justification": "=================================================================== ALxxxx"
+        },
+        {
+            "id": "AL0432",
+            "action": "Error",
+            "justification": "Err: Method 'xxxx' is marked for removal. Reason: Replaced by CreateReservEntryFor"
+        },
+        {
+            "id": "AL0606",
+            "action": "Error",
+            "justification": "Err: The 'with' statement is deprecated and will be removed for cloud development in a future release. This warning will become an error in a future release."
+        },
+        {
+            "id": "AL0667",
+            "action": "Error",
+            "justification": "Err: 'PageNo' is being deprecated in the versions: '1.0' or greater. This warning will become an error in a future release."
+        },
+        {
+            "id": "AL1025",
+            "action": "Error",
+            "justification": "The file at location '...permissionset.xml' does NOT match any definition."
+        },
+        {
+            "id": "AL1027",
+            "action": "None",
+            "justification": "The file at location '...permissionset.xml' match definition."
+        },
+        {
+            "id": "AS0000",
+            "action": "None",
+            "justification": "=================================================================== ASxxxx"
+        },
+        {
+            "id": "AS0053",
+            "action": "None",
+            "justification": "The compilation target is set to 'OnPrem', but it must be set to 'Cloud' or 'Extension'."
+        },
+        {
+            "id": "AS0055",
+            "action": "None",
+            "justification": "List of localizations missing in AppSourceCop."
+        },
+        {
+            "id": "AW0000",
+            "action": "None",
+            "justification": "=================================================================== AWxxxx"
+        },
+       {
+            "id": "AW0011",
+            "action": "None",
+            "justification": "PromotedOnly: ignore"
+        }
+    ]
 }
