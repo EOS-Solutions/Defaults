@@ -38,7 +38,7 @@
         },
         {
             "id": "AL1025",
-            "action": "Error",
+            "action": "Warning",
             "justification": "The file at location '...permissionset.xml' does NOT match any definition."
         },
         {
