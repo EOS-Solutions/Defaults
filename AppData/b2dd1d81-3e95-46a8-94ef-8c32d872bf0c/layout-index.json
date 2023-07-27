@@ -1,0 +1,28 @@
+[
+    {
+        "ReportId": 18122007,
+        "Layouts": [
+            {
+                "LayoutName": "Default",
+                "LayoutUrl": "https://raw.githubusercontent.com/EOS-Solutions/Sample/master/EX009.AdvancedDocumentReporting/Reports/BC21/Report 18122007 - EOS Sales Document.rdlc"
+            },
+            {
+                "LayoutName": "Default v2",
+                "LayoutUrl": "https://raw.githubusercontent.com/EOS-Solutions/Sample/master/EX009.AdvancedDocumentReporting/Reports/BC21/Report 18122007 - EOS Sales Document - v2.rdlc"
+            }
+        ]
+    },
+    {
+        "ReportId": 18122008,
+        "Layouts": [
+            {
+                "LayoutName": "Default",
+                "LayoutUrl": "https://raw.githubusercontent.com/EOS-Solutions/Sample/master/EX009.AdvancedDocumentReporting/Reports/BC21/Report 18122008 - EOS Invoice Document.rdlc"
+            },
+            {
+                "LayoutName": "Default v2",
+                "LayoutUrl": "https://raw.githubusercontent.com/EOS-Solutions/Sample/master/EX009.AdvancedDocumentReporting/Reports/BC21/Report 18122008 - EOS Invoice Document - v2.rdlc"
+            }
+        ]
+    }
+]
