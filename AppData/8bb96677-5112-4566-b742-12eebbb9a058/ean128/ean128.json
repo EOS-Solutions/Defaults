@@ -182,7 +182,7 @@
   {
     "Code": "30",
     "Description": "Number of packages",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "1",
     "MinDataLength": 1.0,
     "MaxDataLength": 8.0,
@@ -191,7 +191,7 @@
   {
     "Code": "310",
     "Description": "Product Net Weight in kg",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -200,7 +200,7 @@
   {
     "Code": "311",
     "Description": "Product Length/1st Dimension, in meters",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -209,7 +209,7 @@
   {
     "Code": "312",
     "Description": "Product Width/Diameter/2nd Dimension, in meters",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -218,7 +218,7 @@
   {
     "Code": "313",
     "Description": "Product Depth/Thickness/3rd Dimension, in meters",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -227,7 +227,7 @@
   {
     "Code": "314",
     "Description": "Product Area, in square meters",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -236,7 +236,7 @@
   {
     "Code": "315",
     "Description": "Product Volume, in liters",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -245,7 +245,7 @@
   {
     "Code": "316",
     "Description": "product Volume, in cubic meters",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -254,7 +254,7 @@
   {
     "Code": "320",
     "Description": "Product Net Weight, in pounds",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -263,7 +263,7 @@
   {
     "Code": "321",
     "Description": "Product Length/1st Dimension, in inches",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -272,7 +272,7 @@
   {
     "Code": "322",
     "Description": "Product Length/1st Dimension, in feet",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -281,7 +281,7 @@
   {
     "Code": "323",
     "Description": "Product Length/1st Dimension, in yards",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -290,7 +290,7 @@
   {
     "Code": "324",
     "Description": "Product Width/Diameter/2nd Dimension, in inches",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -299,7 +299,7 @@
   {
     "Code": "325",
     "Description": "Product Width/Diameter/2nd Dimension, in feet",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -308,7 +308,7 @@
   {
     "Code": "326",
     "Description": "Product Width/Diameter/2nd Dimension, in yards",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -317,7 +317,7 @@
   {
     "Code": "327",
     "Description": "Product Depth/Thickness/3rd Dimension, in inches",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -326,7 +326,7 @@
   {
     "Code": "328",
     "Description": "Product Depth/Thickness/3rd Dimension, in feet",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -335,7 +335,7 @@
   {
     "Code": "329",
     "Description": "Product Depth/Thickness/3rd Dimension, in yards",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -344,7 +344,7 @@
   {
     "Code": "330",
     "Description": "Container Gross Weight (Kg)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -353,7 +353,7 @@
   {
     "Code": "331",
     "Description": "Container Length/1st Dimension (Meters)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -362,7 +362,7 @@
   {
     "Code": "332",
     "Description": "Container Width/Diameter/2nd Dimension (Meters)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -371,7 +371,7 @@
   {
     "Code": "333",
     "Description": "Container Depth/Thickness/3rd Dimension (Meters)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -380,7 +380,7 @@
   {
     "Code": "334",
     "Description": "Container Area (Square Meters)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -389,7 +389,7 @@
   {
     "Code": "335",
     "Description": "Container Gross Volume (Liters)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -398,7 +398,7 @@
   {
     "Code": "336",
     "Description": "Container Gross Volume (Cubic Meters)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -407,7 +407,7 @@
   {
     "Code": "340",
     "Description": "Container Gross Weight (Pounds)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -416,7 +416,7 @@
   {
     "Code": "341",
     "Description": "Container Length/1st Dimension, in inches",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -425,7 +425,7 @@
   {
     "Code": "342",
     "Description": "Container Length/1st Dimension, in feet",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -434,7 +434,7 @@
   {
     "Code": "343",
     "Description": "Container Length/1st Dimension in, in yards",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -443,7 +443,7 @@
   {
     "Code": "344",
     "Description": "Container Width/Diamater/2nd Dimension, in inches",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -452,7 +452,7 @@
   {
     "Code": "345",
     "Description": "Container Width/Diameter/2nd Dimension, in feet",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -461,7 +461,7 @@
   {
     "Code": "346",
     "Description": "Container Width/Diameter/2nd Dimension, in yards",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -470,7 +470,7 @@
   {
     "Code": "347",
     "Description": "Container Depth/Thickness/Height/3rd Dimension, in inches",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -479,7 +479,7 @@
   {
     "Code": "348",
     "Description": "Container Depth/Thickness/Height/3rd Dimension, in feet",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -488,7 +488,7 @@
   {
     "Code": "349",
     "Description": "Container Depth/Thickness/Height/3rd Dimension, in yards",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -497,7 +497,7 @@
   {
     "Code": "350",
     "Description": "Product Area (Square Inches)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -506,7 +506,7 @@
   {
     "Code": "351",
     "Description": "Product Area (Square Feet)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -515,7 +515,7 @@
   {
     "Code": "352",
     "Description": "Product Area (Square Yards)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -524,7 +524,7 @@
   {
     "Code": "353",
     "Description": "Container Area (Square Inches)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -533,7 +533,7 @@
   {
     "Code": "354",
     "Description": "Container Area (Square Feet)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -542,7 +542,7 @@
   {
     "Code": "355",
     "Description": "Container Area (Suqare Yards)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -551,7 +551,7 @@
   {
     "Code": "356",
     "Description": "Net Weight (Troy Ounces)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -560,7 +560,7 @@
   {
     "Code": "360",
     "Description": "Product Volume (Quarts)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -569,7 +569,7 @@
   {
     "Code": "361",
     "Description": "Product Volume (Gallons)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -578,7 +578,7 @@
   {
     "Code": "362",
     "Description": "Container Gross Volume (Quarts)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -587,7 +587,7 @@
   {
     "Code": "363",
     "Description": "Container Gross Volume (Gallons)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -596,7 +596,7 @@
   {
     "Code": "364",
     "Description": "Product Volume (Cubic Inches)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -605,7 +605,7 @@
   {
     "Code": "365",
     "Description": "Product Volume (Cubic Feet)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -614,7 +614,7 @@
   {
     "Code": "366",
     "Description": "Product Volume (Cubic Yards)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -623,7 +623,7 @@
   {
     "Code": "367",
     "Description": "Container Gross Volume (Cubic Inches)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -632,7 +632,7 @@
   {
     "Code": "368",
     "Description": "Container Gross Volume (Cubic Feet)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -641,7 +641,7 @@
   {
     "Code": "369",
     "Description": "Container Gross Volume (Cubic Yards)",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
@@ -650,7 +650,7 @@
   {
     "Code": "37",
     "Description": "Quantity",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "1",
     "MinDataLength": 1.0,
     "MaxDataLength": 8.0,
@@ -713,7 +713,7 @@
   {
     "Code": "8001",
     "Description": "Roll Products – Width/Length/Core Diameter",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 14.0,
     "MaxDataLength": 14.0,
@@ -749,7 +749,7 @@
   {
     "Code": "8005",
     "Description": "Price per Unit of Measure",
-    "DataType": "1",
+    "DataType": "3",
     "DataLengthType": "0",
     "MinDataLength": 6.0,
     "MaxDataLength": 6.0,
