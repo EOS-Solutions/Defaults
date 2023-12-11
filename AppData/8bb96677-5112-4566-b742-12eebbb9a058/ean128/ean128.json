@@ -1,0 +1,875 @@
+﻿[
+  {
+    "Code": "00",
+    "Description": "Serial Shipping Container Code (SSCC-18)",
+    "DataType": "1",
+    "DataLengthType": "0",
+    "MinDataLength": 18.0,
+    "MaxDataLength": 18.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "01",
+    "Description": "GTIN-14",
+    "DataType": "1",
+    "DataLengthType": "0",
+    "MinDataLength": 14.0,
+    "MaxDataLength": 14.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "02",
+    "Description": "Number of containers",
+    "DataType": "1",
+    "DataLengthType": "0",
+    "MinDataLength": 14.0,
+    "MaxDataLength": 14.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "10",
+    "Description": "Batch number",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 20.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "11",
+    "Description": "Production Date",
+    "DataType": "2",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "13",
+    "Description": "Packaging Date",
+    "DataType": "2",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "15",
+    "Description": "Sell by Date (Quality Control)",
+    "DataType": "2",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "17",
+    "Description": "Expiration Date",
+    "DataType": "2",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "20",
+    "Description": "Product Variant",
+    "DataType": "0",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 2.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "21",
+    "Description": "Serial Number",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 20.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "22",
+    "Description": "HIBCC Quantity, Date, Batch and Link",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 29.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "240",
+    "Description": "Additional Product Identification",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "241",
+    "Description": "Customer Part Number",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "242",
+    "Description": "242 Made-to-Order variation no",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "243",
+    "Description": "Packaging Component Number",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "250",
+    "Description": "Secondary Serial Number",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "251",
+    "Description": "Reference to source entity",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "253",
+    "Description": "Global Document Type Identifier",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 13.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "254",
+    "Description": "GLN extension component",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "255",
+    "Description": "Global Coupon Number",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 20.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "30",
+    "Description": "Number of packages",
+    "DataType": "3",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 8.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "310",
+    "Description": "Product Net Weight in kg",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "311",
+    "Description": "Product Length/1st Dimension, in meters",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "312",
+    "Description": "Product Width/Diameter/2nd Dimension, in meters",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "313",
+    "Description": "Product Depth/Thickness/3rd Dimension, in meters",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "314",
+    "Description": "Product Area, in square meters",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "315",
+    "Description": "Product Volume, in liters",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "316",
+    "Description": "product Volume, in cubic meters",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "320",
+    "Description": "Product Net Weight, in pounds",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "321",
+    "Description": "Product Length/1st Dimension, in inches",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "322",
+    "Description": "Product Length/1st Dimension, in feet",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "323",
+    "Description": "Product Length/1st Dimension, in yards",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "324",
+    "Description": "Product Width/Diameter/2nd Dimension, in inches",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "325",
+    "Description": "Product Width/Diameter/2nd Dimension, in feet",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "326",
+    "Description": "Product Width/Diameter/2nd Dimension, in yards",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "327",
+    "Description": "Product Depth/Thickness/3rd Dimension, in inches",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "328",
+    "Description": "Product Depth/Thickness/3rd Dimension, in feet",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "329",
+    "Description": "Product Depth/Thickness/3rd Dimension, in yards",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "330",
+    "Description": "Container Gross Weight (Kg)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "331",
+    "Description": "Container Length/1st Dimension (Meters)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "332",
+    "Description": "Container Width/Diameter/2nd Dimension (Meters)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "333",
+    "Description": "Container Depth/Thickness/3rd Dimension (Meters)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "334",
+    "Description": "Container Area (Square Meters)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "335",
+    "Description": "Container Gross Volume (Liters)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "336",
+    "Description": "Container Gross Volume (Cubic Meters)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "340",
+    "Description": "Container Gross Weight (Pounds)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "341",
+    "Description": "Container Length/1st Dimension, in inches",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "342",
+    "Description": "Container Length/1st Dimension, in feet",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "343",
+    "Description": "Container Length/1st Dimension in, in yards",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "344",
+    "Description": "Container Width/Diamater/2nd Dimension, in inches",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "345",
+    "Description": "Container Width/Diameter/2nd Dimension, in feet",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "346",
+    "Description": "Container Width/Diameter/2nd Dimension, in yards",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "347",
+    "Description": "Container Depth/Thickness/Height/3rd Dimension, in inches",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "348",
+    "Description": "Container Depth/Thickness/Height/3rd Dimension, in feet",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "349",
+    "Description": "Container Depth/Thickness/Height/3rd Dimension, in yards",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "350",
+    "Description": "Product Area (Square Inches)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "351",
+    "Description": "Product Area (Square Feet)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "352",
+    "Description": "Product Area (Square Yards)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "353",
+    "Description": "Container Area (Square Inches)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "354",
+    "Description": "Container Area (Square Feet)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "355",
+    "Description": "Container Area (Suqare Yards)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "356",
+    "Description": "Net Weight (Troy Ounces)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "360",
+    "Description": "Product Volume (Quarts)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "361",
+    "Description": "Product Volume (Gallons)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "362",
+    "Description": "Container Gross Volume (Quarts)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "363",
+    "Description": "Container Gross Volume (Gallons)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "364",
+    "Description": "Product Volume (Cubic Inches)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "365",
+    "Description": "Product Volume (Cubic Feet)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "366",
+    "Description": "Product Volume (Cubic Yards)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "367",
+    "Description": "Container Gross Volume (Cubic Inches)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "368",
+    "Description": "Container Gross Volume (Cubic Feet)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "369",
+    "Description": "Container Gross Volume (Cubic Yards)",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": true
+  },
+  {
+    "Code": "37",
+    "Description": "Quantity",
+    "DataType": "3",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 8.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "400",
+    "Description": "Customer Purchase Order Number",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 29.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "410",
+    "Description": "Ship To/Deliver To Location Code (EAN13 or DUNS code)",
+    "DataType": "1",
+    "DataLengthType": "0",
+    "MinDataLength": 13.0,
+    "MaxDataLength": 13.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "411",
+    "Description": "Bill To/Invoice Location Code (EAN13 or DUNS code)",
+    "DataType": "1",
+    "DataLengthType": "0",
+    "MinDataLength": 13.0,
+    "MaxDataLength": 13.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "412",
+    "Description": "Purchase From Location Code (EAN13 or DUNS code)",
+    "DataType": "1",
+    "DataLengthType": "0",
+    "MinDataLength": 13.0,
+    "MaxDataLength": 13.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "420",
+    "Description": "Ship To/Deliver To Postal Code (Single Postal Authority)",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 9.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "421",
+    "Description": "Ship To/Deliver To Postal Code (Multiple Postal Authority)",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 4.0,
+    "MaxDataLength": 12.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "8001",
+    "Description": "Roll Products – Width/Length/Core Diameter",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 14.0,
+    "MaxDataLength": 14.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "8002",
+    "Description": "Electronic Serial Number (ESN) for Cellular Phone",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 20.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "8003",
+    "Description": "UPC/EAN Number and Serial Number of Returnable Asset",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 14.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "8004",
+    "Description": "UPC/EAN Serial Identification",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "8005",
+    "Description": "Price per Unit of Measure",
+    "DataType": "3",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "8100",
+    "Description": "Coupon Extended Code: Number System and Offer",
+    "DataType": "0",
+    "DataLengthType": "0",
+    "MinDataLength": 6.0,
+    "MaxDataLength": 6.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "8101",
+    "Description": "8101 Coupon Extended Code: Number System, Offer, End of Offer",
+    "DataType": "0",
+    "DataLengthType": "0",
+    "MinDataLength": 10.0,
+    "MaxDataLength": 10.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "8102",
+    "Description": "Coupon Extended Code: Number System preceded by 0",
+    "DataType": "0",
+    "DataLengthType": "0",
+    "MinDataLength": 2.0,
+    "MaxDataLength": 2.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "90",
+    "Description": "Mutually Agreed Between Trading Partners",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "91",
+    "Description": "Company Internal Information",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "92",
+    "Description": "Company Internal Information",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "93",
+    "Description": "Company Internal Information",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "94",
+    "Description": "Company Internal Information",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "95",
+    "Description": "Company Internal Information",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "96",
+    "Description": "Company Internal Information",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "97",
+    "Description": "Company Internal Information",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "98",
+    "Description": "Company Internal Information",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  },
+  {
+    "Code": "99",
+    "Description": "Company Internal Information",
+    "DataType": "0",
+    "DataLengthType": "1",
+    "MinDataLength": 1.0,
+    "MaxDataLength": 30.0,
+    "DecimalPlaces": false
+  }
+]
