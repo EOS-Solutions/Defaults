@@ -654,7 +654,7 @@
     "DataLengthType": "1",
     "MinDataLength": 1.0,
     "MaxDataLength": 8.0,
-    "HasExtensionDigit": true
+    "HasExtensionDigit": false
   },
   {
     "Code": "400",
