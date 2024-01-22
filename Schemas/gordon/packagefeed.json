@@ -1,0 +1,109 @@
+{
+    "$id": "https://schemas.eos-solutions.it/gordon/packagefeed.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "Name": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "string"
+        },
+        "ProviderName": {
+            "type": "string",
+            "enum": [
+                "Folder",
+                "ProGet",
+                "Nuget"
+            ]
+        }
+    },
+    "required": [
+        "Name",
+        "ProviderName"
+    ],
+    "allOf": [
+        {
+            "if": {
+                "properties": {
+                    "ProviderName": {
+                        "const": "Folder"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "Configuration": {
+                        "type": "object",
+                        "properties": {
+                            "Folder": {
+                                "type": "string"
+                            },
+                            "FilterRegex": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "Folder"
+                        ]
+                    }
+                },
+                "required": [
+                    "Configuration"
+                ]
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "ProviderName": {
+                        "const": "Nuget"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "Configuration": {
+                        "type": "object",
+                        "properties": {
+                            "NuGetAuthenticationType": {
+                                "type": "string",
+                                "enum": [
+                                    "None",
+                                    "Credentials",
+                                    "Msal",
+                                    "BearerToken",
+                                    "DevOpsToken"
+                                ]
+                            },
+                            "EndpointUri": {
+                                "type": "string"
+                            },
+                            "PushApiKey": {
+                                "type": "string",
+                                "description": "The API key to use when pushing packages to the feed."
+                            },
+                            "PackageIdScheme": {
+                                "type": "string",
+                                "enum": [
+                                    "AppId",
+                                    "PublisherAndName",
+                                    "PublisherAndNameAndId"
+                                ]
+                            },
+                            "AllowLongPackageIds": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "EndpointUri"
+                        ]
+                    }
+                },
+                "required": [
+                    "Configuration"
+                ]
+            }
+        }
+    ]
+}
