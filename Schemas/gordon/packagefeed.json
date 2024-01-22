@@ -14,7 +14,7 @@
             "enum": [
                 "Folder",
                 "ProGet",
-                "Nuget"
+                "NuGet"
             ]
         }
     },
@@ -57,7 +57,7 @@
             "if": {
                 "properties": {
                     "ProviderName": {
-                        "const": "Nuget"
+                        "const": "NuGet"
                     }
                 }
             },
@@ -66,7 +66,7 @@
                     "Configuration": {
                         "type": "object",
                         "properties": {
-                            "NuGetAuthenticationType": {
+                            "AuthenticationType": {
                                 "type": "string",
                                 "enum": [
                                     "None",
