@@ -1,0 +1,46 @@
+{
+    "$id": "https://schemas.eos-solutions.it/gordon/buildconfig.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "Description": {
+            "type": "string",
+            "description": "The description of the build configuration."
+        },
+        "Metadata": {
+            "type": "object",
+            "description": "The metadata of the build configuration.",
+            "properties": {}
+        },
+        "Options": {
+            "type": "object",
+            "description": "The ALC options for the build configuration.",
+            "properties": {}
+        },
+        "OptionsFile": {
+            "type": "string",
+            "description": "The path to the ALC options file. If this is specified, the Options property is ignored."
+        },
+        "IncludePatterns": {
+            "type": "array",
+            "description": "A list of glob patterns of files to include in the build. If this is not specified, all files are included.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "ExcludePatterns": {
+            "type": "array",
+            "description": "A list of glob patterns of files to exclude from the build. This is applied after the include patterns.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "PreprocessorSymbols": {
+            "type": "array",
+            "description": "Specifies a list of preprocessor symbols to define when building the project.",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}
