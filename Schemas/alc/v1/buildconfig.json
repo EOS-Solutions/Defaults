@@ -10,12 +10,109 @@
         "Metadata": {
             "type": "object",
             "description": "The metadata of the build configuration.",
-            "properties": {}
+            "properties": {
+                "Version": {
+                    "type": "string",
+                    "description": "The version to be used when building."
+                },
+                "RepositoryUrl": {
+                    "type": "string",
+                    "description": "The repository URL for the project."
+                },
+                "Commit": {
+                    "type": "string",
+                    "description": "The commit hash of the currently checked out version."
+                },
+                "IncrementBuildVersion": {
+                    "type": "boolean",
+                    "description": "If true, the build revision number is incremented before each build."
+                }
+            }
         },
         "Options": {
             "type": "object",
             "description": "The ALC options for the build configuration.",
-            "properties": {}
+            "properties": {
+                "AlcFolder": {
+                    "type": "string",
+                    "description": "The path to the ALC folder. If this is not specified, the most recent version of ALC.exe will be used."
+                },
+                "OutputFilename": {
+                    "type": "string",
+                    "description": "If specified, the output file will be written to this file path. This takes precedence over 'OutputFolder'"
+                },
+                "OutputFolder": {
+                    "type": "string",
+                    "description": "If specified, the output file will be written to this folder. This is ignored if 'OutputFilename' is specified."
+                },
+                "ErrorLog": {
+                    "type": "string",
+                    "description": "If specified, errors will be logged to this file path."
+                },
+                "AssemblyProbingPaths": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Specifies the assembly probing paths to be used during build."
+                },
+                "PackageCacheFolder": {
+                    "type": "string",
+                    "description": "Indicates the package cache path to use for builds."
+                },
+                "WarnAsError": {
+                    "type": "boolean",
+                    "description": "Indicates if warnings should be treated as errors."
+                },
+                "RuleSet": {
+                    "type": "string",
+                    "description": "If specified, the ruleset file will be used to alter severity of specific diagnostics."
+                },
+                "Target": {
+                    "type": "string",
+                    "description": "Specify the compilation target.: internal, solution, extension",
+                    "enum": [
+                        "Internal",
+                        "Solution",
+                        "Extension"
+                    ]
+                },
+                "GenerateCode": {
+                    "type": "boolean",
+                    "description": "Specifies whether metadata and code should be generated and packaged in the output file. (Default: Disabled)"
+                },
+                "GeneratReportLayout": {
+                    "type": "boolean",
+                    "description": "Specifies whether report layouts should be created and or updated with the dataset. (Default: Enabled)"
+                },
+                "HideDiagnosticsFromOutput": {
+                    "type": "boolean",
+                    "description": "Specifies whether diagnostic messages are hidden from console output."
+                },
+                "Analyzers": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "A list of analyzers to use during build"
+                },
+                "LogLevel": {
+                    "type": "string",
+                    "enum": [
+                        "Debug",
+                        "Verbose",
+                        "Normal",
+                        "Warning",
+                        "Error"
+                    ]
+                },
+                "ParallelDegree": {
+                    "type": "integer"
+                },
+                "ReportSuppressedDiagnostics": {
+                    "type": "boolean"
+                }
+            }
         },
         "OptionsFile": {
             "type": "string",
