@@ -66,6 +66,38 @@
             "if": {
                 "properties": {
                     "ProviderName": {
+                        "const": "ProGet"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "Configuration": {
+                        "type": "object",
+                        "properties": {
+                            "Url": {
+                                "type": "string",
+                                "description": "The URI to the package feed."
+                            },
+                            "DefaultUsername": {
+                                "type": "string",
+                                "description": "A default username."
+                            }
+                        },
+                        "required": [
+                            "Url"
+                        ]
+                    }
+                },
+                "required": [
+                    "Configuration"
+                ]
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "ProviderName": {
                         "const": "NuGet"
                     }
                 }
