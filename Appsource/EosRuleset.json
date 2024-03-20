@@ -22,17 +22,17 @@
             "justification": "File name incorrect."
         },
         {
-            "id": "AA0073",
+            "id": "AS0073",
             "action": "Error",
             "justification": "Obsolete Tag must be set."
         },
         {
-            "id": "AA0075",
+            "id": "AS0075",
             "action": "Error",
             "justification": "Obsolete Reason must be set."
         },
         {
-            "id": "AA0076",
+            "id": "AS0076",
             "action": "Error",
             "justification": "Obsolete Tag must have a specific format."
         },
