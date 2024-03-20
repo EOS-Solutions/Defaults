@@ -22,6 +22,21 @@
             "justification": "File name incorrect."
         },
         {
+            "id": "AA0073",
+            "action": "Error",
+            "justification": "Obsolete Tag must be set."
+        },
+        {
+            "id": "AA0075",
+            "action": "Error",
+            "justification": "Obsolete Reason must be set."
+        },
+        {
+            "id": "AA0076",
+            "action": "Error",
+            "justification": "Obsolete Tag must have a specific format."
+        },
+        {
             "id": "AL0432",
             "action": "Error",
             "justification": "Err: Method 'xxxx' is marked for removal. Reason: Replaced by CreateReservEntryFor"
