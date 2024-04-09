@@ -4,13 +4,20 @@
     "type": "object",
     "properties": {
         "Name": {
-            "type": "string"
+            "type": "string",
+            "description": "The name of the feed."
         },
         "Description": {
-            "type": "string"
+            "type": "string",
+            "description": "A description."
+        },
+        "ProviderType": {
+            "type": "string",
+            "description": "DEPRECATED: The .NET type of the provider configuration. Use 'ProviderName' instead."
         },
         "ProviderName": {
             "type": "string",
+            "description": "The name of the provider to use for this feed.",
             "enum": [
                 "Folder",
                 "ProGet",
@@ -37,14 +44,48 @@
                         "type": "object",
                         "properties": {
                             "Folder": {
-                                "type": "string"
+                                "type": "string",
+                                "description": "The path to the folder containing the packages."
                             },
                             "FilterRegex": {
-                                "type": "string"
+                                "type": "string",
+                                "description": "A regular expression to filter the packages in the folder."
                             }
                         },
                         "required": [
                             "Folder"
+                        ]
+                    }
+                },
+                "required": [
+                    "Configuration"
+                ]
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "ProviderName": {
+                        "const": "ProGet"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "Configuration": {
+                        "type": "object",
+                        "properties": {
+                            "Url": {
+                                "type": "string",
+                                "description": "The URI to the package feed."
+                            },
+                            "DefaultUsername": {
+                                "type": "string",
+                                "description": "A default username."
+                            }
+                        },
+                        "required": [
+                            "Url"
                         ]
                     }
                 },
@@ -68,6 +109,7 @@
                         "properties": {
                             "AuthenticationType": {
                                 "type": "string",
+                                "description": "The type of authentication to use when accessing the feed.",
                                 "enum": [
                                     "None",
                                     "Credentials",
@@ -77,7 +119,8 @@
                                 ]
                             },
                             "EndpointUri": {
-                                "type": "string"
+                                "type": "string",
+                                "description": "The URI of the NuGet feed."
                             },
                             "PushApiKey": {
                                 "type": "string",
@@ -85,6 +128,7 @@
                             },
                             "PackageIdScheme": {
                                 "type": "string",
+                                "description": "The scheme to use when generating package IDs.",
                                 "enum": [
                                     "AppId",
                                     "PublisherAndName",
@@ -92,7 +136,8 @@
                                 ]
                             },
                             "AllowLongPackageIds": {
-                                "type": "boolean"
+                                "type": "boolean",
+                                "description": "Whether to allow package IDs longer than 100 characters."
                             }
                         },
                         "required": [
