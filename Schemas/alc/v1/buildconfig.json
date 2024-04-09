@@ -17,15 +17,23 @@
                 },
                 "RepositoryUrl": {
                     "type": "string",
-                    "description": "The repository URL for the project."
+                    "description": "Specifies the URL to the repository where the source code to the project is."
                 },
                 "Commit": {
                     "type": "string",
-                    "description": "The commit hash of the currently checked out version."
+                    "description": "Specifies the commit of the source code."
                 },
                 "IncrementBuildVersion": {
                     "type": "boolean",
                     "description": "If true, the build revision number is incremented before each build."
+                },
+                "BuildBy": {
+                    "type": "string",
+                    "description": "Specifies the name of the system that assisted in the compilation."
+                },
+                "BuildUrl": {
+                    "type": "string",
+                    "description": "Specifies the URL of where the package can be found."
                 }
             }
         },
@@ -111,6 +119,22 @@
                 },
                 "ReportSuppressedDiagnostics": {
                     "type": "boolean"
+                },
+                "SourceRepositoryUrl": {
+                    "type": "string",
+                    "description": "Specifies the URL to the repository where the source code to the project is."
+                },
+                "SourceCommit": {
+                    "type": "string",
+                    "description": "Specifies the commit of the source code."
+                },
+                "BuildBy": {
+                    "type": "string",
+                    "description": "Specifies the name of the system that assisted in the compilation."
+                },
+                "BuildUrl": {
+                    "type": "string",
+                    "description": "Specifies the URL of where the package can be found."
                 }
             }
         },
