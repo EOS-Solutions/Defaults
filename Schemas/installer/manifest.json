@@ -1,0 +1,89 @@
+{
+    "$id": "https://schemas.eos-solutions.it/installer/manifest.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "Id": {
+            "type": "string",
+            "description": "The unique identifier for the package."
+        },
+        "Title": {
+            "type": "string",
+            "description": "A human-readable title for the package."
+        },
+        "Description": {
+            "type": "string",
+            "Description": "A brief description of what this package does."
+        },
+        "Version": {
+            "type": "string",
+            "description": "The version of the package."
+        },
+        "TargetFolder": {
+            "type": "string",
+            "description": "The name of the folder that this package is installed to. If this is not specified, the Id of the package will be used."
+        },
+        "InstallScripts": {
+            "type": "array",
+            "description": "A list of paths to scripts to run after the package was installed. The paths are relative to the package root and must point to a path within the package root.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "UninstallScripts": {
+            "type": "array",
+            "description": "A list of paths to scripts to run before the package is uninstalled. The paths are relative to the package root and must point to a path within the package root.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "Links": {
+            "type": "array",
+            "description": "A list of start menu links to create.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "Associations": {
+            "type": "array",
+            "description": "A list of file associations to create.",
+            "items": {
+                "type": "string"
+            }
+        },
+        "Service": {
+            "type": "object",
+            "description": "If this package installs a service, this describes the service that will be created.",
+            "properties": {
+                "ServiceName": {
+                    "type": "string",
+                    "description": "The name of the service."
+                },
+                "DisplayName": {
+                    "type": "string",
+                    "description": "The display name of the service."
+                },
+                "Executable": {
+                    "type": "string",
+                    "description": "The (package-root-relative) path to the service executable."
+                },
+                "Arguments": {
+                    "type": "string",
+                    "description": "The arguments to pass to the service executable."
+                },
+                "StartService": {
+                    "type": "boolean",
+                    "description": "Specifies if the service should be started after installation."
+                }
+            }
+        },
+        "ProcessId": {
+            "type": "number",
+            "description": "USED DURING INSTALLATION ONLY"
+        }
+    },
+    "required": [
+        "Id",
+        "Version"
+    ]
+}
