@@ -99,7 +99,11 @@
                     },
                     "ExecuteCommand": {
                         "type": "string",
-                        "description": "The command to be executed for this association."
+                        "description": "The command to be executed for this association. This should be an executable and will be resolved relative to the package root."
+                    },
+                    "ExecuteCommandArgument": {
+                        "type": "string",
+                        "description": "If specified (usually \"%1\"), this is passed to the command as an argument."
                     }
                 },
                 "required": [
