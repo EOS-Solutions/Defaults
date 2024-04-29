@@ -41,14 +41,72 @@
             "type": "array",
             "description": "A list of start menu links to create.",
             "items": {
-                "type": "string"
+                "type": "object",
+                "properties": {
+                    "Title": {
+                        "type": "string",
+                        "description": "The title of the shortcut."
+                    },
+                    "LinkTarget": {
+                        "type": "string",
+                        "description": "The target that the shortcut points to."
+                    },
+                    "Icon": {
+                        "type": "string",
+                        "description": "An URL to the icon displayed for the shortcut."
+                    },
+                    "LinkGroup": {
+                        "type": "string",
+                        "description": "The name of the group (subfolder) where to place this shortcut."
+                    },
+                    "Arguments": {
+                        "type": "string",
+                        "description": "Arguments for the LinkTarget."
+                    },
+                    "WorkingDirectory": {
+                        "type": "string",
+                        "description": "An optional working directory for the LinkTarget."
+                    },
+                    "HotKey": {
+                        "type": "string",
+                        "description": "An optional Hotkey"
+                    }
+                },
+                "required": [
+                    "Title",
+                    "LinkTarget"
+                ]
             }
         },
         "Associations": {
             "type": "array",
             "description": "A list of file associations to create.",
             "items": {
-                "type": "string"
+                "type": "object",
+                "properties": {
+                    "Extension": {
+                        "type": "string",
+                        "description": "The extension of the association."
+                    },
+                    "ProgId": {
+                        "type": "string",
+                        "description": "The ProgId of the association."
+                    },
+                    "FileTypeDescription": {
+                        "type": "string",
+                        "description": "The description of the file association."
+                    },
+                    "ExecuteCommand": {
+                        "type": "string",
+                        "description": "The command to be executed for this association."
+                    }
+                },
+                "required": [
+                    "Extension",
+                    "ProgId",
+                    "FileTypeDescription",
+                    "ExecuteCommand"
+                ]
             }
         },
         "Service": {
