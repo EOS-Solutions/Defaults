@@ -11,6 +11,10 @@
             "type": "string",
             "description": "A human-readable title for the package."
         },
+        "IconFilePath": {
+            "type": "string",
+            "description": "The path to an icon file for this package. This is relative to the manifest file."
+        },
         "Description": {
             "type": "string",
             "Description": "A brief description of what this package does."
