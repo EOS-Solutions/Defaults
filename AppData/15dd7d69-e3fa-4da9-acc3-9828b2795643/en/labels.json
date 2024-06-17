@@ -36,6 +36,10 @@
         "value": "Quantity"
     },
     {
+        "name": "BinContentBinSelectionScreen_Gallery_variantCodeHeaderTextLabel",
+        "value": "Variant Code"
+    },
+    {
         "name": "BinContentBinSelectionScreen_Gallery_zoneHeaderTextLabel",
         "value": "Zone"
     },
@@ -52,6 +56,10 @@
         "value": "Location"
     },
     {
+        "name": "BinContentBinSelectionScreen_SubHeaderContainer_variantCodeHeaderTextLabel",
+        "value": "Variant Code"
+    },
+    {
         "name": "BinContentItemSelectionScreen_FiltersComponent_ItemNoTextLabel",
         "value": "Item No."
     },
@@ -62,6 +70,10 @@
     {
         "name": "BinContentItemSelectionScreen_Gallery_quantityHeaderTextLabel",
         "value": "Quantity"
+    },
+    {
+        "name": "BinContentItemSelectionScreen_Gallery_variantCodeHeaderTextLabel",
+        "value": "Variant Code"
     },
     {
         "name": "BinContentItemSelectionScreen_Gallery_zoneHeaderTextLabel",
@@ -118,6 +130,10 @@
     {
         "name": "BinContentTrackingSelectionScreen_Gallery_quantityHeaderTextLabel",
         "value": "Quantity"
+    },
+    {
+        "name": "BinContentTrackingSelectionScreen_Gallery_variantCodeHeaderTextLabel",
+        "value": "Variant Code"
     },
     {
         "name": "BinContentTrackingSelectionScreen_Gallery_zoneHeaderTextLabel",
@@ -180,8 +196,16 @@
         "value": "Change user"
     },
     {
+        "name": "Create",
+        "value": "Create"
+    },
+    {
         "name": "Delete",
         "value": "Delete"
+    },
+    {
+        "name": "DeleteScans",
+        "value": "Delete scans"
     },
     {
         "name": "Details",
@@ -324,6 +348,34 @@
         "value": "Edit"
     },
     {
+        "name": "HandlingUnit",
+        "value": "Handling Unit"
+    },
+    {
+        "name": "HUCreationScreen_FieldsEditorComponent_binCode",
+        "value": "Bin Code"
+    },
+    {
+        "name": "HUCreationScreen_FieldsEditorComponent_handlingUnitType",
+        "value": "Handling Unit Type"
+    },
+    {
+        "name": "HUCreationScreen_FieldsEditorComponent_locationCode",
+        "value": "Location Code"
+    },
+    {
+        "name": "HUCreationScreen_FieldsEditorComponent_packagingMaterialNo",
+        "value": "Packaging Material"
+    },
+    {
+        "name": "HUDetailsScreen_FieldsEditorComponent_binCode",
+        "value": "Bin"
+    },
+    {
+        "name": "HUDetailsScreen_FieldsEditorComponent_locationCode",
+        "value": "Location"
+    },
+    {
         "name": "InvalidBarcodeError",
         "value": "Scanned barcode not valid."
     },
@@ -354,6 +406,14 @@
     {
         "name": "ItemInformationScreen_FieldsViewerComponent_type",
         "value": "Type"
+    },
+    {
+        "name": "ItemInformationScreen_FieldsViewerComponent_variantCode",
+        "value": "Variant Code"
+    },
+    {
+        "name": "ItemInformationScreen_FieldsViewerComponent_variantDescription",
+        "value": "Variant Description"
     },
     {
         "name": "ItemJournalScreen_EntryType_Radio_NegativeAdjmt",
@@ -428,8 +488,16 @@
         "value": "To location"
     },
     {
+        "name": "ItemReclassificationScreen_Gallery_binCodeHeaderTextLabel",
+        "value": "Bin Code"
+    },
+    {
         "name": "ItemReclassificationScreen_Gallery_expirationDateHeaderTextLabel",
         "value": "Expiration Date"
+    },
+    {
+        "name": "ItemReclassificationScreen_Gallery_locationCodeHeaderTextLabel",
+        "value": "Location Code"
     },
     {
         "name": "ItemReclassificationScreen_Gallery_lotNoHeaderTextLabel",
@@ -456,8 +524,16 @@
         "value": "Item Reclassification"
     },
     {
+        "name": "ItemTrackingReclassificationScreen_Gallery_binCodeHeaderTextLabel",
+        "value": "Bin Code"
+    },
+    {
         "name": "ItemTrackingReclassificationScreen_Gallery_expirationDateHeaderTextLabel",
         "value": "Expiration Date"
+    },
+    {
+        "name": "ItemTrackingReclassificationScreen_Gallery_locationCodeHeaderTextLabel",
+        "value": "Location Code"
     },
     {
         "name": "ItemTrackingReclassificationScreen_Gallery_lotNoHeaderTextLabel",
@@ -512,12 +588,20 @@
         "value": "Serial No."
     },
     {
+        "name": "LocationContentScreen_Gallery_variantCodeHeaderTextLabel",
+        "value": "Variant Code"
+    },
+    {
         "name": "LocationContentScreen_Gallery_warrantyDateHeaderTextLabel",
         "value": "Warranty Date"
     },
     {
         "name": "LocationContentScreen_ScreenNameHintAltLabel",
         "value": "Location content"
+    },
+    {
+        "name": "LocationContentScreen_SubHeaderContainer_variantCodeHeaderTextLabel",
+        "value": "Variant Code"
     },
     {
         "name": "Lot No.",
@@ -622,6 +706,38 @@
     {
         "name": "PhysicalInventoryScreen_FiltersComponent_LocationTextLabel",
         "value": "Location"
+    },
+    {
+        "name": "PhysicalInventoryScreen_Gallery_binCodeHeaderTextLabel",
+        "value": "Bin Code"
+    },
+    {
+        "name": "PhysicalInventoryScreen_Gallery_expirationDateHeaderTextLabel",
+        "value": "Expiration Date"
+    },
+    {
+        "name": "PhysicalInventoryScreen_Gallery_locationCodeHeaderTextLabel",
+        "value": "Location Code"
+    },
+    {
+        "name": "PhysicalInventoryScreen_Gallery_lotNoHeaderTextLabel",
+        "value": "Lot No."
+    },
+    {
+        "name": "PhysicalInventoryScreen_Gallery_packageNoHeaderTextLabel",
+        "value": "Package No."
+    },
+    {
+        "name": "PhysicalInventoryScreen_Gallery_receivedQuantityHeaderTextLabel",
+        "value": "Received Qty."
+    },
+    {
+        "name": "PhysicalInventoryScreen_Gallery_serialNoHeaderTextLabel",
+        "value": "Serial No."
+    },
+    {
+        "name": "PhysicalInventoryScreen_Gallery_warrantyDateHeaderTextLabel",
+        "value": "Warranty Date"
     },
     {
         "name": "PickingSelectionScreen_Gallery_referenceDateHeaderTextLabel",
@@ -808,6 +924,10 @@
         "value": "Location"
     },
     {
+        "name": "WarehouseEntriesScreen_SubHeaderContainer_variantCodeHeaderTextLabel",
+        "value": "Variant Code"
+    },
+    {
         "name": "WarehouseEntriesScreen_SubHeaderContainer_zoneHeaderTextLabel",
         "value": "Zone"
     },
@@ -818,5 +938,9 @@
     {
         "name": "WarehouseShipmentSelectionScreen_Gallery_referenceDateHeaderTextLabel",
         "value": "Reference Date"
+    },
+    {
+        "name": "WMS_ItemActionsComponent_ActionTextLabel",
+        "value": "Actions"
     }
 ]
