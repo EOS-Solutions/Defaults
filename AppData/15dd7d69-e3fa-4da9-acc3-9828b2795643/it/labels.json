@@ -369,11 +369,99 @@
     },
     {
         "name": "HUDetailsScreen_FieldsEditorComponent_binCode",
-        "value": "Collocazione"
+        "value": "Cod. collocazione"
     },
     {
         "name": "HUDetailsScreen_FieldsEditorComponent_locationCode",
+        "value": "Cod. ubicazione"
+    },
+    {
+        "name": "HUDetailsScreen_FiltersComponent_BinTextLabel",
+        "value": "Collocazione"
+    },
+    {
+        "name": "HUDetailsScreen_FiltersComponent_LocationTextLabel",
         "value": "Ubicazione"
+    },
+    {
+        "name": "HUJournalScreen_BatchesComponent_BatchTextLabel",
+        "value": "Batch"
+    },
+    {
+        "name": "HUJournalScreen_BatchesComponent_JournalTemplateTextLabel",
+        "value": "Def. registrazioni"
+    },
+    {
+        "name": "HUJournalScreen_EntryType_Radio_NegativeAdjmt",
+        "value": "Rettifica negativa"
+    },
+    {
+        "name": "HUJournalScreen_EntryType_TextLabel",
+        "value": "Tipo rettifica"
+    },
+    {
+        "name": "HUJournalScreen_FiltersComponent_BinTextLabel",
+        "value": "Collocazione"
+    },
+    {
+        "name": "HUJournalScreen_FiltersComponent_LocationTextLabel",
+        "value": "Ubicazione"
+    },
+    {
+        "name": "HUJournalScreen_Gallery_lotNoHeaderTextLabel",
+        "value": "Nr. lotto"
+    },
+    {
+        "name": "HUJournalScreen_Gallery_packageNoHeaderTextLabel",
+        "value": "Nr. pacco"
+    },
+    {
+        "name": "HUJournalScreen_Gallery_receivedQuantityHeaderTextLabel",
+        "value": "Qtà ricevuta"
+    },
+    {
+        "name": "HUJournalScreen_Gallery_serialNoHeaderTextLabel",
+        "value": "Nr. seriale"
+    },
+    {
+        "name": "HUJournalScreen_HUComponent_HandlingUnitNoTextLabel",
+        "value": "Nr. unità di carico"
+    },
+    {
+        "name": "HUJournalScreen_HUComponent_PackagingMaterialTextLabel",
+        "value": "Materiale di imballaggio"
+    },
+    {
+        "name": "HUJournalScreen_SubHeaderContainer_binHeaderTextLabel",
+        "value": "Collocazione"
+    },
+    {
+        "name": "HUJournalScreen_SubHeaderContainer_locationHeaderTextLabel",
+        "value": "Ubicazione"
+    },
+    {
+        "name": "HUReclassificationScreen_BatchesComponent_BatchTextLabel",
+        "value": "Batch"
+    },
+    {
+        "name": "HUReclassificationScreen_BatchesComponent_JournalTemplateTextLabel",
+        "value": "Def. registrazioni"
+    },
+    {
+        "name": "HUReclassificationScreen_FiltersComponent_FromBinTextLabel",
+        "value": "Da collocazione"
+    },
+    {
+        "name": "HUReclassificationScreen_FiltersComponent_FromLocationTextLabel",
+        "value": "Da ubicazione"
+    },
+    {
+        "name": "HUReclassificationScreen_FiltersComponent_ToBinTextLabel",
+        "value": "A collocazione"
+    },
+    {
+        "name": "HUReclassificationScreen_FiltersComponent_ToLocationTextLabel",
+        "value": "A ubicazione"
     },
     {
         "name": "InvalidBarcodeError",
@@ -416,12 +504,16 @@
         "value": "Descrizione variante"
     },
     {
-        "name": "ItemJournalScreen_EntryType_Radio_NegativeAdjmt",
-        "value": "Rettifica negativa"
+        "name": "ItemJournalScreen_BatchesComponent_BatchTextLabel",
+        "value": "Batch"
     },
     {
-        "name": "ItemJournalScreen_EntryType_Radio_PositiveAdjmt",
-        "value": "Rettifica positiva"
+        "name": "ItemJournalScreen_BatchesComponent_JournalTemplateTextLabel",
+        "value": "Def. registrazioni"
+    },
+    {
+        "name": "ItemJournalScreen_EntryType_Radio_NegativeAdjmt",
+        "value": "Rettifica negativa"
     },
     {
         "name": "ItemJournalScreen_EntryType_TextLabel",
@@ -522,6 +614,22 @@
     {
         "name": "ItemReclassificationScreen_ScreenNameSubtitle2Label",
         "value": "Riclassificazione articoli"
+    },
+    {
+        "name": "ItemTrackingReclassificationScreen_BatchesComponent_BatchTextLabel",
+        "value": "Batch"
+    },
+    {
+        "name": "ItemTrackingReclassificationScreen_BatchesComponent_JournalTemplateTextLabel",
+        "value": "Def. registrazioni"
+    },
+    {
+        "name": "ItemTrackingReclassificationScreen_FiltersComponent_BinTextLabel",
+        "value": "Collocazione"
+    },
+    {
+        "name": "ItemTrackingReclassificationScreen_FiltersComponent_LocationTextLabel",
+        "value": "Ubicazione"
     },
     {
         "name": "ItemTrackingReclassificationScreen_Gallery_binCodeHeaderTextLabel",
@@ -861,7 +969,11 @@
     },
     {
         "name": "UncommittedChangesMessage",
-        "value": "There are unsaved changes. Save the changes using the designated button and try again."
+        "value": "Sono presenti delle modifiche non salvate. Eseguire il salvataggio tramite l'apposito pulsante e riprova."
+    },
+    {
+        "name": "UncommittedChangesUndoMessage",
+        "value": "Sono presenti delle modifiche non salvate. Eseguire il salvataggio tramite l'apposito pulsante e riprova. Tocca o fai click qui per annullar le ultime modifiche."
     },
     {
         "name": "UserSetupActionTitle",
