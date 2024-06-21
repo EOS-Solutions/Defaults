@@ -56,10 +56,6 @@
         "value": "Location"
     },
     {
-        "name": "BinContentBinSelectionScreen_SubHeaderContainer_variantCodeHeaderTextLabel",
-        "value": "Variant Code"
-    },
-    {
         "name": "BinContentItemSelectionScreen_FiltersComponent_ItemNoTextLabel",
         "value": "Item No."
     },
@@ -106,6 +102,14 @@
     {
         "name": "BinContentScreen_ScreenNameHintAltLabel",
         "value": "Bin Content"
+    },
+    {
+        "name": "BinContentScreen_SubHeaderContainer_locationHeaderTextLabel",
+        "value": "Location"
+    },
+    {
+        "name": "BinContentScreen_SubHeaderContainer_variantCodeHeaderTextLabel",
+        "value": "Variant Code"
     },
     {
         "name": "BinContentTrackingSelectionScreen_FiltersComponent_LocationTextLabel",
@@ -384,6 +388,22 @@
         "value": "Location"
     },
     {
+        "name": "HUDetailsScreen_Gallery_lotNoHeaderTextLabel",
+        "value": "Lot No."
+    },
+    {
+        "name": "HUDetailsScreen_Gallery_packageNoHeaderTextLabel",
+        "value": "Package No."
+    },
+    {
+        "name": "HUDetailsScreen_Gallery_receivedQuantityHeaderTextLabel",
+        "value": "Received Qty."
+    },
+    {
+        "name": "HUDetailsScreen_Gallery_serialNoHeaderTextLabel",
+        "value": "Serial No."
+    },
+    {
         "name": "HUJournalScreen_BatchesComponent_BatchTextLabel",
         "value": "Batch"
     },
@@ -438,6 +458,58 @@
     {
         "name": "HUJournalScreen_SubHeaderContainer_locationHeaderTextLabel",
         "value": "Location"
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_BatchesComponent_BatchTextLabel",
+        "value": "Batch"
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_BatchesComponent_JournalTemplateTextLabel",
+        "value": "Journal Template"
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_FiltersComponent_BinTextLabel",
+        "value": "Bin"
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_FiltersComponent_LocationTextLabel",
+        "value": "Location"
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_Gallery_binCodeHeaderTextLabel",
+        "value": "Bin Code"
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_Gallery_expirationDateHeaderTextLabel",
+        "value": "Expiration Date"
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_Gallery_locationCodeHeaderTextLabel",
+        "value": "Location Code"
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_Gallery_lotNoHeaderTextLabel",
+        "value": "Lot No."
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_Gallery_packageNoHeaderTextLabel",
+        "value": "Package No."
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_Gallery_receivedQuantityHeaderTextLabel",
+        "value": "Received Qty."
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_Gallery_serialNoHeaderTextLabel",
+        "value": "Serial No."
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_Gallery_warrantyDateHeaderTextLabel",
+        "value": "Warranty Date"
+    },
+    {
+        "name": "HUPhysicalInventoryScreen_HUComponent_HandlingUnitNoTextLabel",
+        "value": "Handling Unit No."
     },
     {
         "name": "HUReclassificationScreen_BatchesComponent_BatchTextLabel",
