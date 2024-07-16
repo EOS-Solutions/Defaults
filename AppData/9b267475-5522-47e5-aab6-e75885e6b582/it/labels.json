@@ -1,0 +1,806 @@
+[
+    {
+        "name": "Active",
+        "value": "Attive"
+    },
+    {
+        "name": "AddPicture",
+        "value": "Tocca o fai click per aggiungere un'immagine"
+    },
+    {
+        "name": "AddUnit",
+        "value": "Aggiungi un'unità"
+    },
+    {
+        "name": "All",
+        "value": "Tutti"
+    },
+    {
+        "name": "AppName",
+        "value": "Power PMM"
+    },
+    {
+        "name": "AuthActionTitle",
+        "value": "Badge impiegato"
+    },
+    {
+        "name": "Back",
+        "value": "Indietro"
+    },
+    {
+        "name": "CalendarActionTitle",
+        "value": "Calendario"
+    },
+    {
+        "name": "CalendarEventDetailsActionTitle",
+        "value": "Dettagli evento"
+    },
+    {
+        "name": "CalendarEventDetailsDialogComponent_EndingDateTextLabel",
+        "value": "Data fine"
+    },
+    {
+        "name": "CalendarEventDetailsDialogComponent_MaintenanceDurationTextLabel",
+        "value": "Durata manutenzione (hours)"
+    },
+    {
+        "name": "CalendarEventDetailsDialogComponent_OpenWorkRequestButton",
+        "value": "Apri richiesta di lavoro"
+    },
+    {
+        "name": "CalendarEventDetailsDialogComponent_StartingDateTextLabel",
+        "value": "Data inizio"
+    },
+    {
+        "name": "CalendarScreen_CurrentScreenSubtitle2Label",
+        "value": "Calendario"
+    },
+    {
+        "name": "Cancel",
+        "value": "Annulla"
+    },
+    {
+        "name": "Canceled",
+        "value": "Annullato"
+    },
+    {
+        "name": "ChangeCompanyActionMessage",
+        "value": "Eseguire il cambio della società?"
+    },
+    {
+        "name": "ChangeCompanyActionTitle",
+        "value": "Cambia società"
+    },
+    {
+        "name": "ChangeStatus",
+        "value": "Cambia stato"
+    },
+    {
+        "name": "ChangeWorkRequestStatusActionTitle",
+        "value": "Cambia stato richiesta lavoro"
+    },
+    {
+        "name": "Company",
+        "value": "Società"
+    },
+    {
+        "name": "CreateWorkRequestActionTitle",
+        "value": "Crea richiesta lavoro"
+    },
+    {
+        "name": "CreateWorkRequestDetailsScreen_CurrentScreenHintAltLabel",
+        "value": "Crea richiesta di lavoro"
+    },
+    {
+        "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_activityDescription",
+        "value": "Descrizione attività"
+    },
+    {
+        "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_machineNo",
+        "value": "Nr. macchina"
+    },
+    {
+        "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_maintenancePointNo",
+        "value": "Nr. punto manutenzione"
+    },
+    {
+        "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_predictedMaintenanceTime",
+        "value": "Tempo manutenzione"
+    },
+    {
+        "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_resourceGroupNo",
+        "value": "Nr. gruppo risorsa"
+    },
+    {
+        "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_resourceNo",
+        "value": "Nr. risorsa"
+    },
+    {
+        "name": "DashboardActionTitle",
+        "value": "Dashboard"
+    },
+    {
+        "name": "DashboardScreen_MyWorkgroupRequestsLabel",
+        "value": "Richieste di lavoro del mio gruppo"
+    },
+    {
+        "name": "DashboardScreen_MyWorkRequestsLabel",
+        "value": "Richieste di lavoro personali"
+    },
+    {
+        "name": "DashboardScreen_ScreenNameSubtitle2Label",
+        "value": "Dashboard"
+    },
+    {
+        "name": "DashboardScreen_WorkRequestsLabel",
+        "value": "Richieste di lavoro"
+    },
+    {
+        "name": "DeleteSparePartActionMessage",
+        "value": "Eliminare ricambio %1?"
+    },
+    {
+        "name": "DeleteSparePartActionTitle",
+        "value": "Elimina ricambio"
+    },
+    {
+        "name": "Edit",
+        "value": "Modifica"
+    },
+    {
+        "name": "EditCommentActionTitle",
+        "value": "Modifica commenti"
+    },
+    {
+        "name": "EditSparePartActionTitle",
+        "value": "Modifica qtà ricambio"
+    },
+    {
+        "name": "EmployeeRequiredNotification",
+        "value": "Per visualizzare tutte le informazioni e funzioni è necessario autenticarsi come dipendente nella Dashboard."
+    },
+    {
+        "name": "ErrorActionTitle",
+        "value": "Errore"
+    },
+    {
+        "name": "FastWorkRequest",
+        "value": "Richiesta lavoro veloce"
+    },
+    {
+        "name": "Finished",
+        "value": "Completato"
+    },
+    {
+        "name": "InProgress",
+        "value": "In corso"
+    },
+    {
+        "name": "Machine",
+        "value": "Macchina"
+    },
+    {
+        "name": "MachineDetailsScreen_CharacteristicsDataGallery_codeHeader_TextLabel",
+        "value": "Codice"
+    },
+    {
+        "name": "MachineDetailsScreen_CharacteristicsDataGallery_descriptionHeader_TextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "MachineDetailsScreen_CharacteristicsDataGallery_valueHeader_TextLabel",
+        "value": "Valore"
+    },
+    {
+        "name": "MachineDetailsScreen_CharacteristicsEmptyTitleLabel",
+        "value": "Nessuna caratteristica"
+    },
+    {
+        "name": "MachineDetailsScreen_ComponentsDataGallery_componentMachineNoHeader_TextLabel",
+        "value": "Nr. componente"
+    },
+    {
+        "name": "MachineDetailsScreen_ComponentsDataGallery_descriptionHeader_TextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "MachineDetailsScreen_ComponentsDataGallery_endingDateHeader_TextLabel",
+        "value": "Data fine"
+    },
+    {
+        "name": "MachineDetailsScreen_ComponentsDataGallery_startingDateHeader_TextLabel",
+        "value": "Data inizio"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_Attachments_Radio",
+        "value": "Allegati"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_Comments_Radio",
+        "value": "Commenti"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_Details_Radio",
+        "value": "Dettagli"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_MachineCharacteristicsValues_Radio",
+        "value": "Caratteristiche"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_MachineComponentLine_Radio",
+        "value": "Componenti"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_Picture_Radio",
+        "value": "Foto"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_SpareParts_Radio",
+        "value": "Ricambi"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_Structure_Radio",
+        "value": "Struttura"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_assetNo",
+        "value": "Nr. cespite"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_blocked",
+        "value": "Bloccato"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_description",
+        "value": "Descrizione"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_installationDate",
+        "value": "Data installazione"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_jobNoMandatory",
+        "value": "Commessa obbligatoria"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_locationCode",
+        "value": "Ubicazione"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_machineCategory",
+        "value": "Categoria"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_machineCenterNo",
+        "value": "Centro lavoro"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_manufacturerCode",
+        "value": "Produttore"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_no",
+        "value": "Nr. macchina"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_purchaseDate",
+        "value": "Data acquisto"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_receivedDate",
+        "value": "Data ricezione"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_saleDate",
+        "value": "Data vendita"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_testingDate",
+        "value": "Data collaudo"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_vendorNo",
+        "value": "Nr. fornitore"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_warrantyEndDate",
+        "value": "Data fine garanzia"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_workCenterNo",
+        "value": "Area produzione"
+    },
+    {
+        "name": "MachineDetailsScreen_MachineFieldsViewerComponent_yearOfManufacture",
+        "value": "Anno di fabbricazione"
+    },
+    {
+        "name": "MachineDetailsScreen_SparePartsDataGallery_descriptionHeader_TextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "MachineDetailsScreen_SparePartsDataGallery_noHeader_TextLabel",
+        "value": "Nr."
+    },
+    {
+        "name": "MachineDetailsScreen_SparePartsDataGallery_quantityHeader_TextLabel",
+        "value": "Quantità"
+    },
+    {
+        "name": "MachineDetailsScreen_SparePartsDataGallery_unitOfMeasureHeader_TextLabel",
+        "value": "UdM"
+    },
+    {
+        "name": "MachinesActionTitle",
+        "value": "Macchine"
+    },
+    {
+        "name": "MachineSelectionScreen_CurrentScreenSubtitle2Label",
+        "value": "Macchine"
+    },
+    {
+        "name": "MachineSelectionScreen_DetailsList_eos_description",
+        "value": "Descrizione"
+    },
+    {
+        "name": "MachineSelectionScreen_DetailsList_eos_no",
+        "value": "Nr. macchina"
+    },
+    {
+        "name": "MediaNotSupported",
+        "value": "Tipo allegato non supportato"
+    },
+    {
+        "name": "Menu",
+        "value": "Menù"
+    },
+    {
+        "name": "MyActivitiesActionTitle",
+        "value": "Attività in corso"
+    },
+    {
+        "name": "MyActivitiesScreen_ActivitiesHeaderContainer_controlResultHeader_TextLabel",
+        "value": "Risultato controllo"
+    },
+    {
+        "name": "MyActivitiesScreen_ActivitiesHeaderContainer_parameterNoHeader_TextLabel",
+        "value": "Nr. parametro"
+    },
+    {
+        "name": "MyActivitiesScreen_ActivitiesHeaderContainer_workRequestNoHeader_TextLabel",
+        "value": "Nr. richiesta lavoro"
+    },
+    {
+        "name": "MyActivitiesScreen_CurrentScreenSubtitle2Label",
+        "value": "Attività in corso"
+    },
+    {
+        "name": "NewDocument",
+        "value": "Nuovo documento"
+    },
+    {
+        "name": "NewValue",
+        "value": "Nuovo valore"
+    },
+    {
+        "name": "NFC",
+        "value": "NFC"
+    },
+    {
+        "name": "No",
+        "value": "No"
+    },
+    {
+        "name": "Ok",
+        "value": "Ok"
+    },
+    {
+        "name": "OutputTrackingType_LotNo",
+        "value": "Lotto"
+    },
+    {
+        "name": "OutputTrackingType_SerialLotNo",
+        "value": "Seriale + Lotto"
+    },
+    {
+        "name": "OutputTrackingType_SerialNo",
+        "value": "Seriale"
+    },
+    {
+        "name": "Planned",
+        "value": "Pianificato"
+    },
+    {
+        "name": "PostItemConsumptionActionTitle",
+        "value": "Registra consumo"
+    },
+    {
+        "name": "PostItemConsumptionDialogComponent_BinCodeTextLabel",
+        "value": "Cod. collocazione"
+    },
+    {
+        "name": "PostItemConsumptionDialogComponent_ItemNoTextLabel",
+        "value": "Nr. articolo"
+    },
+    {
+        "name": "PostItemConsumptionDialogComponent_LocationCodeTextLabel",
+        "value": "Cod. ubicazione"
+    },
+    {
+        "name": "PostItemConsumptionDialogComponent_OutputQuantityTextLabel",
+        "value": "Quantità output"
+    },
+    {
+        "name": "PostItemConsumptionDialogComponent_TrackingLinesTextLabel",
+        "value": "Informazioni tracciabilità"
+    },
+    {
+        "name": "PostItemRequestActionTitle",
+        "value": "Richista ricambio"
+    },
+    {
+        "name": "PostItemRequestDialogComponent_QuantityTextLabel",
+        "value": "Quantità"
+    },
+    {
+        "name": "PostPictureActionTitle",
+        "value": "Aggiungi immagine"
+    },
+    {
+        "name": "PreviousValue",
+        "value": "Valore precedente"
+    },
+    {
+        "name": "Released",
+        "value": "Rilasciato"
+    },
+    {
+        "name": "ReleasedHighPriority",
+        "value": "Rilasciato alta priorità"
+    },
+    {
+        "name": "RemoveUnit",
+        "value": "Rimuovi un'unità"
+    },
+    {
+        "name": "ResourceGroupNo",
+        "value": "Nr. gruppo risorsa"
+    },
+    {
+        "name": "ResourceNo",
+        "value": "Nr. risorsa"
+    },
+    {
+        "name": "Save",
+        "value": "Salva"
+    },
+    {
+        "name": "Search",
+        "value": "Cerca"
+    },
+    {
+        "name": "SearchActivities",
+        "value": "Cerca attività"
+    },
+    {
+        "name": "SearchAttachment",
+        "value": "Cerca allegato"
+    },
+    {
+        "name": "SearchCharacteristics",
+        "value": "Cerca caratteristiche"
+    },
+    {
+        "name": "SearchChecklist",
+        "value": "Cerca checklist"
+    },
+    {
+        "name": "SearchComponents",
+        "value": "Cerca componenti"
+    },
+    {
+        "name": "SearchFaults",
+        "value": "Cerca guasti"
+    },
+    {
+        "name": "SearchMachines",
+        "value": "Cerca macchine"
+    },
+    {
+        "name": "SearchPPE",
+        "value": "Cerca DPI"
+    },
+    {
+        "name": "SearchSpareParts",
+        "value": "Cerca ricambi"
+    },
+    {
+        "name": "SearchWorkRequests",
+        "value": "Cerca richieste di lavoro"
+    },
+    {
+        "name": "SelectEmployee",
+        "value": "Seleziona impiegato"
+    },
+    {
+        "name": "SessionActionTitle",
+        "value": "Informazioni sessione"
+    },
+    {
+        "name": "SettingsActionTitle",
+        "value": "Impostazioni"
+    },
+    {
+        "name": "SettingsScreen_ScreenNameSubtitle2Label",
+        "value": "Impostazioni"
+    },
+    {
+        "name": "Synchronize",
+        "value": "Aggiorna"
+    },
+    {
+        "name": "ToApprove",
+        "value": "Da approvare"
+    },
+    {
+        "name": "UncommittedChangesActionMessage",
+        "value": "Sono presenti delle modifiche non salvate. Eseguire il salvataggio tramite l'apposito pulsante e riprova."
+    },
+    {
+        "name": "WorkRequest",
+        "value": "Richiesta lavoro"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_ActivitiesHeaderContainer_controlResultHeader_TextLabel",
+        "value": "Risultato controllo"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_ActivitiesHeaderContainer_parameterNoHeader_TextLabel",
+        "value": "Nr. parametro"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_DataSelection_Activities_Radio",
+        "value": "Attività"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_DataSelection_Attachments_Radio",
+        "value": "Allegati"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_DataSelection_Checklist_Radio",
+        "value": "Checklist"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_DataSelection_Comments_Radio",
+        "value": "Commenti"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_DataSelection_Details_Faults_Radio",
+        "value": "Guasti"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_DataSelection_Details_General_Radio",
+        "value": "Generale"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_DataSelection_PPE_Radio",
+        "value": "DPI"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_DataSelection_SpareParts_Radio",
+        "value": "Ricambi"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_FaultsFieldsViewerComponent_faultAreaCode",
+        "value": "Codice area guasto"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_FaultsFieldsViewerComponent_faultCode",
+        "value": "Codice guasto"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_FaultsFieldsViewerComponent_faultReasonCode",
+        "value": "Codice causale guasto"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_FaultsFieldsViewerComponent_faultSubAreaCode",
+        "value": "Codice sotto-area guasto"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_FaultsFieldsViewerComponent_resolutionCode",
+        "value": "Codice risoluzione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_FaultsFieldsViewerComponent_symptomCode",
+        "value": "Codice sintomo"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_FilterContainer_ShowAllCheckbox",
+        "value": "Mostra tutte"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_closingDate",
+        "value": "Data di registrazione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_closingNote",
+        "value": "Nota chiusura"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_contractReferenceNo",
+        "value": "Nr. riferimento contratto"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_description",
+        "value": "Descrizione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_externalMaintenance",
+        "value": "Manutenzione esterna"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_fromWorkRequest",
+        "value": "Da richiesta lavoro"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_machineNo",
+        "value": "Nr. macchina"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_maintenanceCycleNo",
+        "value": "Nr. ciclo manutenzione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_maintenanceCycleVersion",
+        "value": "Versione ciclo manutenzione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_maintenancePointNo",
+        "value": "Nr. punto manutenzione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_maintenanceTypeCode",
+        "value": "Codice tipo manutenzione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_maintenanceWorkTypeCode",
+        "value": "Codice tipo lavorazione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_no",
+        "value": "Nr. richiesta di lavoro"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_plannedStartingDateTime",
+        "value": "Data inizio pianificata"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_predictedMaintenanceTime",
+        "value": "Tempo manutenzione previsto"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_priorityStatus",
+        "value": "Stato priorità"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_resourceGroupNo",
+        "value": "Nr. gruppo risorse"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_resourceNo",
+        "value": "Nr. risorsa"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_status",
+        "value": "Stato"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_stopProduction",
+        "value": "Interrompe produzione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_GeneralFieldsViewerComponent_vendorNo",
+        "value": "Nr. fornitore"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_PPEDataGallery_descriptionHeader_TextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_PPEDataGallery_itemNoHeader_TextLabel",
+        "value": "Nr. articolo"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_PPEDataGallery_quantityHeader_TextLabel",
+        "value": "Quantità"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_PPEDataGallery_unitOfMeasureHeader_TextLabel",
+        "value": "UdM"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_RowsDataGallery_controlResultHeader_TextLabel",
+        "value": "Risultato controllo"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_RowsDataGallery_executedHeader_TextLabel",
+        "value": "Eseguito"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_RowsDataGallery_parameterNoHeader_TextLabel",
+        "value": "Nr. parametro"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_RowsDataGallery_resolutionCodeHeader_TextLabel",
+        "value": "Codice risoluzione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_SparePartsDataGallery_descriptionHeader_TextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_SparePartsDataGallery_maintenancePointQuantityHeader_TextLabel",
+        "value": "Qtà punto manutenzione"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_SparePartsDataGallery_noHeader_TextLabel",
+        "value": "Nr."
+    },
+    {
+        "name": "WorkRequestDetailsScreen_SparePartsDataGallery_postedQuantityHeader_TextLabel",
+        "value": "Qtà registrata"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_SparePartsDataGallery_quantityHeader_TextLabel",
+        "value": "Quantità"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_SparePartsDataGallery_unitOfMeasureHeader_TextLabel",
+        "value": "UdM"
+    },
+    {
+        "name": "WorkRequestsActionTitle",
+        "value": "Richieste di lavoro"
+    },
+    {
+        "name": "WorkRequestSelectionScreen_CurrentScreenSubtitle2Label",
+        "value": "Richieste di lavoro"
+    },
+    {
+        "name": "WorkRequestSelectionScreen_DataGallery_descriptionHeader_TextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "WorkRequestSelectionScreen_DataGallery_machineNoHeader_TextLabel",
+        "value": "Nr. macchina"
+    },
+    {
+        "name": "WorkRequestSelectionScreen_DataGallery_noHeader_TextLabel",
+        "value": "Nr. richiesta"
+    },
+    {
+        "name": "WorkRequestSelectionScreen_DataGallery_plannedStartingDateTimeHeader_TextLabel",
+        "value": "Data inizio pianificata"
+    },
+    {
+        "name": "WorkRequestSelectionScreen_DataGallery_resourceGroupNoHeader_TextLabel",
+        "value": "Nr. gruppo risorsa"
+    },
+    {
+        "name": "WorkRequestSelectionScreen_DataGallery_resourceNoHeader_TextLabel",
+        "value": "Nr. risorsa"
+    },
+    {
+        "name": "WorkRequestSelectionScreen_DataGallery_statusHeader_TextLabel",
+        "value": "Stato"
+    },
+    {
+        "name": "WorkRequestSelectionScreen_EmployeeBadgeSubtitle1Label",
+        "value": "Badge impiegato"
+    },
+    {
+        "name": "Yes",
+        "value": "Sì"
+    }
+]
