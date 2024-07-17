@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Business Central Theme (Dark)",
+        "description": "Business Central Theme (Dark)",
+        "default": false
+    },
+    {
+        "name": "Business Central Theme (Light)",
+        "description": "Business Central Theme (Light)",
+        "default": false
+    },
+    {
+        "name": "Dynamics NAV Theme (Dark)",
+        "description": "Dynamics NAV Theme (Dark)",
+        "default": false
+    },
+    {
+        "name": "Dynamics NAV Theme (Light)",
+        "description": "Dynamics NAV Theme (Light)",
+        "default": false
+    },
+    {
+        "name": "EOS Solutions Theme (Dark)",
+        "description": "EOS Solutions Theme (Dark)",
+        "default": true
+    },
+    {
+        "name": "EOS Solutions Theme (Light)",
+        "description": "EOS Solutions Theme (Light)",
+        "default": false
+    },
+    {
+        "name": "Power Apps Theme (Dark)",
+        "description": "Power Apps Theme (Dark)",
+        "default": false
+    },
+    {
+        "name": "Power Apps Theme (Light)",
+        "description": "Power Apps Theme (Light)",
+        "default": false
+    }
+]
