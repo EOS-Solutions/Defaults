@@ -1,0 +1,1322 @@
+[
+    {
+        "name": "Actions",
+        "value": "Azioni"
+    },
+    {
+        "name": "Add",
+        "value": "Aggiungi"
+    },
+    {
+        "name": "AddComponentDialogActionTitle",
+        "value": "Aggiungi componente"
+    },
+    {
+        "name": "AddComponentDialogComponent_ItemNoTextLabel",
+        "value": "Nr. articolo"
+    },
+    {
+        "name": "AddComponentDialogComponent_ItemVariantTextLabel",
+        "value": "Codice variante"
+    },
+    {
+        "name": "AddComponentDialogComponent_OutputQuantityTextLabel",
+        "value": "Quantità"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_ActualValueTextLabel",
+        "value": "Valore attuale"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_AttributeFulfilledTextLabel",
+        "value": "Soddisfacente"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_DeviationTextLabel",
+        "value": "Deviazione"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_FailureNoTextLabel",
+        "value": "Nr. errori"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_ParameterTextLabel",
+        "value": "Parametro"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_TitleSubtitle1Label",
+        "value": "Aggiungi risultato"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_ValueOperatorTextLabel",
+        "value": "Operatore"
+    },
+    {
+        "name": "AddTeamActionTitle",
+        "value": "Aggiungi team"
+    },
+    {
+        "name": "AddTeamDialogComponent_DescriptionTextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "AddTeamDialogComponent_NoTextLabel",
+        "value": "Nr. team"
+    },
+    {
+        "name": "AddTeamMemberActionTitle",
+        "value": "Aggiungi membro team"
+    },
+    {
+        "name": "AddUnit",
+        "value": "Aggiungi unità"
+    },
+    {
+        "name": "Alarms",
+        "value": "Allarmi"
+    },
+    {
+        "name": "AppName",
+        "value": "Power MES"
+    },
+    {
+        "name": "Attachments",
+        "value": "Allegati"
+    },
+    {
+        "name": "AuthActionTitle",
+        "value": "Badge impiegato"
+    },
+    {
+        "name": "Back",
+        "value": "Indietro"
+    },
+    {
+        "name": "BarcodeActionTitle",
+        "value": "Barcode"
+    },
+    {
+        "name": "Call",
+        "value": "Chiama"
+    },
+    {
+        "name": "CallMaintenanceResponsibleActionTitle",
+        "value": "Chiama resp. manut."
+    },
+    {
+        "name": "CallMaintenanceResponsiblePhoneNoActionTitle",
+        "value": "Chiama resp. manut. (tel.)"
+    },
+    {
+        "name": "CallMaintenanceResponsibleTeamsActionTitle",
+        "value": "Chiama resp. manut. (Teams)"
+    },
+    {
+        "name": "CallProductionResponsibleActionTitle",
+        "value": "Chiama resp. prod."
+    },
+    {
+        "name": "CallProductionResponsiblePhoneNoActionTitle",
+        "value": "Chiama resp. prod. (tel.)"
+    },
+    {
+        "name": "CallProductionResponsibleTeamsActionTitle",
+        "value": "Chiama resp. prod. (Teams)"
+    },
+    {
+        "name": "CallQualityResponsibleActionTitle",
+        "value": "Chiama resp. qualità"
+    },
+    {
+        "name": "CallQualityResponsiblePhoneNoActionTitle",
+        "value": "Chiama resp. qualità (tel.)"
+    },
+    {
+        "name": "CallQualityResponsibleTeamsActionTitle",
+        "value": "Chiama resp. qualità (Teams)"
+    },
+    {
+        "name": "Cancel",
+        "value": "Annulla"
+    },
+    {
+        "name": "ChangeCompanyActionMessage",
+        "value": "Eseguire il cambio della società? Questa operazione comporterà lo scollegamento dell'attuale pannello, quindi, potrà essere usato su un dispositivo differente."
+    },
+    {
+        "name": "ChangeCompanyActionTitle",
+        "value": "Cambia società"
+    },
+    {
+        "name": "ChangeReource",
+        "value": "Cambia società"
+    },
+    {
+        "name": "ChangeResourceActionTitle",
+        "value": "Cambia risorsa"
+    },
+    {
+        "name": "ChangeView",
+        "value": "Cambia vista"
+    },
+    {
+        "name": "Clear",
+        "value": "Cancella"
+    },
+    {
+        "name": "Close",
+        "value": "Chiudi"
+    },
+    {
+        "name": "Company",
+        "value": "Società"
+    },
+    {
+        "name": "Components",
+        "value": "Componenti"
+    },
+    {
+        "name": "ComponentsViewComponent_ProdOrderComponents_descriptionHeader_TextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "ComponentsViewComponent_ProdOrderComponents_itemNoHeader_TextLabel",
+        "value": "Nr. articolo"
+    },
+    {
+        "name": "ComponentsViewComponent_ProdOrderComponents_quantityBaseHeader_TextLabel",
+        "value": "Qtà (base)"
+    },
+    {
+        "name": "ComponentsViewComponent_ProdOrderComponents_quantityPerHeader_TextLabel",
+        "value": "Qtà per"
+    },
+    {
+        "name": "ComponentsViewComponent_ProdOrderComponents_remainingQtyBaseHeader_TextLabel",
+        "value": "Qtà residua (base)"
+    },
+    {
+        "name": "ComponentTrackingLinesGalleryDialogComponent_EmptyTitleLabel",
+        "value": "Nessuna informazione tracciabilità disponibile"
+    },
+    {
+        "name": "ConfirmComponentsActionTitle",
+        "value": "Conferma componenti"
+    },
+    {
+        "name": "ConfirmComponentsScreen_RowsDataGallery_actualQtyBase_TextLabel",
+        "value": "Qtà attuale (base)"
+    },
+    {
+        "name": "ConfirmComponentsScreen_RowsDataGallery_expectedQtyBase_TextLabel",
+        "value": "Quantità prevista (base)"
+    },
+    {
+        "name": "ConfirmComponentsScreen_ScreenNameSubtitle2Label",
+        "value": "Conferma componenti"
+    },
+    {
+        "name": "Delete",
+        "value": "Elimina"
+    },
+    {
+        "name": "DeleteComponentActionMessage",
+        "value": "Eliminare componente %1?"
+    },
+    {
+        "name": "DeleteComponentActionTitle",
+        "value": "Elimina componente"
+    },
+    {
+        "name": "DeleteComponentTrackingActionMessage",
+        "value": "Eliminare informazioni tracciabilità %1?"
+    },
+    {
+        "name": "DeleteComponentTrackingActionTitle",
+        "value": "Elimina informazioni tracciabilità"
+    },
+    {
+        "name": "DeleteOperationActionMessage",
+        "value": "Chiudere l'operazione %1?"
+    },
+    {
+        "name": "DeleteOperationActionTitle",
+        "value": "Chiudi operazione"
+    },
+    {
+        "name": "DeletePQAResultActionMessage",
+        "value": "Eliminare il risultato selezionato?"
+    },
+    {
+        "name": "DeletePQAResultActionTitle",
+        "value": "Elimina risultato"
+    },
+    {
+        "name": "DeleteTeamActionMessage",
+        "value": "Eliminare team %1?"
+    },
+    {
+        "name": "DeleteTeamActionTitle",
+        "value": "Elimina team"
+    },
+    {
+        "name": "DeleteTeamActionWarning",
+        "value": "Sono presenti movimenti collegati ad uno o più impiegati della squadra che si vuole eliminare. Se si continua con l'eliminazione i movimenti collegati verranno chiusi."
+    },
+    {
+        "name": "DeleteTeamMemberActionMessage",
+        "value": "Eliminare membro team %1?"
+    },
+    {
+        "name": "DeleteTeamMemberActionTitle",
+        "value": "Elimina membro team"
+    },
+    {
+        "name": "DeleteTeamMemberActionWarning",
+        "value": "Sono presenti movimenti collegati all'impiegato che si vuole eliminare. Se si continua con l'eliminazione i movimenti collegati verranno chiusi."
+    },
+    {
+        "name": "DeviationCheckActionMessage",
+        "value": "Il valore inserito è conforme?"
+    },
+    {
+        "name": "DeviationCheckActionTitle",
+        "value": "Aggiungi risultato"
+    },
+    {
+        "name": "DisconnectPanelActionMessage",
+        "value": "La società e il pannello selezionati sono già stati configurati ed in uso su un altro dispositivo. Puoi forzare la disconnessione facendo click o toccando il pulsante \"OK\", tuttavia, assicurati che il pannello sia stato effettivamente disconnesso altrimenti potrebbero verificarsi errori. Per scollegare correttamente un pannello esegui la funzione \"Cambia società\" nel dispositivo attualmente collegato."
+    },
+    {
+        "name": "DisconnectPanelActionTitle",
+        "value": "Disconnetti pannello"
+    },
+    {
+        "name": "Edit",
+        "value": "Modifica"
+    },
+    {
+        "name": "EditCommentActionTitle",
+        "value": "Aggiungi commento"
+    },
+    {
+        "name": "EmployeeEntriesGalleryActionTitle",
+        "value": "Selezione riga ordine prod."
+    },
+    {
+        "name": "EmployeeNotFound",
+        "value": "Impiegato non trovato"
+    },
+    {
+        "name": "EmployeeRequiredActionMessage",
+        "value": "È necessario eseguire l'autenticazione come impiegato per eseguire questa funzione."
+    },
+    {
+        "name": "EmployeeRequiredNotification",
+        "value": "Per visualizzare tutte le informazioni e funzioni è necessario autenticarsi come dipendente nel pannello."
+    },
+    {
+        "name": "EmptyContactsActionMessage",
+        "value": "Non è stato definito alcun contatto per eseguire la chiamata."
+    },
+    {
+        "name": "ErrorActionTitle",
+        "value": "Errore"
+    },
+    {
+        "name": "EX070HelpHyperlink",
+        "value": "https://dynamics.microsoft.com/it-it/business-central/overview"
+    },
+    {
+        "name": "ExecuteActionMessage",
+        "value": "Eseguire azione %1 per l'ordine produzione nr. %2?"
+    },
+    {
+        "name": "ExecuteActionTitle",
+        "value": "Esegui azione"
+    },
+    {
+        "name": "HandlingUnit",
+        "value": "Unità di carico"
+    },
+    {
+        "name": "Information",
+        "value": "Informazioni"
+    },
+    {
+        "name": "InspectionOrder",
+        "value": "Ordine di controllo"
+    },
+    {
+        "name": "InspectionOrderViewComponent_DataSelection_Header_Radio",
+        "value": "Testata"
+    },
+    {
+        "name": "InspectionOrderViewComponent_DataSelection_Results_Radio",
+        "value": "Risultati"
+    },
+    {
+        "name": "InspectionOrderViewComponent_DataSelection_Rows_Radio",
+        "value": "Righe"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_actualValue_TextLabel",
+        "value": "Valore"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_deviation_TextLabel",
+        "value": "Deviazione"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_failureNoHeader_TextLabel",
+        "value": "Nr. errori"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_noHeader_TextLabel",
+        "value": "Nr."
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_parameterAttributeCode_TextLabel",
+        "value": "Parametro attributo"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_reference_TextLabel",
+        "value": "Riferimento"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_valueFulfilled_TextLabel",
+        "value": "Soddisfacente"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_valueOperator_TextLabel",
+        "value": "Operatore"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_expectedValueHeader_TextLabel",
+        "value": "EXP."
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_inspectionDeviceNoHeader_TextLabel",
+        "value": "Dispositivo"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_lastActualValue_TextLabel",
+        "value": "Valore attuale"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_lastAttributeFulfilledAsInt_TextLabel",
+        "value": "Soddisfacente"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_lastParameterAttributeCode_TextLabel",
+        "value": "Parametro attributo"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_maximalValueHeader_TextLabel",
+        "value": "MAX"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_minimalValueHeader_TextLabel",
+        "value": "MIN"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_reference_TextLabel",
+        "value": "Riferimento"
+    },
+    {
+        "name": "IoTActionTitle",
+        "value": "IoT"
+    },
+    {
+        "name": "KPI",
+        "value": "KPI"
+    },
+    {
+        "name": "KPIAvailability",
+        "value": "Disponibilità"
+    },
+    {
+        "name": "KPIOEE",
+        "value": "OEE"
+    },
+    {
+        "name": "KPIPerformance",
+        "value": "Performance"
+    },
+    {
+        "name": "KPIQuality",
+        "value": "Qualità"
+    },
+    {
+        "name": "MachineCenter",
+        "value": "Centro di lavoro"
+    },
+    {
+        "name": "MachineStatusCodeActionMessage",
+        "value": "Eseguire il ripristino dello stato della macchina?"
+    },
+    {
+        "name": "MachineStatusCodeActionTitle",
+        "value": "Cambia stato macchina"
+    },
+    {
+        "name": "ManageTeamsActionTitle",
+        "value": "Setup squadre"
+    },
+    {
+        "name": "Measurements",
+        "value": "Misurazioni"
+    },
+    {
+        "name": "MediaNotSupported",
+        "value": "Tipo allegato non supportato"
+    },
+    {
+        "name": "Menu",
+        "value": "Menù"
+    },
+    {
+        "name": "MES_PanelSetupReasonCodes_Attachments",
+        "value": ""
+    },
+    {
+        "name": "MES_PanelSetupReasonCodes_Components",
+        "value": ""
+    },
+    {
+        "name": "MissingConfigurationHyperlinkDescription",
+        "value": "Leggi maggiori informazioni su come configurare la società in Business Central ↗"
+    },
+    {
+        "name": "MissingPanelSetupActionMessage",
+        "value": "Il pannello selezionato non è stato configurato correttamente. Esegui la configurazione in Business Central e riprova."
+    },
+    {
+        "name": "MissingPanelSetupActionTitle",
+        "value": "Setup pannello mancante"
+    },
+    {
+        "name": "MoreOptions",
+        "value": "Altre opzioni"
+    },
+    {
+        "name": "NewValue",
+        "value": "Nuovo valore"
+    },
+    {
+        "name": "NFC",
+        "value": "NFC"
+    },
+    {
+        "name": "No",
+        "value": "No"
+    },
+    {
+        "name": "NoDataText",
+        "value": "Non sono stati trovati dati da visualizzare in questo momento"
+    },
+    {
+        "name": "NotAuthorizedActionMessage",
+        "value": "L'utilizzo di questa funzione è riservata ai soli responsabili."
+    },
+    {
+        "name": "Notes",
+        "value": "Note"
+    },
+    {
+        "name": "Ok",
+        "value": "Ok"
+    },
+    {
+        "name": "Open",
+        "value": "Apri"
+    },
+    {
+        "name": "OperationWarningForTeamErrorMessage",
+        "value": "Attenzione, se l'impiegato fa parte di una squadra verranno generati movimenti per tutti gli impiegati che ne fanno parte. "
+    },
+    {
+        "name": "Output",
+        "value": "Output"
+    },
+    {
+        "name": "OutputTrackingType_LotNo",
+        "value": "Lotto"
+    },
+    {
+        "name": "OutputTrackingType_SerialLotNo",
+        "value": "Seriale + Lotto"
+    },
+    {
+        "name": "OutputTrackingType_SerialNo",
+        "value": "Seriale"
+    },
+    {
+        "name": "PackagingInstructions",
+        "value": "Istruzioni imb."
+    },
+    {
+        "name": "PackagingMaterials",
+        "value": "Materiali imb."
+    },
+    {
+        "name": "PanelSelectionScreen_CurrentScreenSubtitle2Label",
+        "value": "Pannelli"
+    },
+    {
+        "name": "PanelSelectionScreen_EmptySubtitle1Label",
+        "value": "Tocca o fai click su \"Mostra tutti\" per visualizzare tutti i pannelli"
+    },
+    {
+        "name": "PanelSelectionScreen_EmptyTitleLabel",
+        "value": "Nessun pannello disponibile"
+    },
+    {
+        "name": "PanelSelectionScreen_FilterContainer_ShowAllCheckbox",
+        "value": "Mostra tutti"
+    },
+    {
+        "name": "PostComponentTrackingLinesDialogComponent_ItemNoTextLabel",
+        "value": "Nr. articolo"
+    },
+    {
+        "name": "PostComponentTrackingLinesDialogComponent_OutputQuantityTextLabel",
+        "value": "Quantità"
+    },
+    {
+        "name": "PostComponentTrackingLinesDialogComponent_remainingQuantityHeaderTextLabel",
+        "value": "Qtà da gestire (base)"
+    },
+    {
+        "name": "PostComponentTrackingLinesDialogComponent_totalAvailableQuantityHeaderTextLabel",
+        "value": "Qtà disponibile"
+    },
+    {
+        "name": "PostComponentTrackingLinesDialogComponent_TrackingLinesTextLabel",
+        "value": "Informazioni tracciabilità"
+    },
+    {
+        "name": "PostIndirectTimeActionTitle",
+        "value": "Registra ore indirette"
+    },
+    {
+        "name": "PostIndirectTimeDialogComponent_EmployeeTextLabel",
+        "value": "Impiegato"
+    },
+    {
+        "name": "PostIndirectTimeDialogComponent_JobsTextLabel",
+        "value": "Commessa"
+    },
+    {
+        "name": "PostIndirectTimeDialogComponent_JobTasksTextLabel",
+        "value": "Task commessa"
+    },
+    {
+        "name": "PostIndirectTimeDialogComponent_OutputTextLabel",
+        "value": "Quantità"
+    },
+    {
+        "name": "PostIndirectTimeDialogComponent_TitleSubtitle1Label",
+        "value": "Registra ore indirette"
+    },
+    {
+        "name": "PostTrackedComponentDialogActionTitle",
+        "value": "Aggiungi tracciabilità componente"
+    },
+    {
+        "name": "PowerBIReportsScreen_ScreenNameSubtitle2Label",
+        "value": "Statistiche"
+    },
+    {
+        "name": "PreviousValue",
+        "value": "Valore precedente"
+    },
+    {
+        "name": "QuickView",
+        "value": "Visualizzazione rapida"
+    },
+    {
+        "name": "ReadMoreHyperlinkDescription",
+        "value": "Leggi maggiori informazioni su questo messaggio ↗"
+    },
+    {
+        "name": "ReasonCodesActions",
+        "value": "Azioni causali"
+    },
+    {
+        "name": "RemoveUnit",
+        "value": "Rimuovi unità"
+    },
+    {
+        "name": "ReplaceComponentActionTitle",
+        "value": "Sostituisci componente"
+    },
+    {
+        "name": "ReplaceComponentDialogComponent_NewItemNoTextLabel",
+        "value": "Nr. articolo nuovo"
+    },
+    {
+        "name": "ReplaceComponentDialogComponent_NewItemVariantTextLabel",
+        "value": "Codice variante nuovo"
+    },
+    {
+        "name": "ReplaceComponentDialogComponent_PreviousItemNoTextLabel",
+        "value": "Nr. articolo precedente"
+    },
+    {
+        "name": "ReplaceComponentDialogComponent_PreviousItemVariantCodeTextLabel",
+        "value": "Codice variante precedente"
+    },
+    {
+        "name": "ResourceSelectionScreen_CurrentScreenHintAltLabel",
+        "value": "Pannello"
+    },
+    {
+        "name": "routingEntity_Field1",
+        "value": "Ordine"
+    },
+    {
+        "name": "routingEntity_Field2",
+        "value": "Operazione"
+    },
+    {
+        "name": "routingEntity_Field3",
+        "value": "Descrizione"
+    },
+    {
+        "name": "routingEntity_Field4",
+        "value": "Data inizio"
+    },
+    {
+        "name": "routingEntity_Field5",
+        "value": "Qtà"
+    },
+    {
+        "name": "Save",
+        "value": "Salva"
+    },
+    {
+        "name": "Search",
+        "value": "Cerca"
+    },
+    {
+        "name": "SearchAttachment",
+        "value": "Cerca allegato"
+    },
+    {
+        "name": "SearchBarcode",
+        "value": "Cerca barcode"
+    },
+    {
+        "name": "SearchCode",
+        "value": "Cerca codice"
+    },
+    {
+        "name": "SearchCodeDescription",
+        "value": "Cerca codice o descrizione"
+    },
+    {
+        "name": "SearchComponent",
+        "value": "Cerca componente"
+    },
+    {
+        "name": "SearchName",
+        "value": "Cerca nome"
+    },
+    {
+        "name": "SearchPanel",
+        "value": "Cerca pannello"
+    },
+    {
+        "name": "SearchPanelSetup",
+        "value": "Cerca area di produzione o centro di lavoro"
+    },
+    {
+        "name": "SearchTeam",
+        "value": "Cerca team"
+    },
+    {
+        "name": "SearchTeamMembers",
+        "value": "Cerca impiegato team"
+    },
+    {
+        "name": "SearchTool",
+        "value": "Cerca strumento"
+    },
+    {
+        "name": "SelectEmployee",
+        "value": "Seleziona impiegato"
+    },
+    {
+        "name": "SessionActionTitle",
+        "value": "Informazioni sessione"
+    },
+    {
+        "name": "Settings",
+        "value": "Impostazioni"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_badgeNoHeader_TextLabel",
+        "value": "Badge"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_descriptionHeader_TextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_employeeNoHeader_TextLabel",
+        "value": "Impiegato"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_operationNoHeader_TextLabel",
+        "value": "Operazione"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_prodOrderNoHeader_TextLabel",
+        "value": "Ordine"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_statusHeader_TextLabel",
+        "value": "Stato"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntriesSubtitle1Label",
+        "value": "Attività in corso"
+    },
+    {
+        "name": "SingleResourceScreen_HandlingUnits_descriptionTextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "SingleResourceScreen_HandlingUnits_itemNoTextLabel",
+        "value": "Nr. articolo"
+    },
+    {
+        "name": "SingleResourceScreen_HandlingUnits_noTextLabel",
+        "value": "Nr."
+    },
+    {
+        "name": "SingleResourceScreen_HandlingUnits_variantCodeTextLabel",
+        "value": "Codice variante"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_blockedQtyHeader",
+        "value": "Quantità bloccata"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_complianceQtyHeader",
+        "value": "Quantità conforme"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_descriptionHeader",
+        "value": "Descrizione"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_inspectionOrderTypeHeader",
+        "value": "Tipo ordine ispezione"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_inspectionPlanNoHeader",
+        "value": "Nr. piano controllo"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_inspectionResultHeader",
+        "value": "Risultato controllo"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_inspectionTypeHeader",
+        "value": "Tipo ispezione"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_itemNoHeader",
+        "value": "Nr. articolo"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_lotNoHeader",
+        "value": "Nr. lotto"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_maxNonComplianceQtyHeader",
+        "value": "Max. non conforme"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_noHeader",
+        "value": "Nr. ordine ispezione"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_quantityHeader",
+        "value": "Quantità"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_sampleBlockedQtyHeader",
+        "value": "Quantità campione bloccata"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_sampleComplianceQtyHeader",
+        "value": "Quantità campione conforme"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_sampleSizeHeader",
+        "value": "Campione"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_serialNoHeader",
+        "value": "Nr. seriale"
+    },
+    {
+        "name": "SingleResourceScreen_MenuDialogTitle",
+        "value": "Menu"
+    },
+    {
+        "name": "SingleResourceScreen_Output_OutputQuantityTextLabel",
+        "value": "Quantità output"
+    },
+    {
+        "name": "SingleResourceScreen_Output_ReworkCodeTextLabel",
+        "value": "Codice rilavorazione"
+    },
+    {
+        "name": "SingleResourceScreen_Output_ScrapCodeTextLabel",
+        "value": "Codice scarto"
+    },
+    {
+        "name": "SingleResourceScreen_Output_ScrapQuantityTextLabel",
+        "value": "Quantità scarto"
+    },
+    {
+        "name": "SingleResourceScreen_Output_SecondaryOutputQuantityTextLabel",
+        "value": "Quantità output secondaria"
+    },
+    {
+        "name": "SingleResourceScreen_Output_SecondaryScrapQuantityTextLabel",
+        "value": "Quantità scarto secondaria"
+    },
+    {
+        "name": "SingleResourceScreen_Output_TrackingInfoTextLabel",
+        "value": "Informazioni tracciabilità"
+    },
+    {
+        "name": "SingleResourceScreen_OutputSubtitle1Label",
+        "value": "Output"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_description",
+        "value": "Descrizione"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_itemNo",
+        "value": "Nr. articolo"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_maxHeightMm",
+        "value": "Altezza massima (mm)"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_no",
+        "value": "Nr."
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_noOfLayers",
+        "value": "Nr. di strati"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_qtyPerLayer",
+        "value": "Qtà per strato"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_unitOfMeasureCode",
+        "value": "UdM"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_variantCode",
+        "value": "Codice variante"
+    },
+    {
+        "name": "SingleResourceScreen_PackingMaterials_descriptionTextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "SingleResourceScreen_PackingMaterials_itemNoTextLabel",
+        "value": "Nr. articolo"
+    },
+    {
+        "name": "SingleResourceScreen_PackingMaterials_unitOfMeasureCodeTextLabel",
+        "value": "UdM"
+    },
+    {
+        "name": "SingleResourceScreen_PackingMaterialsRecordFieldsViewerComponent_no",
+        "value": "Nr."
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderAttachmentsButton",
+        "value": "Allegati"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderComponentsButton",
+        "value": "Componenti"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_descriptionHeader",
+        "value": "Descrizione"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_endingDateTimeHeader",
+        "value": "Data fine"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_eosExpectedOutputQuantityHeader",
+        "value": "Quantità output prevista"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_eosExpectedScrapQtyHeader",
+        "value": "Quantità scarto prevista"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_eosOutputQuantityHeader",
+        "value": "Quantità output"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_eosTotalRunTimeHeader",
+        "value": "Totale tempo esecuzione"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_eosTotalScrapQtyHeader",
+        "value": "Quantità scarto"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_nextOperationNoHeader",
+        "value": "Operazione successiva"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_operationNoHeader",
+        "value": "Operazione"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_previousOperationNoHeader",
+        "value": "Operazione precedente"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_prodOrderNoHeader",
+        "value": "Ordine"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_quantityHeader",
+        "value": "Quantità"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_remainingQtyHeader",
+        "value": "Quantità residua"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_runTimeHeader",
+        "value": "Tempo esecuzione"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_setupTimeHeader",
+        "value": "Tempo setup"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_standardTaskCodeHeader",
+        "value": "Cod. task standard"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_staplingNoHeader",
+        "value": "Nr. pinzatura"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_startingDateTimeHeader",
+        "value": "Data inizio "
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_waitTimeHeader",
+        "value": "Tempo attesa"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetailsButton",
+        "value": "Dettagli ordine produzione"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetailsCheckbox_ProdOrderComponentsBodyContainerVisible",
+        "value": "Con tracciabilità"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetailsCheckbox_ProdOrderTrackedComponentsBodyContainerVisible",
+        "value": "Con tracciabilità"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderRoutingLinesSubtitle1Label",
+        "value": "Operazioni"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderToolsButton",
+        "value": "Strumenti"
+    },
+    {
+        "name": "SingleResourceScreen_ReworkCodeSelectionTitle",
+        "value": "Codice rilavorazione"
+    },
+    {
+        "name": "SingleResourceScreen_TextViewComponent_EmptyText",
+        "value": "Nessun commento disponibile"
+    },
+    {
+        "name": "Status",
+        "value": "Stati"
+    },
+    {
+        "name": "StopCodeActionTitle",
+        "value": "Codice fermo"
+    },
+    {
+        "name": "SubstituteComponentActionTitle",
+        "value": "Componenti sostitutivi"
+    },
+    {
+        "name": "Synchronize",
+        "value": "Aggiorna"
+    },
+    {
+        "name": "SynopticActionTitle",
+        "value": "Sinottico"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_dailyOutputQuantityHeader_TextLabel",
+        "value": "Qtà output giornaliera"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_dailyScrapQuantityHeader_TextLabel",
+        "value": "Qtà output scarto"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_description2Header_TextLabel",
+        "value": "Descrizione 2"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_descriptionHeader_TextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_employeeNoHeader_TextLabel",
+        "value": "Nr. Impiegato"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_expectedRunTimeHeader_TextLabel",
+        "value": "Tempo esecuzione previsto"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_itemNoHeader_TextLabel",
+        "value": "Nr. articolo"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationDescriptionHeader_TextLabel",
+        "value": "Descrizione operazione"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationNoHeader_TextLabel",
+        "value": "Operazione"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationQuantityHeader_TextLabel",
+        "value": "Qtà operazione"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationRemainingQuantityHeader_TextLabel",
+        "value": "Qtà rimanente operazione"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationRemainingTimeHeader_TextLabel",
+        "value": "Tempo residuo operazione"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationRunningTimeHeader_TextLabel",
+        "value": "Tempo esecuzione operazione corrente"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationRunTimeHeader_TextLabel",
+        "value": "Tempo esecuzione operazione"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_prodOrderNoHeader_TextLabel",
+        "value": "Ordine"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_quantityHeader_TextLabel",
+        "value": "Qtà"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_remainingQuantityHeader_TextLabel",
+        "value": "Qtà rimanente"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_totalOutputQuantityHeader_TextLabel",
+        "value": "Qtà output totale"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_totalRunTimeHeader_TextLabel",
+        "value": "Tempo esecuzione totale"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_totalScrapQuantityHeader_TextLabel",
+        "value": "Qtà output scarto"
+    },
+    {
+        "name": "SynopticListDetailsScreen_EmployeesDataSelectionPivot_Employees",
+        "value": "Impiegati"
+    },
+    {
+        "name": "SynopticListDetailsScreen_ItemsDataSelectionPivot_Items",
+        "value": "Articoli"
+    },
+    {
+        "name": "SynopticListDetailsScreen_ProdOrdersDataSelectionPivot_InProgress",
+        "value": "In lavorazione"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_dailyOutputQuantityHeader_TextLabel",
+        "value": "Qtà output giornaliera"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_dailyScrapQuantityHeader_TextLabel",
+        "value": "Qtà scarto giornaliera"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_expectedRunTimeHeader_TextLabel",
+        "value": "Tempo esecuzione previsto"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_kpiAvailabilityHeader_TextLabel",
+        "value": "Disponibilità %"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_kpiOEEHeader_TextLabel",
+        "value": "OEE %"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_kpiPerformanceHeader_TextLabel",
+        "value": "Performance %"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_kpiQualityHeader_TextLabel",
+        "value": "Qualità %"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_prodOrdersCountHeader_TextLabel",
+        "value": "Nr. ordini"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_prodOrdersQuantityHeader_TextLabel",
+        "value": "Qtà ordini"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_prodOrdersRemainingQuantityHeader_TextLabel",
+        "value": "Qtà rimanente"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_prodOrdersTotalRunTimeHeader_TextLabel",
+        "value": "Tempo esecuzione"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_resourceNoHeader_TextLabel",
+        "value": "Nr. risorsa"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_resourceStatusHeader_TextLabel",
+        "value": "Stato"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_resourceTypeHeader_TextLabel",
+        "value": "Tipo risorsa"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_stopReasonCodeHeader_TextLabel",
+        "value": "Codice fermo"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_stopReasonDescriptionHeader_TextLabel",
+        "value": "Descrizione fermo"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_stopTimeHeader_TextLabel",
+        "value": "Tempo fermo"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_totalOutputQuantityHeader_TextLabel",
+        "value": "Totale qtà output"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_totalRunTimeHeader_TextLabel",
+        "value": "Totale tempo esecuzione"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_totalScrapQuantityHeader_TextLabel",
+        "value": "Totale qtà scarto"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_totalStopTimeHeader_TextLabel",
+        "value": "Totale tempo fermo"
+    },
+    {
+        "name": "TeamsManagementScreen_ScreenNameSubtitle2Label",
+        "value": "Setup squadre"
+    },
+    {
+        "name": "TeamsManagementScreen_TeamMembersContainer_EmptyTitleLabel",
+        "value": "Aggiungi un impiegato al team"
+    },
+    {
+        "name": "TeamsManagementScreen_TeamsContainer_EmptyTitleLabel",
+        "value": "Crea un nuovo team"
+    },
+    {
+        "name": "Tools",
+        "value": "Strumenti"
+    },
+    {
+        "name": "ToolsViewComponent_ProdOrderTools_descriptionHeader_TextLabel",
+        "value": "Descrizione"
+    },
+    {
+        "name": "ToolsViewComponent_ProdOrderTools_noHeader_TextLabel",
+        "value": "Nr."
+    },
+    {
+        "name": "ToolsViewComponent_ProdOrderTools_statusHeader_TextLabel",
+        "value": "Stato"
+    },
+    {
+        "name": "TrackedComponentsViewComponent_remainingQtyBaseHeader_TextLabel",
+        "value": "Qtà da gestire (base)"
+    },
+    {
+        "name": "TrackedComponentsViewComponent_remainingQuantityHeader_TextLabel",
+        "value": "Qtà da gestire"
+    },
+    {
+        "name": "TrackedComponentsViewComponent_trackedQuantityHeader_TextLabel",
+        "value": "Qtà gestita (base)"
+    },
+    {
+        "name": "Tracking",
+        "value": "Tracciabilità"
+    },
+    {
+        "name": "TrackingComponentLinesGalleryDialogActionTitle",
+        "value": "Tracciabilità componente"
+    },
+    {
+        "name": "UncommittedChangesActionMessage",
+        "value": "Sono presenti delle modifiche non salvate. Eseguire il salvataggio tramite l'apposito pulsante e riprova."
+    },
+    {
+        "name": "UncommittedRefreshActionMessage",
+        "value": "Sono presenti delle modifiche non salvate. Vuoi eseguire l'aggiornamento dei dati? Le modifiche non salvate andranno perse."
+    },
+    {
+        "name": "WarningActionTitle",
+        "value": "Attenzione"
+    },
+    {
+        "name": "Yes",
+        "value": "Sì"
+    }
+]
