@@ -1,0 +1,1322 @@
+[
+    {
+        "name": "Actions",
+        "value": "Actions"
+    },
+    {
+        "name": "Add",
+        "value": "Add"
+    },
+    {
+        "name": "AddComponentDialogActionTitle",
+        "value": "Add component"
+    },
+    {
+        "name": "AddComponentDialogComponent_ItemNoTextLabel",
+        "value": "Item No."
+    },
+    {
+        "name": "AddComponentDialogComponent_ItemVariantTextLabel",
+        "value": "Variant Code"
+    },
+    {
+        "name": "AddComponentDialogComponent_OutputQuantityTextLabel",
+        "value": "Quantity"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_ActualValueTextLabel",
+        "value": "Actual value"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_AttributeFulfilledTextLabel",
+        "value": "Fulfilled"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_DeviationTextLabel",
+        "value": "Deviation"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_FailureNoTextLabel",
+        "value": "Failure no."
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_ParameterTextLabel",
+        "value": "Parameter"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_TitleSubtitle1Label",
+        "value": "Add result"
+    },
+    {
+        "name": "AddInspectionResultDialogComponent_ValueOperatorTextLabel",
+        "value": "Operator"
+    },
+    {
+        "name": "AddTeamActionTitle",
+        "value": "Add team"
+    },
+    {
+        "name": "AddTeamDialogComponent_DescriptionTextLabel",
+        "value": "Description"
+    },
+    {
+        "name": "AddTeamDialogComponent_NoTextLabel",
+        "value": "Team No."
+    },
+    {
+        "name": "AddTeamMemberActionTitle",
+        "value": "Add team member"
+    },
+    {
+        "name": "AddUnit",
+        "value": "Add unit"
+    },
+    {
+        "name": "Alarms",
+        "value": "Alarms"
+    },
+    {
+        "name": "AppName",
+        "value": "Power MES"
+    },
+    {
+        "name": "Attachments",
+        "value": "Attachments"
+    },
+    {
+        "name": "AuthActionTitle",
+        "value": "Employee badge"
+    },
+    {
+        "name": "Back",
+        "value": "Back"
+    },
+    {
+        "name": "BarcodeActionTitle",
+        "value": "Barcode"
+    },
+    {
+        "name": "Call",
+        "value": "Call"
+    },
+    {
+        "name": "CallMaintenanceResponsibleActionTitle",
+        "value": "Call maint. responsible"
+    },
+    {
+        "name": "CallMaintenanceResponsiblePhoneNoActionTitle",
+        "value": "Call maint. responsible (ph.)"
+    },
+    {
+        "name": "CallMaintenanceResponsibleTeamsActionTitle",
+        "value": "Call maint. responsible (Teams)"
+    },
+    {
+        "name": "CallProductionResponsibleActionTitle",
+        "value": "Call prod. responsible"
+    },
+    {
+        "name": "CallProductionResponsiblePhoneNoActionTitle",
+        "value": "Call prod. responsible (ph.)"
+    },
+    {
+        "name": "CallProductionResponsibleTeamsActionTitle",
+        "value": "Call prod. responsible (Teams)"
+    },
+    {
+        "name": "CallQualityResponsibleActionTitle",
+        "value": "Call quality responsible"
+    },
+    {
+        "name": "CallQualityResponsiblePhoneNoActionTitle",
+        "value": "Call quality responsible (ph.)"
+    },
+    {
+        "name": "CallQualityResponsibleTeamsActionTitle",
+        "value": "Call quality responsible (Teams)"
+    },
+    {
+        "name": "Cancel",
+        "value": "Cancel"
+    },
+    {
+        "name": "ChangeCompanyActionMessage",
+        "value": "Perform the company switch? This operation will result in the disconnection of the current panel, therefore, it can be used on a different device."
+    },
+    {
+        "name": "ChangeCompanyActionTitle",
+        "value": "Change company"
+    },
+    {
+        "name": "ChangeResourceActionTitle",
+        "value": "Change resource"
+    },
+    {
+        "name": "ChangeView",
+        "value": "Change view"
+    },
+    {
+        "name": "Clear",
+        "value": "Clear"
+    },
+    {
+        "name": "Close",
+        "value": "Close"
+    },
+    {
+        "name": "Company",
+        "value": "Company"
+    },
+    {
+        "name": "Components",
+        "value": "Components"
+    },
+    {
+        "name": "ComponentsViewComponent_ProdOrderComponents_descriptionHeader_TextLabel",
+        "value": "Description"
+    },
+    {
+        "name": "ComponentsViewComponent_ProdOrderComponents_dueDateTime_TextLabel",
+        "value": "Due Date"
+    },
+    {
+        "name": "ComponentsViewComponent_ProdOrderComponents_itemNoHeader_TextLabel",
+        "value": "Item No."
+    },
+    {
+        "name": "ComponentsViewComponent_ProdOrderComponents_quantityBaseHeader_TextLabel",
+        "value": "Qty. (Base)"
+    },
+    {
+        "name": "ComponentsViewComponent_ProdOrderComponents_quantityPerHeader_TextLabel",
+        "value": "Qty. Per"
+    },
+    {
+        "name": "ComponentsViewComponent_ProdOrderComponents_remainingQtyBaseHeader_TextLabel",
+        "value": "Rmng. Qty. (Base)"
+    },
+    {
+        "name": "ComponentTrackingLinesGalleryDialogComponent_EmptyTitleLabel",
+        "value": "No tracking information available"
+    },
+    {
+        "name": "ConfirmComponentsActionTitle",
+        "value": "Confirm components"
+    },
+    {
+        "name": "ConfirmComponentsScreen_RowsDataGallery_actualQtyBase_TextLabel",
+        "value": "Actual Qty. (Base)"
+    },
+    {
+        "name": "ConfirmComponentsScreen_RowsDataGallery_expectedQtyBase_TextLabel",
+        "value": "Expected Qty. (Base)"
+    },
+    {
+        "name": "ConfirmComponentsScreen_ScreenNameSubtitle2Label",
+        "value": "Confirm components"
+    },
+    {
+        "name": "Delete",
+        "value": "Delete"
+    },
+    {
+        "name": "DeleteComponentActionMessage",
+        "value": "Delete component %1?"
+    },
+    {
+        "name": "DeleteComponentActionTitle",
+        "value": "Delete component"
+    },
+    {
+        "name": "DeleteComponentTrackingActionMessage",
+        "value": "Delete tracking information %1?"
+    },
+    {
+        "name": "DeleteComponentTrackingActionTitle",
+        "value": "Delete tracking information"
+    },
+    {
+        "name": "DeleteOperationActionMessage",
+        "value": "Close operation %1?"
+    },
+    {
+        "name": "DeleteOperationActionTitle",
+        "value": "Close operation"
+    },
+    {
+        "name": "DeletePQAResultActionMessage",
+        "value": "Delete the selected result?"
+    },
+    {
+        "name": "DeletePQAResultActionTitle",
+        "value": "Delete result"
+    },
+    {
+        "name": "DeleteTeamActionMessage",
+        "value": "Delete team %1?"
+    },
+    {
+        "name": "DeleteTeamActionTitle",
+        "value": "Delete team"
+    },
+    {
+        "name": "DeleteTeamActionWarning",
+        "value": "There are entries linked to one or more employees of the team you want to delete. If you continue with the deletion, the linked entries will be closed."
+    },
+    {
+        "name": "DeleteTeamMemberActionMessage",
+        "value": "Delete team member %1?"
+    },
+    {
+        "name": "DeleteTeamMemberActionTitle",
+        "value": "Delete team member"
+    },
+    {
+        "name": "DeleteTeamMemberActionWarning",
+        "value": "There are entries linked to the employee you want to delete. If you continue with the deletion, the linked entries will be closed."
+    },
+    {
+        "name": "DeviationCheckActionMessage",
+        "value": "Is the value entered compliant?"
+    },
+    {
+        "name": "DeviationCheckActionTitle",
+        "value": "Add result"
+    },
+    {
+        "name": "DisconnectPanelActionMessage",
+        "value": "The selected company and panel have already been configured and are in use on another device. You can force the disconnection by clicking or tapping the \"OK\" button, however, make sure that the panel has actually been disconnected otherwise errors may occur. To properly disconnect a panel run the \"Change company\" function in the currently connected device."
+    },
+    {
+        "name": "DisconnectPanelActionTitle",
+        "value": "Disconnect panel"
+    },
+    {
+        "name": "Edit",
+        "value": "Edit"
+    },
+    {
+        "name": "EditCommentActionTitle",
+        "value": "Add comment"
+    },
+    {
+        "name": "EmployeeEntriesGalleryActionTitle",
+        "value": "Select prod. order line"
+    },
+    {
+        "name": "EmployeeNotFound",
+        "value": "Employee not found"
+    },
+    {
+        "name": "EmployeeRequiredActionMessage",
+        "value": "You need to authenticate as an employee to perform this function."
+    },
+    {
+        "name": "EmployeeRequiredNotification",
+        "value": "You need to authenticate as an employee in the panel to view all information and functions."
+    },
+    {
+        "name": "EmptyContactsActionMessage",
+        "value": "No contact has been defined to make the call."
+    },
+    {
+        "name": "ErrorActionTitle",
+        "value": "Error"
+    },
+    {
+        "name": "EX070HelpHyperlink",
+        "value": "https://dynamics.microsoft.com/it-it/business-central/overview"
+    },
+    {
+        "name": "ExecuteActionMessage",
+        "value": "Execute action %1 for prod. order no. %2?"
+    },
+    {
+        "name": "ExecuteActionTitle",
+        "value": "Execute action"
+    },
+    {
+        "name": "HandlingUnit",
+        "value": "Handling Unit"
+    },
+    {
+        "name": "Information",
+        "value": "Information"
+    },
+    {
+        "name": "InspectionOrder",
+        "value": "Inspection order"
+    },
+    {
+        "name": "InspectionOrderViewComponent_DataSelection_Header_Radio",
+        "value": "Header"
+    },
+    {
+        "name": "InspectionOrderViewComponent_DataSelection_Results_Radio",
+        "value": "Results"
+    },
+    {
+        "name": "InspectionOrderViewComponent_DataSelection_Rows_Radio",
+        "value": "Rows"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_actualValue_TextLabel",
+        "value": "Value"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_deviation_TextLabel",
+        "value": "Deviation"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_failureNoHeader_TextLabel",
+        "value": "Failure no."
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_noHeader_TextLabel",
+        "value": "No."
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_parameterAttributeCode_TextLabel",
+        "value": "Attribute parameter"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_reference_TextLabel",
+        "value": "Reference"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_valueFulfilled_TextLabel",
+        "value": "Fulfilled"
+    },
+    {
+        "name": "InspectionOrderViewComponent_ResultsGalleryHeaderContainer_valueOperator_TextLabel",
+        "value": "Operator"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_expectedValueHeader_TextLabel",
+        "value": "EXP."
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_inspectionDeviceNoHeader_TextLabel",
+        "value": "Device"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_lastActualValue_TextLabel",
+        "value": "Actual value"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_lastAttributeFulfilledAsInt_TextLabel",
+        "value": "Fulfilled"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_lastParameterAttributeCode_TextLabel",
+        "value": "Attribute parameter"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_maximalValueHeader_TextLabel",
+        "value": "MAX"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_minimalValueHeader_TextLabel",
+        "value": "MIN"
+    },
+    {
+        "name": "InspectionOrderViewComponent_RowsDataGallery_reference_TextLabel",
+        "value": "Reference"
+    },
+    {
+        "name": "IoTActionTitle",
+        "value": "IoT"
+    },
+    {
+        "name": "KPI",
+        "value": "KPI"
+    },
+    {
+        "name": "KPIAvailability",
+        "value": "Availability"
+    },
+    {
+        "name": "KPIOEE",
+        "value": "OEE"
+    },
+    {
+        "name": "KPIPerformance",
+        "value": "Performance"
+    },
+    {
+        "name": "KPIQuality",
+        "value": "Quality"
+    },
+    {
+        "name": "MachineCenter",
+        "value": "Machine Center"
+    },
+    {
+        "name": "MachineStatusCodeActionMessage",
+        "value": "Perform machine status reset?"
+    },
+    {
+        "name": "MachineStatusCodeActionTitle",
+        "value": "Change machine status"
+    },
+    {
+        "name": "ManageTeamsActionTitle",
+        "value": "Teams setup"
+    },
+    {
+        "name": "Measurements",
+        "value": "Measurements"
+    },
+    {
+        "name": "MediaNotSupported",
+        "value": "Attachment type not supported"
+    },
+    {
+        "name": "Menu",
+        "value": "Menu"
+    },
+    {
+        "name": "MES_PanelSetupReasonCodes_Attachments",
+        "value": ""
+    },
+    {
+        "name": "MES_PanelSetupReasonCodes_Components",
+        "value": ""
+    },
+    {
+        "name": "MissingConfigurationHyperlinkDescription",
+        "value": "Read more about how to configure the company in Business Central ↗"
+    },
+    {
+        "name": "MissingPanelSetupActionMessage",
+        "value": "The selected panel was not properly configured. Perform the configuration in Business Central and try again."
+    },
+    {
+        "name": "MissingPanelSetupActionTitle",
+        "value": "Missing panel setup"
+    },
+    {
+        "name": "MoreOptions",
+        "value": "More options"
+    },
+    {
+        "name": "NewValue",
+        "value": "New value"
+    },
+    {
+        "name": "NFC",
+        "value": "NFC"
+    },
+    {
+        "name": "No",
+        "value": "No"
+    },
+    {
+        "name": "NoDataText",
+        "value": "No data was found to be displayed at the moment"
+    },
+    {
+        "name": "NotAuthorizedActionMessage",
+        "value": "The usage of this function is restricted to managers only."
+    },
+    {
+        "name": "Notes",
+        "value": "Notes"
+    },
+    {
+        "name": "Ok",
+        "value": "Ok"
+    },
+    {
+        "name": "Open",
+        "value": "Open"
+    },
+    {
+        "name": "OperationWarningForTeamErrorMessage",
+        "value": "Attention, if the employee is part of a team movements will be generated for all employees in the team. "
+    },
+    {
+        "name": "Output",
+        "value": "Output"
+    },
+    {
+        "name": "OutputTrackingType_LotNo",
+        "value": "Lot"
+    },
+    {
+        "name": "OutputTrackingType_SerialLotNo",
+        "value": "Serial + Lot"
+    },
+    {
+        "name": "OutputTrackingType_SerialNo",
+        "value": "Serial"
+    },
+    {
+        "name": "PackagingInstructions",
+        "value": "Pkg. Istructions"
+    },
+    {
+        "name": "PackagingMaterials",
+        "value": "Pkg. Materials"
+    },
+    {
+        "name": "PanelSelectionScreen_CurrentScreenSubtitle2Label",
+        "value": "Panels"
+    },
+    {
+        "name": "PanelSelectionScreen_EmptySubtitle1Label",
+        "value": "Tap or click on \"Show all\" to view all panels"
+    },
+    {
+        "name": "PanelSelectionScreen_EmptyTitleLabel",
+        "value": "No panel available"
+    },
+    {
+        "name": "PanelSelectionScreen_FilterContainer_ShowAllCheckbox",
+        "value": "Show all"
+    },
+    {
+        "name": "PostComponentTrackingLinesDialogComponent_ItemNoTextLabel",
+        "value": "Item No."
+    },
+    {
+        "name": "PostComponentTrackingLinesDialogComponent_OutputQuantityTextLabel",
+        "value": "Quantity"
+    },
+    {
+        "name": "PostComponentTrackingLinesDialogComponent_remainingQuantityHeaderTextLabel",
+        "value": "Qty. To Handle (Base)"
+    },
+    {
+        "name": "PostComponentTrackingLinesDialogComponent_totalAvailableQuantityHeaderTextLabel",
+        "value": "Available Qty."
+    },
+    {
+        "name": "PostComponentTrackingLinesDialogComponent_TrackingLinesTextLabel",
+        "value": "Tracking information"
+    },
+    {
+        "name": "PostIndirectTimeActionTitle",
+        "value": "Post indirect time"
+    },
+    {
+        "name": "PostIndirectTimeDialogComponent_EmployeeTextLabel",
+        "value": "Employee"
+    },
+    {
+        "name": "PostIndirectTimeDialogComponent_JobsTextLabel",
+        "value": "Job"
+    },
+    {
+        "name": "PostIndirectTimeDialogComponent_JobTasksTextLabel",
+        "value": "Job task"
+    },
+    {
+        "name": "PostIndirectTimeDialogComponent_OutputTextLabel",
+        "value": "Output"
+    },
+    {
+        "name": "PostIndirectTimeDialogComponent_TitleSubtitle1Label",
+        "value": "Post indirect time"
+    },
+    {
+        "name": "PostTrackedComponentDialogActionTitle",
+        "value": "Add component tracking"
+    },
+    {
+        "name": "PowerBIReportsScreen_ScreenNameSubtitle2Label",
+        "value": "Statistics"
+    },
+    {
+        "name": "PreviousValue",
+        "value": "Previous value"
+    },
+    {
+        "name": "QuickView",
+        "value": "Quick view"
+    },
+    {
+        "name": "ReadMoreHyperlinkDescription",
+        "value": "Read more about this message ↗"
+    },
+    {
+        "name": "ReasonCodesActions",
+        "value": "Reason Code Actions"
+    },
+    {
+        "name": "RemoveUnit",
+        "value": "Remove unit"
+    },
+    {
+        "name": "ReplaceComponentActionTitle",
+        "value": "Replace component"
+    },
+    {
+        "name": "ReplaceComponentDialogComponent_NewItemNoTextLabel",
+        "value": "New Item No."
+    },
+    {
+        "name": "ReplaceComponentDialogComponent_NewItemVariantTextLabel",
+        "value": "New Variant Code"
+    },
+    {
+        "name": "ReplaceComponentDialogComponent_PreviousItemNoTextLabel",
+        "value": "Previous Item No."
+    },
+    {
+        "name": "ReplaceComponentDialogComponent_PreviousItemVariantCodeTextLabel",
+        "value": "Previous Variant Code"
+    },
+    {
+        "name": "ResourceSelectionScreen_CurrentScreenHintAltLabel",
+        "value": "Panel"
+    },
+    {
+        "name": "routingEntity_Field1",
+        "value": "Order"
+    },
+    {
+        "name": "routingEntity_Field2",
+        "value": "Operation"
+    },
+    {
+        "name": "routingEntity_Field3",
+        "value": "Description"
+    },
+    {
+        "name": "routingEntity_Field4",
+        "value": "Starting Date"
+    },
+    {
+        "name": "routingEntity_Field5",
+        "value": "Qty."
+    },
+    {
+        "name": "Save",
+        "value": "Save"
+    },
+    {
+        "name": "Search",
+        "value": "Search"
+    },
+    {
+        "name": "SearchAttachment",
+        "value": "Search attachment"
+    },
+    {
+        "name": "SearchBarcode",
+        "value": "Search barcode"
+    },
+    {
+        "name": "SearchCode",
+        "value": "Search code"
+    },
+    {
+        "name": "SearchCodeDescription",
+        "value": "Search code or description"
+    },
+    {
+        "name": "SearchComponent",
+        "value": "Search component"
+    },
+    {
+        "name": "SearchName",
+        "value": "Search name"
+    },
+    {
+        "name": "SearchPanel",
+        "value": "Search panel"
+    },
+    {
+        "name": "SearchPanelSetup",
+        "value": "Search production area or work center"
+    },
+    {
+        "name": "SearchTeam",
+        "value": "Search team"
+    },
+    {
+        "name": "SearchTeamMembers",
+        "value": "Search team employee"
+    },
+    {
+        "name": "SearchTool",
+        "value": "Search tool"
+    },
+    {
+        "name": "SelectEmployee",
+        "value": "Select employee"
+    },
+    {
+        "name": "SessionActionTitle",
+        "value": "Session information"
+    },
+    {
+        "name": "Settings",
+        "value": "Settings"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_badgeNoHeader_TextLabel",
+        "value": "Badge"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_descriptionHeader_TextLabel",
+        "value": "Description"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_employeeNoHeader_TextLabel",
+        "value": "Employee"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_operationNoHeader_TextLabel",
+        "value": "Operation"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_prodOrderNoHeader_TextLabel",
+        "value": "Order"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntries_statusHeader_TextLabel",
+        "value": "Status"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntriesSubtitle1Label",
+        "value": "Ongoing activities"
+    },
+    {
+        "name": "SingleResourceScreen_HandlingUnits_descriptionTextLabel",
+        "value": "Description"
+    },
+    {
+        "name": "SingleResourceScreen_HandlingUnits_itemNoTextLabel",
+        "value": "Item No."
+    },
+    {
+        "name": "SingleResourceScreen_HandlingUnits_noTextLabel",
+        "value": "No."
+    },
+    {
+        "name": "SingleResourceScreen_HandlingUnits_variantCodeTextLabel",
+        "value": "Variant Code"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_blockedQtyHeader",
+        "value": "Blocked Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_complianceQtyHeader",
+        "value": "Compliance Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_descriptionHeader",
+        "value": "Description"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_inspectionOrderTypeHeader",
+        "value": "Inspection Order Type"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_inspectionPlanNoHeader",
+        "value": "Inspection Plan No."
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_inspectionResultHeader",
+        "value": "Inspection Result"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_inspectionTypeHeader",
+        "value": "Inspection Type"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_itemNoHeader",
+        "value": "Item No."
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_lotNoHeader",
+        "value": "Lot No."
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_maxNonComplianceQtyHeader",
+        "value": "Max. Non Compliance Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_noHeader",
+        "value": "Inspection Order No."
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_quantityHeader",
+        "value": "Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_sampleBlockedQtyHeader",
+        "value": "Sample Blocked Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_sampleComplianceQtyHeader",
+        "value": "Sample Compliance Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_sampleSizeHeader",
+        "value": "Sample Size"
+    },
+    {
+        "name": "SingleResourceScreen_InspectionOrderDetails_serialNoHeader",
+        "value": "Serial No."
+    },
+    {
+        "name": "SingleResourceScreen_MenuDialogTitle",
+        "value": "Menu"
+    },
+    {
+        "name": "SingleResourceScreen_Output_OutputQuantityTextLabel",
+        "value": "Output Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_Output_ReworkCodeTextLabel",
+        "value": "Rework code"
+    },
+    {
+        "name": "SingleResourceScreen_Output_ScrapCodeTextLabel",
+        "value": "Scrap code"
+    },
+    {
+        "name": "SingleResourceScreen_Output_ScrapQuantityTextLabel",
+        "value": "Scrap Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_Output_SecondaryOutputQuantityTextLabel",
+        "value": "Secondary output quantity"
+    },
+    {
+        "name": "SingleResourceScreen_Output_SecondaryScrapQuantityTextLabel",
+        "value": "Secondary scrap quantity"
+    },
+    {
+        "name": "SingleResourceScreen_Output_TrackingInfoTextLabel",
+        "value": "Tracking info"
+    },
+    {
+        "name": "SingleResourceScreen_OutputSubtitle1Label",
+        "value": "Output"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_description",
+        "value": "Description"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_itemNo",
+        "value": "Item No."
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_maxHeightMm",
+        "value": "Max Height (mm)"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_no",
+        "value": "No."
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_noOfLayers",
+        "value": "No. Of Layers"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_qtyPerLayer",
+        "value": "Qty. Per Layer"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_unitOfMeasureCode",
+        "value": "UOM"
+    },
+    {
+        "name": "SingleResourceScreen_PackingInstructionsRecordFieldsViewerComponent_variantCode",
+        "value": "Variant Code"
+    },
+    {
+        "name": "SingleResourceScreen_PackingMaterials_descriptionTextLabel",
+        "value": "Description"
+    },
+    {
+        "name": "SingleResourceScreen_PackingMaterials_itemNoTextLabel",
+        "value": "Item No."
+    },
+    {
+        "name": "SingleResourceScreen_PackingMaterials_unitOfMeasureCodeTextLabel",
+        "value": "UOM"
+    },
+    {
+        "name": "SingleResourceScreen_PackingMaterialsRecordFieldsViewerComponent_no",
+        "value": "No."
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderAttachmentsButton",
+        "value": "Attachments"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderComponentsButton",
+        "value": "Components"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_descriptionHeader",
+        "value": "Description"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_endingDateTimeHeader",
+        "value": "Ending Date"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_eosExpectedOutputQuantityHeader",
+        "value": "Expected Output Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_eosExpectedScrapQtyHeader",
+        "value": "Expected Scrap Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_eosOutputQuantityHeader",
+        "value": "Output Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_eosTotalRunTimeHeader",
+        "value": "Total Run Time"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_eosTotalScrapQtyHeader",
+        "value": "Scrap Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_nextOperationNoHeader",
+        "value": "Next Operation"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_operationNoHeader",
+        "value": "Operation"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_previousOperationNoHeader",
+        "value": "Previous Operation"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_prodOrderNoHeader",
+        "value": "Order"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_quantityHeader",
+        "value": "Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_remainingQtyHeader",
+        "value": "Remaining Quantity"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_runTimeHeader",
+        "value": "Run Time"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_setupTimeHeader",
+        "value": "Setup Time"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_standardTaskCodeHeader",
+        "value": "Standard Task Code"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_staplingNoHeader",
+        "value": "Stapling No."
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_startingDateTimeHeader",
+        "value": "Starting Date"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetails_waitTimeHeader",
+        "value": "Wait Time"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetailsButton",
+        "value": "Prod. order details"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetailsCheckbox_ProdOrderComponentsBodyContainerVisible",
+        "value": "With tracking"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderDetailsCheckbox_ProdOrderTrackedComponentsBodyContainerVisible",
+        "value": "With tracking"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderRoutingLinesSubtitle1Label",
+        "value": "Operations"
+    },
+    {
+        "name": "SingleResourceScreen_ProdOrderToolsButton",
+        "value": "Tools"
+    },
+    {
+        "name": "SingleResourceScreen_ReworkCodeSelectionTitle",
+        "value": "Rework code"
+    },
+    {
+        "name": "SingleResourceScreen_TextViewComponent_EmptyText",
+        "value": "No comment available"
+    },
+    {
+        "name": "Status",
+        "value": "Status"
+    },
+    {
+        "name": "StopCodeActionTitle",
+        "value": "Stop code"
+    },
+    {
+        "name": "SubstituteComponentActionTitle",
+        "value": "Substitute component"
+    },
+    {
+        "name": "Synchronize",
+        "value": "Synchronize"
+    },
+    {
+        "name": "SynopticActionTitle",
+        "value": "Synoptic"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_dailyOutputQuantityHeader_TextLabel",
+        "value": "Daily output qty."
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_dailyScrapQuantityHeader_TextLabel",
+        "value": "Daily scrap qty."
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_description2Header_TextLabel",
+        "value": "Description 2"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_descriptionHeader_TextLabel",
+        "value": "Description"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_employeeNoHeader_TextLabel",
+        "value": "Employee no."
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_expectedRunTimeHeader_TextLabel",
+        "value": "Expected run time"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_itemNoHeader_TextLabel",
+        "value": "Item No."
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationDescriptionHeader_TextLabel",
+        "value": "Operation description"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationNoHeader_TextLabel",
+        "value": "Operation"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationQuantityHeader_TextLabel",
+        "value": "Operation qty."
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationRemainingQuantityHeader_TextLabel",
+        "value": "Operation rmng. qty."
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationRemainingTimeHeader_TextLabel",
+        "value": "Operation rmng. time"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationRunningTimeHeader_TextLabel",
+        "value": "Operation running time"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_operationRunTimeHeader_TextLabel",
+        "value": "Operation run time"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_prodOrderNoHeader_TextLabel",
+        "value": "Order"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_quantityHeader_TextLabel",
+        "value": "Qty."
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_remainingQuantityHeader_TextLabel",
+        "value": "Rmng. qty."
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_totalOutputQuantityHeader_TextLabel",
+        "value": "Total output qty."
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_totalRunTimeHeader_TextLabel",
+        "value": "Total run time"
+    },
+    {
+        "name": "SynopticListDetailsScreen_DataGallery_totalScrapQuantityHeader_TextLabel",
+        "value": "Total scrap qty."
+    },
+    {
+        "name": "SynopticListDetailsScreen_EmployeesDataSelectionPivot_Employees",
+        "value": "Employees"
+    },
+    {
+        "name": "SynopticListDetailsScreen_ItemsDataSelectionPivot_Items",
+        "value": "Items"
+    },
+    {
+        "name": "SynopticListDetailsScreen_ProdOrdersDataSelectionPivot_InProgress",
+        "value": "In progress"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_dailyOutputQuantityHeader_TextLabel",
+        "value": "Daily output qty."
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_dailyScrapQuantityHeader_TextLabel",
+        "value": "Daily scrap qty."
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_expectedRunTimeHeader_TextLabel",
+        "value": "Expected run time"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_kpiAvailabilityHeader_TextLabel",
+        "value": "Availability %"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_kpiOEEHeader_TextLabel",
+        "value": "OEE %"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_kpiPerformanceHeader_TextLabel",
+        "value": "Performance %"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_kpiQualityHeader_TextLabel",
+        "value": "Quality %"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_prodOrdersCountHeader_TextLabel",
+        "value": "No. of orders"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_prodOrdersQuantityHeader_TextLabel",
+        "value": "Order qty."
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_prodOrdersRemainingQuantityHeader_TextLabel",
+        "value": "Order rmng. qty."
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_prodOrdersTotalRunTimeHeader_TextLabel",
+        "value": "Order run time"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_resourceNoHeader_TextLabel",
+        "value": "Resource no."
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_resourceStatusHeader_TextLabel",
+        "value": "Status"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_resourceTypeHeader_TextLabel",
+        "value": "Resource type"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_stopReasonCodeHeader_TextLabel",
+        "value": "Stop code"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_stopReasonDescriptionHeader_TextLabel",
+        "value": "Stop description"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_stopTimeHeader_TextLabel",
+        "value": "Stop time"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_totalOutputQuantityHeader_TextLabel",
+        "value": "Total output qty."
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_totalRunTimeHeader_TextLabel",
+        "value": "Total run time"
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_totalScrapQuantityHeader_TextLabel",
+        "value": "Total scrap qty."
+    },
+    {
+        "name": "SynopticListScreen_DataGallery_totalStopTimeHeader_TextLabel",
+        "value": "Total stop time"
+    },
+    {
+        "name": "TeamsManagementScreen_ScreenNameSubtitle2Label",
+        "value": "Teams setup"
+    },
+    {
+        "name": "TeamsManagementScreen_TeamMembersContainer_EmptyTitleLabel",
+        "value": "Add an employee to the team"
+    },
+    {
+        "name": "TeamsManagementScreen_TeamsContainer_EmptyTitleLabel",
+        "value": "Create a new team"
+    },
+    {
+        "name": "Tools",
+        "value": "Tools"
+    },
+    {
+        "name": "ToolsViewComponent_ProdOrderTools_descriptionHeader_TextLabel",
+        "value": "Description"
+    },
+    {
+        "name": "ToolsViewComponent_ProdOrderTools_noHeader_TextLabel",
+        "value": "No."
+    },
+    {
+        "name": "ToolsViewComponent_ProdOrderTools_statusHeader_TextLabel",
+        "value": "Status"
+    },
+    {
+        "name": "TrackedComponentsViewComponent_remainingQtyBaseHeader_TextLabel",
+        "value": "Qty. To Handle (Base)"
+    },
+    {
+        "name": "TrackedComponentsViewComponent_remainingQuantityHeader_TextLabel",
+        "value": "Qty. To Handle"
+    },
+    {
+        "name": "TrackedComponentsViewComponent_trackedQuantityHeader_TextLabel",
+        "value": "Handled Qty. (Base)"
+    },
+    {
+        "name": "Tracking",
+        "value": "Tracking"
+    },
+    {
+        "name": "TrackingComponentLinesGalleryDialogActionTitle",
+        "value": "Component tracking"
+    },
+    {
+        "name": "UncommittedChangesActionMessage",
+        "value": "There are unsaved changes. Save the changes using the designated button and try again."
+    },
+    {
+        "name": "UncommittedRefreshActionMessage",
+        "value": "There are unsaved changes. Do you want to refresh the data? Unsaved changes will be lost."
+    },
+    {
+        "name": "WarningActionTitle",
+        "value": "Warning"
+    },
+    {
+        "name": "Yes",
+        "value": "Yes"
+    }
+]
