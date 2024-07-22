@@ -75,6 +75,11 @@
             "id": "AA0470",
             "action": "None",
             "justification": "Explain placeholders in labels: ignore"
+        },
+        {
+            "id": "AA0248",
+            "action": "None",
+            "justification": "use 'this' qualifier"
         }
     ]
 }
