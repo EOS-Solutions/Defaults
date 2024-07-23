@@ -160,14 +160,6 @@
         "value": "Serial No."
     },
     {
-        "name": "BinReclassificationScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "BinReclassificationScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Journal Template"
-    },
-    {
         "name": "BinReclassificationScreen_FiltersComponent_FromBinTextLabel",
         "value": "From bin"
     },
@@ -380,14 +372,6 @@
         "value": "Location Code"
     },
     {
-        "name": "HUDetailsScreen_FiltersComponent_BinTextLabel",
-        "value": "Bin"
-    },
-    {
-        "name": "HUDetailsScreen_FiltersComponent_LocationTextLabel",
-        "value": "Location"
-    },
-    {
         "name": "HUDetailsScreen_Gallery_lotNoHeaderTextLabel",
         "value": "Lot No."
     },
@@ -404,28 +388,12 @@
         "value": "Serial No."
     },
     {
-        "name": "HUJournalScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
+        "name": "HUJournalScreen_Gallery_binCodeHeaderTextLabel",
+        "value": "Bin Code"
     },
     {
-        "name": "HUJournalScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Journal Template"
-    },
-    {
-        "name": "HUJournalScreen_EntryType_Radio_NegativeAdjmt",
-        "value": "Negative adjustment"
-    },
-    {
-        "name": "HUJournalScreen_EntryType_TextLabel",
-        "value": "Adjustment Type"
-    },
-    {
-        "name": "HUJournalScreen_FiltersComponent_BinTextLabel",
-        "value": "Bin"
-    },
-    {
-        "name": "HUJournalScreen_FiltersComponent_LocationTextLabel",
-        "value": "Location"
+        "name": "HUJournalScreen_Gallery_locationCodeHeaderTextLabel",
+        "value": "Location Code"
     },
     {
         "name": "HUJournalScreen_Gallery_lotNoHeaderTextLabel",
@@ -456,16 +424,12 @@
         "value": "Bin"
     },
     {
+        "name": "HUJournalScreen_SubHeaderContainer_EntryTypeHeaderTextLabel",
+        "value": "Entry Type"
+    },
+    {
         "name": "HUJournalScreen_SubHeaderContainer_locationHeaderTextLabel",
         "value": "Location"
-    },
-    {
-        "name": "HUPhysicalInventoryScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "HUPhysicalInventoryScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Journal Template"
     },
     {
         "name": "HUPhysicalInventoryScreen_FiltersComponent_BinTextLabel",
@@ -512,12 +476,8 @@
         "value": "Handling Unit No."
     },
     {
-        "name": "HUReclassificationScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "HUReclassificationScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Journal Template"
+        "name": "HUPhysicalInventoryScreen_Subtitle2Label",
+        "value": "No rows to scan per handling unit %1. Generate the batch in Business Central and try again."
     },
     {
         "name": "HUReclassificationScreen_FiltersComponent_FromBinTextLabel",
@@ -534,6 +494,10 @@
     {
         "name": "HUReclassificationScreen_FiltersComponent_ToLocationTextLabel",
         "value": "To location"
+    },
+    {
+        "name": "IncompleteScansMessage",
+        "value": "Incomplete scans detected. Check the scans and try again."
     },
     {
         "name": "InvalidBarcodeError",
@@ -576,14 +540,6 @@
         "value": "Variant Description"
     },
     {
-        "name": "ItemJournalScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "ItemJournalScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Journal Template"
-    },
-    {
         "name": "ItemJournalScreen_EntryType_Radio_NegativeAdjmt",
         "value": "Negative adjustment"
     },
@@ -592,12 +548,16 @@
         "value": "Adjustment Type"
     },
     {
-        "name": "ItemJournalScreen_FiltersComponent_BinTextLabel",
-        "value": "Bin"
+        "name": "ItemJournalScreen_Gallery_binCodeHeaderTextLabel",
+        "value": "Bin Code"
     },
     {
-        "name": "ItemJournalScreen_FiltersComponent_LocationTextLabel",
-        "value": "Location"
+        "name": "ItemJournalScreen_Gallery_expirationDateHeaderTextLabel",
+        "value": "Expiration Date"
+    },
+    {
+        "name": "ItemJournalScreen_Gallery_locationCodeHeaderTextLabel",
+        "value": "Location Code"
     },
     {
         "name": "ItemJournalScreen_Gallery_lotNoHeaderTextLabel",
@@ -616,24 +576,16 @@
         "value": "Serial No."
     },
     {
-        "name": "ItemJournalScreen_SubHeaderContainer_binHeaderTextLabel",
-        "value": "Bin"
+        "name": "ItemJournalScreen_Gallery_warrantyDateHeaderTextLabel",
+        "value": "Warranty Date"
     },
     {
-        "name": "ItemJournalScreen_SubHeaderContainer_locationHeaderTextLabel",
-        "value": "Location"
+        "name": "ItemJournalScreen_SubHeaderContainer_EntryTypeHeaderTextLabel",
+        "value": "Entry Type"
     },
     {
         "name": "ItemNoNotFoundError",
         "value": "Item No. %1 not found."
-    },
-    {
-        "name": "ItemReclassificationScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "ItemReclassificationScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Journal Template"
     },
     {
         "name": "ItemReclassificationScreen_FiltersComponent_FromBinTextLabel",
@@ -686,22 +638,6 @@
     {
         "name": "ItemReclassificationScreen_ScreenNameSubtitle2Label",
         "value": "Item Reclassification"
-    },
-    {
-        "name": "ItemTrackingReclassificationScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "ItemTrackingReclassificationScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Journal Template"
-    },
-    {
-        "name": "ItemTrackingReclassificationScreen_FiltersComponent_BinTextLabel",
-        "value": "Bin"
-    },
-    {
-        "name": "ItemTrackingReclassificationScreen_FiltersComponent_LocationTextLabel",
-        "value": "Location"
     },
     {
         "name": "ItemTrackingReclassificationScreen_Gallery_binCodeHeaderTextLabel",
@@ -872,20 +808,16 @@
         "value": "Package No."
     },
     {
+        "name": "PhysicalInventoryQuantity",
+        "value": "Quantity"
+    },
+    {
         "name": "PhysicalInventoryScreen_BatchesComponent_BatchTextLabel",
         "value": "Batch"
     },
     {
         "name": "PhysicalInventoryScreen_BatchesComponent_JournalTemplateTextLabel",
         "value": "Journal Template"
-    },
-    {
-        "name": "PhysicalInventoryScreen_FiltersComponent_BinTextLabel",
-        "value": "Bin"
-    },
-    {
-        "name": "PhysicalInventoryScreen_FiltersComponent_LocationTextLabel",
-        "value": "Location"
     },
     {
         "name": "PhysicalInventoryScreen_Gallery_binCodeHeaderTextLabel",
@@ -906,6 +838,10 @@
     {
         "name": "PhysicalInventoryScreen_Gallery_packageNoHeaderTextLabel",
         "value": "Package No."
+    },
+    {
+        "name": "PhysicalInventoryScreen_Gallery_quantityCalculatedHeaderTextLabel",
+        "value": "Inventory Qty."
     },
     {
         "name": "PhysicalInventoryScreen_Gallery_receivedQuantityHeaderTextLabel",
@@ -958,6 +894,30 @@
     {
         "name": "Quantity",
         "value": "Quantity"
+    },
+    {
+        "name": "QuantityDialogComponent_inventoryHeaderTextLabel",
+        "value": "Inventory Qty."
+    },
+    {
+        "name": "QuantityDialogComponent_lotNoHeaderTextLabel",
+        "value": "Lot No."
+    },
+    {
+        "name": "QuantityDialogComponent_packageNoHeaderTextLabel",
+        "value": "Package No."
+    },
+    {
+        "name": "QuantityDialogComponent_quantityHeaderTextLabel",
+        "value": "Quantity"
+    },
+    {
+        "name": "QuantityDialogComponent_serialNoHeaderTextLabel",
+        "value": "Serial No."
+    },
+    {
+        "name": "QuantityGreaterThanZeroError",
+        "value": "Quantity must be greater than zero."
     },
     {
         "name": "QuantityLimitExceededError",

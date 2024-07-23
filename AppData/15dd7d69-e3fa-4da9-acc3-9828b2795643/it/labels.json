@@ -160,14 +160,6 @@
         "value": "Nr. seriale"
     },
     {
-        "name": "BinReclassificationScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "BinReclassificationScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Def. registrazioni"
-    },
-    {
         "name": "BinReclassificationScreen_FiltersComponent_FromBinTextLabel",
         "value": "Da collocazione"
     },
@@ -209,7 +201,7 @@
     },
     {
         "name": "DeleteScans",
-        "value": "Cancella scansioni"
+        "value": "Cancella scansioni non salvate"
     },
     {
         "name": "Details",
@@ -380,14 +372,6 @@
         "value": "Cod. ubicazione"
     },
     {
-        "name": "HUDetailsScreen_FiltersComponent_BinTextLabel",
-        "value": "Collocazione"
-    },
-    {
-        "name": "HUDetailsScreen_FiltersComponent_LocationTextLabel",
-        "value": "Ubicazione"
-    },
-    {
         "name": "HUDetailsScreen_Gallery_lotNoHeaderTextLabel",
         "value": "Nr. lotto"
     },
@@ -404,28 +388,12 @@
         "value": "Nr. seriale"
     },
     {
-        "name": "HUJournalScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
+        "name": "HUJournalScreen_Gallery_binCodeHeaderTextLabel",
+        "value": "Cod. collocazione"
     },
     {
-        "name": "HUJournalScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Def. registrazioni"
-    },
-    {
-        "name": "HUJournalScreen_EntryType_Radio_NegativeAdjmt",
-        "value": "Rettifica negativa"
-    },
-    {
-        "name": "HUJournalScreen_EntryType_TextLabel",
-        "value": "Tipo rettifica"
-    },
-    {
-        "name": "HUJournalScreen_FiltersComponent_BinTextLabel",
-        "value": "Collocazione"
-    },
-    {
-        "name": "HUJournalScreen_FiltersComponent_LocationTextLabel",
-        "value": "Ubicazione"
+        "name": "HUJournalScreen_Gallery_locationCodeHeaderTextLabel",
+        "value": "Cod. ubicazione"
     },
     {
         "name": "HUJournalScreen_Gallery_lotNoHeaderTextLabel",
@@ -456,16 +424,12 @@
         "value": "Collocazione"
     },
     {
+        "name": "HUJournalScreen_SubHeaderContainer_EntryTypeHeaderTextLabel",
+        "value": "Tipo movimento"
+    },
+    {
         "name": "HUJournalScreen_SubHeaderContainer_locationHeaderTextLabel",
         "value": "Ubicazione"
-    },
-    {
-        "name": "HUPhysicalInventoryScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "HUPhysicalInventoryScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Def. registrazioni"
     },
     {
         "name": "HUPhysicalInventoryScreen_FiltersComponent_BinTextLabel",
@@ -512,12 +476,8 @@
         "value": "Nr. unità di carico"
     },
     {
-        "name": "HUReclassificationScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "HUReclassificationScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Def. registrazioni"
+        "name": "HUPhysicalInventoryScreen_Subtitle2Label",
+        "value": "Nessuna riga da scansionare per unità di carico %1. Genera il batch in Business Central e riprova."
     },
     {
         "name": "HUReclassificationScreen_FiltersComponent_FromBinTextLabel",
@@ -534,6 +494,10 @@
     {
         "name": "HUReclassificationScreen_FiltersComponent_ToLocationTextLabel",
         "value": "A ubicazione"
+    },
+    {
+        "name": "IncompleteScansMessage",
+        "value": "Rilevate scansioni incomplete. Controlla i dati e riprova."
     },
     {
         "name": "InvalidBarcodeError",
@@ -576,14 +540,6 @@
         "value": "Descrizione variante"
     },
     {
-        "name": "ItemJournalScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "ItemJournalScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Def. registrazioni"
-    },
-    {
         "name": "ItemJournalScreen_EntryType_Radio_NegativeAdjmt",
         "value": "Rettifica negativa"
     },
@@ -592,12 +548,16 @@
         "value": "Tipo rettifica"
     },
     {
-        "name": "ItemJournalScreen_FiltersComponent_BinTextLabel",
-        "value": "Collocazione"
+        "name": "ItemJournalScreen_Gallery_binCodeHeaderTextLabel",
+        "value": "Cod. collocazione"
     },
     {
-        "name": "ItemJournalScreen_FiltersComponent_LocationTextLabel",
-        "value": "Ubicazione"
+        "name": "ItemJournalScreen_Gallery_expirationDateHeaderTextLabel",
+        "value": "Data scadenza"
+    },
+    {
+        "name": "ItemJournalScreen_Gallery_locationCodeHeaderTextLabel",
+        "value": "Cod. ubicazione"
     },
     {
         "name": "ItemJournalScreen_Gallery_lotNoHeaderTextLabel",
@@ -616,24 +576,16 @@
         "value": "Nr. seriale"
     },
     {
-        "name": "ItemJournalScreen_SubHeaderContainer_binHeaderTextLabel",
-        "value": "Collocazione"
+        "name": "ItemJournalScreen_Gallery_warrantyDateHeaderTextLabel",
+        "value": "Data garanzia"
     },
     {
-        "name": "ItemJournalScreen_SubHeaderContainer_locationHeaderTextLabel",
-        "value": "Ubicazione"
+        "name": "ItemJournalScreen_SubHeaderContainer_EntryTypeHeaderTextLabel",
+        "value": "Tipo movimento"
     },
     {
         "name": "ItemNoNotFoundError",
         "value": "Nr. articolo %1 non trovato."
-    },
-    {
-        "name": "ItemReclassificationScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "ItemReclassificationScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Def. registrazioni"
     },
     {
         "name": "ItemReclassificationScreen_FiltersComponent_FromBinTextLabel",
@@ -686,22 +638,6 @@
     {
         "name": "ItemReclassificationScreen_ScreenNameSubtitle2Label",
         "value": "Riclassificazione articoli"
-    },
-    {
-        "name": "ItemTrackingReclassificationScreen_BatchesComponent_BatchTextLabel",
-        "value": "Batch"
-    },
-    {
-        "name": "ItemTrackingReclassificationScreen_BatchesComponent_JournalTemplateTextLabel",
-        "value": "Def. registrazioni"
-    },
-    {
-        "name": "ItemTrackingReclassificationScreen_FiltersComponent_BinTextLabel",
-        "value": "Collocazione"
-    },
-    {
-        "name": "ItemTrackingReclassificationScreen_FiltersComponent_LocationTextLabel",
-        "value": "Ubicazione"
     },
     {
         "name": "ItemTrackingReclassificationScreen_Gallery_binCodeHeaderTextLabel",
@@ -872,20 +808,16 @@
         "value": "Nr. pacco"
     },
     {
+        "name": "PhysicalInventoryQuantity",
+        "value": "Quantità"
+    },
+    {
         "name": "PhysicalInventoryScreen_BatchesComponent_BatchTextLabel",
         "value": "Batch"
     },
     {
         "name": "PhysicalInventoryScreen_BatchesComponent_JournalTemplateTextLabel",
         "value": "Def. registrazioni"
-    },
-    {
-        "name": "PhysicalInventoryScreen_FiltersComponent_BinTextLabel",
-        "value": "Collocazione"
-    },
-    {
-        "name": "PhysicalInventoryScreen_FiltersComponent_LocationTextLabel",
-        "value": "Ubicazione"
     },
     {
         "name": "PhysicalInventoryScreen_Gallery_binCodeHeaderTextLabel",
@@ -906,6 +838,10 @@
     {
         "name": "PhysicalInventoryScreen_Gallery_packageNoHeaderTextLabel",
         "value": "Nr. pacco"
+    },
+    {
+        "name": "PhysicalInventoryScreen_Gallery_quantityCalculatedHeaderTextLabel",
+        "value": "Qtà inventario"
     },
     {
         "name": "PhysicalInventoryScreen_Gallery_receivedQuantityHeaderTextLabel",
@@ -958,6 +894,30 @@
     {
         "name": "Quantity",
         "value": "Quantità"
+    },
+    {
+        "name": "QuantityDialogComponent_inventoryHeaderTextLabel",
+        "value": "Qtà inventario"
+    },
+    {
+        "name": "QuantityDialogComponent_lotNoHeaderTextLabel",
+        "value": "Nr. lotto"
+    },
+    {
+        "name": "QuantityDialogComponent_packageNoHeaderTextLabel",
+        "value": "Nr. pacco"
+    },
+    {
+        "name": "QuantityDialogComponent_quantityHeaderTextLabel",
+        "value": "Quantità"
+    },
+    {
+        "name": "QuantityDialogComponent_serialNoHeaderTextLabel",
+        "value": "Nr. seriale"
+    },
+    {
+        "name": "QuantityGreaterThanZeroError",
+        "value": "La quantità deve essere maggiore di zero."
     },
     {
         "name": "QuantityLimitExceededError",
