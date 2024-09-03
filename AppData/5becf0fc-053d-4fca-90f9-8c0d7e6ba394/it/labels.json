@@ -68,6 +68,14 @@
         "value": "Aggiungi membro team"
     },
     {
+        "name": "AddToolDialogActionTitle",
+        "value": "Aggiungi strumento"
+    },
+    {
+        "name": "AddToolDialogComponent_ToolNoTextLabel",
+        "value": "Nr. strumento"
+    },
+    {
         "name": "AddUnit",
         "value": "Aggiungi unità"
     },
@@ -276,6 +284,14 @@
         "value": "Sono presenti movimenti collegati all'impiegato che si vuole eliminare. Se si continua con l'eliminazione i movimenti collegati verranno chiusi."
     },
     {
+        "name": "DeleteToolActionMessage",
+        "value": "Eliminare strumento %1?"
+    },
+    {
+        "name": "DeleteToolActionTitle",
+        "value": "Elimina strumento"
+    },
+    {
         "name": "DeviationCheckActionMessage",
         "value": "Il valore inserito è conforme?"
     },
@@ -302,6 +318,10 @@
     {
         "name": "EmployeeEntriesGalleryActionTitle",
         "value": "Selezione riga ordine prod."
+    },
+    {
+        "name": "EmployeeEntriesLogGalleryActionTitle",
+        "value": "Log"
     },
     {
         "name": "EmployeeNotFound",
@@ -432,6 +452,10 @@
         "value": "KPI"
     },
     {
+        "name": "KPIActionTitle",
+        "value": "KPI"
+    },
+    {
         "name": "KPIAvailability",
         "value": "Disponibilità"
     },
@@ -448,8 +472,20 @@
         "value": "Qualità"
     },
     {
+        "name": "KPIScreen_DevicePropertiesDetailsList_propertyKey",
+        "value": "Proprietà"
+    },
+    {
+        "name": "KPIScreen_DevicePropertiesDetailsList_propertyValue",
+        "value": "Valore"
+    },
+    {
         "name": "MachineCenter",
         "value": "Centro di lavoro"
+    },
+    {
+        "name": "MachineDataIot",
+        "value": "Informazioni macchina (Azure IoT)"
     },
     {
         "name": "MachineStatusCodeActionMessage",
@@ -522,6 +558,14 @@
     {
         "name": "Notes",
         "value": "Note"
+    },
+    {
+        "name": "Notifications",
+        "value": "Notifiche"
+    },
+    {
+        "name": "NotificationsToReadNotification",
+        "value": "Sono presenti notifiche da leggere."
     },
     {
         "name": "Ok",
@@ -778,6 +822,10 @@
     {
         "name": "SingleResourceScreen_EmployeeEntries_statusHeader_TextLabel",
         "value": "Stato"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntriesLogSubtitle1Label",
+        "value": "Log"
     },
     {
         "name": "SingleResourceScreen_EmployeeEntriesSubtitle1Label",
