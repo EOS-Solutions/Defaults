@@ -2,6 +2,11 @@
     "name": "EOS default ruleset with mandatory rules",
     "rules": [
         {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "Explain placeholders in labels: ignore"
+        },
+        {
             "id": "AA0072",
             "action": "None",
             "justification": "Hungarian notation: no"
@@ -22,19 +27,9 @@
             "justification": "File name incorrect."
         },
         {
-            "id": "AS0073",
-            "action": "Error",
-            "justification": "Obsolete Tag must be set."
-        },
-        {
-            "id": "AS0075",
-            "action": "Error",
-            "justification": "Obsolete Reason must be set."
-        },
-        {
-            "id": "AS0076",
-            "action": "Error",
-            "justification": "Obsolete Tag must have a specific format."
+            "id": "AA0248",
+            "action": "None",
+            "justification": "use 'this' qualifier"
         },
         {
             "id": "AL0432",
@@ -67,19 +62,24 @@
             "justification": "List of localizations missing in AppSourceCop."
         },
         {
+            "id": "AS0073",
+            "action": "Error",
+            "justification": "Obsolete Tag must be set."
+        },
+        {
+            "id": "AS0075",
+            "action": "Error",
+            "justification": "Obsolete Reason must be set."
+        },
+        {
+            "id": "AS0076",
+            "action": "Error",
+            "justification": "Obsolete Tag must have a specific format."
+        },
+        {
             "id": "AW0011",
             "action": "None",
             "justification": "PromotedOnly: ignore"
-        },
-        {
-            "id": "AA0470",
-            "action": "None",
-            "justification": "Explain placeholders in labels: ignore"
-        },
-        {
-            "id": "AA0248",
-            "action": "None",
-            "justification": "use 'this' qualifier"
         }
     ]
 }
