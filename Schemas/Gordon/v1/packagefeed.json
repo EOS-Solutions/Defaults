@@ -21,7 +21,9 @@
             "enum": [
                 "Folder",
                 "ProGet",
-                "NuGet"
+                "NuGet",
+                "AppSourceSymbols",
+                "MS Apps"
             ]
         }
     },
@@ -148,6 +150,34 @@
                 "required": [
                     "Configuration"
                 ]
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "ProviderName": {
+                        "const": "AppSourceSymbols"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "Configuration": {}
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "ProviderName": {
+                        "const": "MS Apps"
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "Configuration": {}
+                }
             }
         }
     ]
