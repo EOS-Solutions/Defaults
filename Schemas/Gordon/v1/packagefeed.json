@@ -137,9 +137,9 @@
                                     "PublisherAndNameAndId"
                                 ]
                             },
-                            "AllowLongPackageIds": {
-                                "type": "boolean",
-                                "description": "Whether to allow package IDs longer than 100 characters."
+                            "CacheDuration": {
+                                "type": "integer",
+                                "description": "Specifies the maximum internal Nuget cache age (in seconds) for this feed. Set this to 0 (zero) to disable caching entirely. If you don't specify this, the default cache (30min) will be used."
                             }
                         },
                         "required": [
