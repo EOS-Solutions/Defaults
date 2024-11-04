@@ -162,6 +162,10 @@
             "items": {
                 "type": "string"
             }
+        },
+        "IncludeTestDependencies": {
+            "type": "boolean",
+            "description": "Specifies whether test dependencies should be added (=true), removed (=false) or left as is (=null)."
         }
     }
 }
