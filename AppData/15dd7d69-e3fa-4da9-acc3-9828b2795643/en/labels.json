@@ -372,6 +372,14 @@
         "value": "Edit pkg. instruction"
     },
     {
+        "name": "Fast",
+        "value": "Fast"
+    },
+    {
+        "name": "Group",
+        "value": "Group"
+    },
+    {
         "name": "HandlingUnit",
         "value": "HU"
     },
@@ -748,6 +756,10 @@
         "value": "Warranty Date"
     },
     {
+        "name": "Line",
+        "value": "Line"
+    },
+    {
         "name": "Lines",
         "value": "Lines"
     },
@@ -964,10 +976,6 @@
         "value": "P&P"
     },
     {
-        "name": "PickingSelectionScreen_Gallery_referenceDateHeaderTextLabel",
-        "value": "Reference Date"
-    },
-    {
         "name": "Positive Adjmt.",
         "value": "Positive Adjmt."
     },
@@ -994,10 +1002,6 @@
     {
         "name": "PurchaseReturnShipmentSelectionScreen_Gallery_referenceDateHeaderTextLabel",
         "value": "Expected Receipt Date"
-    },
-    {
-        "name": "PutAwaySelectionScreen_Gallery_referenceDateHeaderTextLabel",
-        "value": "Reference Date"
     },
     {
         "name": "Quantity",
@@ -1090,6 +1094,10 @@
     {
         "name": "SetAutoTrack",
         "value": "Set automatic tracking for new lines"
+    },
+    {
+        "name": "SetScanMode",
+        "value": "Set scan mode"
     },
     {
         "name": "SetScanSetup",
