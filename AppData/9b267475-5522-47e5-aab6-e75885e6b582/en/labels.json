@@ -105,7 +105,7 @@
     },
     {
         "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_predictedMaintenanceTime",
-        "value": "Maintenance Time"
+        "value": "Maintenance Time (Hours)"
     },
     {
         "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_resourceGroupNo",
@@ -234,6 +234,10 @@
     {
         "name": "MachineDetailsScreen_DataSelection_Picture_Radio",
         "value": "Picture"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_Risks_Radio",
+        "value": "Risks"
     },
     {
         "name": "MachineDetailsScreen_DataSelection_SpareParts_Radio",

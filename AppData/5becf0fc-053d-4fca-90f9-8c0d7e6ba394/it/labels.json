@@ -1,5 +1,185 @@
 [
     {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_employeeEntryEntity_Field1",
+        "value": "Ordine"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_employeeEntryEntity_Field10",
+        "value": "Codice scarto"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_employeeEntryEntity_Field2",
+        "value": "Operazione"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_employeeEntryEntity_Field3",
+        "value": "Descrizione"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_employeeEntryEntity_Field4",
+        "value": "Nr. impiegato"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_employeeEntryEntity_Field5",
+        "value": "Qtà"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_employeeEntryEntity_Field6",
+        "value": "Nr. area produzione"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_employeeEntryEntity_Field7",
+        "value": "Qtà"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_employeeEntryEntity_Field8",
+        "value": "Qtà"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_employeeEntryEntity_Field9",
+        "value": "Qtà"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_routingEntity_Field10",
+        "value": "Cod. gruppo aree prod."
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_routingEntity_Field6",
+        "value": "Tempo setup"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_routingEntity_Field7",
+        "value": "Tempo lavorazione"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_routingEntity_Field8",
+        "value": "Descrizione"
+    },
+    {
+        "name": "{0D444A20-5AAE-44A5-BA70-BADB752F6E36}_routingEntity_Field9",
+        "value": "Nr. area produzione"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_employeeEntryEntity_Field1",
+        "value": "Ordine"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_employeeEntryEntity_Field2",
+        "value": "Operazione"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_employeeEntryEntity_Field3",
+        "value": "Descrizione"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_employeeEntryEntity_Field4",
+        "value": "Nr. impiegato"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_employeeEntryEntity_Field5",
+        "value": "Data registrazione"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_employeeEntryEntity_Field6",
+        "value": "Tempo registrazione"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_employeeEntryEntity_Field7",
+        "value": "Descrizione operazione"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_employeeEntryEntity_Field8",
+        "value": "Nr. pinzatura"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_employeeEntryEntity_Field9",
+        "value": "Codice fermo"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_routingEntity_Field10",
+        "value": "Codice task"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_routingEntity_Field5",
+        "value": "Qtà"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_routingEntity_Field6",
+        "value": "Operazione successiva"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_routingEntity_Field7",
+        "value": "Descrizione"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_routingEntity_Field8",
+        "value": "Tempo esecuzione"
+    },
+    {
+        "name": "{1BFC8A33-57CA-4C9E-ACC6-2D4386350C4E}_routingEntity_Field9",
+        "value": "Tempo setup"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_employeeEntryEntity_Field1",
+        "value": "Ordine"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_employeeEntryEntity_Field10",
+        "value": "Qtà"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_employeeEntryEntity_Field2",
+        "value": "Operazione"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_employeeEntryEntity_Field3",
+        "value": "Descrizione"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_employeeEntryEntity_Field4",
+        "value": "Nr. impiegato"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_employeeEntryEntity_Field5",
+        "value": "Qtà"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_employeeEntryEntity_Field6",
+        "value": "Qtà"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_employeeEntryEntity_Field7",
+        "value": "Qtà"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_employeeEntryEntity_Field8",
+        "value": "Qtà"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_employeeEntryEntity_Field9",
+        "value": "Qtà"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_routingEntity_Field10",
+        "value": "Qtà"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_routingEntity_Field6",
+        "value": "Qtà"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_routingEntity_Field7",
+        "value": "Qtà"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_routingEntity_Field8",
+        "value": "Qtà"
+    },
+    {
+        "name": "{D0F056B1-61FF-498A-B277-32CB0AA383DF}_routingEntity_Field9",
+        "value": "Qtà"
+    },
+    {
         "name": "Actions",
         "value": "Azioni"
     },
@@ -68,12 +248,8 @@
         "value": "Aggiungi membro team"
     },
     {
-        "name": "AddToolDialogActionTitle",
+        "name": "AddToolActionTitle",
         "value": "Aggiungi strumento"
-    },
-    {
-        "name": "AddToolDialogComponent_ToolNoTextLabel",
-        "value": "Nr. strumento"
     },
     {
         "name": "AddUnit",
@@ -209,7 +385,7 @@
     },
     {
         "name": "ConfirmComponentsActionTitle",
-        "value": "Conferma componenti"
+        "value": "Modifica quantità "
     },
     {
         "name": "ConfirmComponentsScreen_RowsDataGallery_actualQtyBase_TextLabel",
@@ -221,7 +397,7 @@
     },
     {
         "name": "ConfirmComponentsScreen_ScreenNameSubtitle2Label",
-        "value": "Conferma componenti"
+        "value": "Modifica quantità "
     },
     {
         "name": "Delete",
@@ -696,20 +872,20 @@
         "value": "Sostituisci componente"
     },
     {
+        "name": "ReplaceComponentDialogComponent_ActualItemNoTextLabel",
+        "value": "Nr. articolo attuale"
+    },
+    {
+        "name": "ReplaceComponentDialogComponent_ActualItemVariantCodeTextLabel",
+        "value": "Codice variante attuale"
+    },
+    {
         "name": "ReplaceComponentDialogComponent_NewItemNoTextLabel",
         "value": "Nr. articolo nuovo"
     },
     {
         "name": "ReplaceComponentDialogComponent_NewItemVariantTextLabel",
         "value": "Codice variante nuovo"
-    },
-    {
-        "name": "ReplaceComponentDialogComponent_PreviousItemNoTextLabel",
-        "value": "Nr. articolo precedente"
-    },
-    {
-        "name": "ReplaceComponentDialogComponent_PreviousItemVariantCodeTextLabel",
-        "value": "Codice variante precedente"
     },
     {
         "name": "ResourceSelectionScreen_CurrentScreenHintAltLabel",
@@ -798,6 +974,10 @@
     {
         "name": "Settings",
         "value": "Impostazioni"
+    },
+    {
+        "name": "SingleResourceDetailsScreen_InputDialogComponent_ToolNo",
+        "value": "Nr. strumento"
     },
     {
         "name": "SingleResourceScreen_EmployeeEntries_badgeNoHeader_TextLabel",
@@ -1104,10 +1284,6 @@
         "value": "Codice rilavorazione"
     },
     {
-        "name": "SingleResourceScreen_TextViewComponent_EmptyText",
-        "value": "Nessun commento disponibile"
-    },
-    {
         "name": "Status",
         "value": "Stati"
     },
@@ -1118,6 +1294,22 @@
     {
         "name": "SubstituteComponentActionTitle",
         "value": "Componenti sostitutivi"
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_ActualItemNoTextLabel",
+        "value": "Nr. articolo attuale"
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_ActualItemVariantCodeTextLabel",
+        "value": "Codice variante attuale"
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_NewItemNoTextLabel",
+        "value": "Nr. articolo nuovo"
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_NewItemVariantTextLabel",
+        "value": "Codice variante nuovo"
     },
     {
         "name": "Synchronize",
@@ -1330,6 +1522,10 @@
     {
         "name": "ToolsViewComponent_ProdOrderTools_statusHeader_TextLabel",
         "value": "Stato"
+    },
+    {
+        "name": "Totals",
+        "value": "Totali"
     },
     {
         "name": "TrackedComponentsViewComponent_remainingQtyBaseHeader_TextLabel",

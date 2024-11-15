@@ -372,6 +372,14 @@
         "value": "Modifica materiale imb."
     },
     {
+        "name": "Fast",
+        "value": "Per documento"
+    },
+    {
+        "name": "Group",
+        "value": "Per gruppo"
+    },
+    {
         "name": "HandlingUnit",
         "value": "UdC"
     },
@@ -748,6 +756,10 @@
         "value": "Data garanzia"
     },
     {
+        "name": "Line",
+        "value": "Riga"
+    },
+    {
         "name": "Lines",
         "value": "Righe"
     },
@@ -964,10 +976,6 @@
         "value": "P&P"
     },
     {
-        "name": "PickingSelectionScreen_Gallery_referenceDateHeaderTextLabel",
-        "value": "Data riferimento"
-    },
-    {
         "name": "Positive Adjmt.",
         "value": "Rettifica positiva"
     },
@@ -994,10 +1002,6 @@
     {
         "name": "PurchaseReturnShipmentSelectionScreen_Gallery_referenceDateHeaderTextLabel",
         "value": "Data ricezione prevista"
-    },
-    {
-        "name": "PutAwaySelectionScreen_Gallery_referenceDateHeaderTextLabel",
-        "value": "Data riferimento"
     },
     {
         "name": "Quantity",
@@ -1090,6 +1094,10 @@
     {
         "name": "SetAutoTrack",
         "value": "Imposta tracciabilità automatica per le nuove righe"
+    },
+    {
+        "name": "SetScanMode",
+        "value": "Imposta modalità scansione"
     },
     {
         "name": "SetScanSetup",
