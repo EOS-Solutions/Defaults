@@ -188,6 +188,50 @@
         "value": "Create"
     },
     {
+        "name": "CustomActivityLineSelectionScreen_Gallery_autoTrackCheckbox",
+        "value": "Automatic traking"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_binHeaderTextLabel",
+        "value": "Bin"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_expirationDateHeaderTextLabel",
+        "value": "Expiration Date"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_handlingUnitNoHeaderTextLabel",
+        "value": "Handling Unit No."
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_locationHeaderTextLabel",
+        "value": "Location"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_lotNoHeaderTextLabel",
+        "value": "Lot No."
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_outstandingQuantityHeaderTextLabel",
+        "value": "Qty. to handle"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_packageNoHeaderTextLabel",
+        "value": "Package No."
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_receivedQuantityHeaderTextLabel",
+        "value": "Handled Qty."
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_serialNoHeaderTextLabel",
+        "value": "Serial No."
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_warrantyDateHeaderTextLabel",
+        "value": "Warranty Date"
+    },
+    {
         "name": "Delete",
         "value": "Delete"
     },
@@ -257,7 +301,7 @@
     },
     {
         "name": "DocumentLineDetailsScreen_outstandingQuantityHeaderTextLabel",
-        "value": "Outstanding Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "DocumentLineDetailsScreen_receivedQuantityHeaderTextLabel",
