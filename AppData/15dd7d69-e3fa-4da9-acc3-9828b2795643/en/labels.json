@@ -17,7 +17,7 @@
     },
     {
         "name": "AutomaticQuantityAssignmentWarning",
-        "value": "Can't assign quantity automatically. Select a line and rescan the barcode."
+        "value": "Can't assign quantity automatically. Select a row to assign it to."
     },
     {
         "name": "Back",
@@ -148,6 +148,10 @@
         "value": "Lot No."
     },
     {
+        "name": "BinContentTrackingSelectionScreen_SubHeaderContainer_packageNoHeaderTextLabel",
+        "value": "Package No."
+    },
+    {
         "name": "BinContentTrackingSelectionScreen_SubHeaderContainer_serialNoHeaderTextLabel",
         "value": "Serial No."
     },
@@ -182,6 +186,50 @@
     {
         "name": "Create",
         "value": "Create"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_autoTrackCheckbox",
+        "value": "Automatic traking"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_binHeaderTextLabel",
+        "value": "Bin"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_expirationDateHeaderTextLabel",
+        "value": "Expiration Date"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_handlingUnitNoHeaderTextLabel",
+        "value": "Handling Unit No."
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_locationHeaderTextLabel",
+        "value": "Location"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_lotNoHeaderTextLabel",
+        "value": "Lot No."
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_outstandingQuantityHeaderTextLabel",
+        "value": "Qty. to handle"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_packageNoHeaderTextLabel",
+        "value": "Package No."
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_receivedQuantityHeaderTextLabel",
+        "value": "Handled Qty."
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_serialNoHeaderTextLabel",
+        "value": "Serial No."
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_warrantyDateHeaderTextLabel",
+        "value": "Warranty Date"
     },
     {
         "name": "Delete",
@@ -225,7 +273,7 @@
     },
     {
         "name": "DocumentLineDetailsScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Received Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "DocumentLineDetailsScreen_Gallery_serialNoHeaderTextLabel",
@@ -253,11 +301,11 @@
     },
     {
         "name": "DocumentLineDetailsScreen_outstandingQuantityHeaderTextLabel",
-        "value": "Outstanding Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "DocumentLineDetailsScreen_receivedQuantityHeaderTextLabel",
-        "value": "Received Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "DocumentLineDetailsScreen_ReservationsGallery_expirationDateHeaderTextLabel",
@@ -305,7 +353,7 @@
     },
     {
         "name": "DocumentLineSelectionScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Received Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "DocumentLineSelectionScreen_PackagingGallery_loadCarrierNoHeaderTextLabel",
@@ -376,6 +424,10 @@
         "value": "Fast"
     },
     {
+        "name": "Filter",
+        "value": "Filter"
+    },
+    {
         "name": "Group",
         "value": "Group"
     },
@@ -417,7 +469,7 @@
     },
     {
         "name": "HUDetailsScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Received Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "HUDetailsScreen_Gallery_serialNoHeaderTextLabel",
@@ -445,7 +497,7 @@
     },
     {
         "name": "HUItemReclassificationScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Received Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "HUItemReclassificationScreen_Gallery_serialNoHeaderTextLabel",
@@ -485,7 +537,7 @@
     },
     {
         "name": "HUJournalScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Received Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "HUJournalScreen_Gallery_serialNoHeaderTextLabel",
@@ -545,7 +597,7 @@
     },
     {
         "name": "HUPhysicalInventoryScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Received Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "HUPhysicalInventoryScreen_Gallery_serialNoHeaderTextLabel",
@@ -649,7 +701,7 @@
     },
     {
         "name": "ItemJournalScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Received Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "ItemJournalScreen_Gallery_serialNoHeaderTextLabel",
@@ -705,7 +757,7 @@
     },
     {
         "name": "ItemReclassificationScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Received Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "ItemReclassificationScreen_Gallery_serialNoHeaderTextLabel",
@@ -745,7 +797,7 @@
     },
     {
         "name": "ItemTrackingReclassificationScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Received Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "ItemTrackingReclassificationScreen_Gallery_serialNoHeaderTextLabel",
@@ -961,7 +1013,7 @@
     },
     {
         "name": "PhysicalInventoryScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Received Qty."
+        "value": "Handled Qty."
     },
     {
         "name": "PhysicalInventoryScreen_Gallery_serialNoHeaderTextLabel",
@@ -974,6 +1026,18 @@
     {
         "name": "PickAndPack",
         "value": "P&P"
+    },
+    {
+        "name": "PickingLineSelectionScreen_HUComponent_HandlingUnitNoTextLabel",
+        "value": "Handling Unit No."
+    },
+    {
+        "name": "PickingLineSelectionScreen_HUComponent_PackagingMaterialTextLabel",
+        "value": "Packaging Material"
+    },
+    {
+        "name": "PickingLineSelectionScreen_HUComponent_ParentHandlingUnitNoTextLabel",
+        "value": "Parent Handling Unit No."
     },
     {
         "name": "Positive Adjmt.",
@@ -1112,6 +1176,10 @@
         "value": "Suggest"
     },
     {
+        "name": "SuggestionMethodComponent_ActionTextLabel",
+        "value": "Suggestion method"
+    },
+    {
         "name": "SuggestPackagingInstructionTitle",
         "value": "Suggest pkg. list"
     },
@@ -1214,17 +1282,5 @@
     {
         "name": "WarehouseShipmentSelectionScreen_Gallery_referenceDateHeaderTextLabel",
         "value": "Reference Date"
-    },
-    {
-        "name": "WMS_ItemActionsComponent_ActionTextLabel",
-        "value": "Actions"
-    },
-    {
-        "name": "WMS_PickingLineSelectionScreen_HUComponent_ParentHandlingUnitNoTextLabel",
-        "value": "Parent Handling Unit No."
-    },
-    {
-        "name": "WMS_SuggestionMethodComponent_ActionTextLabel",
-        "value": "Suggestion method"
     }
 ]
