@@ -166,6 +166,10 @@
         "IncludeTestDependencies": {
             "type": "boolean",
             "description": "Specifies whether test dependencies should be added (=true), removed (=false) or left as is (=null)."
+        },
+        "KeepBuildFolder": {
+            "type": "boolean",
+            "description": "Specifies if the temporary folder that is used for building the project is kept after the build completes. If this is null or false (default) the folder is deleted."
         }
     }
 }
