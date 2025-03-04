@@ -76,6 +76,10 @@
         "value": "Cambia stato"
     },
     {
+        "name": "ChangeUserActionTitle",
+        "value": "Cambia utente"
+    },
+    {
         "name": "ChangeWorkRequestStatusActionTitle",
         "value": "Cambia stato richiesta lavoro"
     },
@@ -176,6 +180,10 @@
         "value": "In corso"
     },
     {
+        "name": "ItemDetailsActionTitle",
+        "value": "Dettagli articolo"
+    },
+    {
         "name": "Machine",
         "value": "Macchina"
     },
@@ -210,6 +218,10 @@
     {
         "name": "MachineDetailsScreen_ComponentsDataGallery_startingDateHeader_TextLabel",
         "value": "Data inizio"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_Actions_Radio",
+        "value": "Azioni"
     },
     {
         "name": "MachineDetailsScreen_DataSelection_Attachments_Radio",
@@ -444,6 +456,10 @@
         "value": "Richiesta ricambio"
     },
     {
+        "name": "PostItemRequestDialogComponent_ItemNoTextLabel",
+        "value": "Nr. articolo"
+    },
+    {
         "name": "PostItemRequestDialogComponent_QuantityTextLabel",
         "value": "Quantità"
     },
@@ -462,6 +478,14 @@
     {
         "name": "ReleasedHighPriority",
         "value": "Rilasciato alta priorità"
+    },
+    {
+        "name": "ReleasedLowPriority",
+        "value": "Rilasciato bassa priorità"
+    },
+    {
+        "name": "ReleasedMediumPriority",
+        "value": "Rilasciato media priority"
     },
     {
         "name": "RemoveUnit",
@@ -562,6 +586,10 @@
     {
         "name": "WorkRequestDetailsScreen_ActivitiesHeaderContainer_parameterNoHeader_TextLabel",
         "value": "Nr. parametro"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_DataSelection_Actions_Radio",
+        "value": "Azioni"
     },
     {
         "name": "WorkRequestDetailsScreen_DataSelection_Activities_Radio",
