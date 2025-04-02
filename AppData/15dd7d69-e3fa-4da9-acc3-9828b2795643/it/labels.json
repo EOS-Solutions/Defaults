@@ -4,6 +4,10 @@
         "value": "Azioni"
     },
     {
+        "name": "Add",
+        "value": "Aggiungi"
+    },
+    {
         "name": "AddUnit",
         "value": "Aggiungi unità"
     },
@@ -13,7 +17,7 @@
     },
     {
         "name": "AutomaticQuantityAssignmentWarning",
-        "value": "Impossibile assegnare automaticamente la quantità. Seleziona una riga e riscansiona il barcode."
+        "value": "Impossibile assegnare automaticamente la quantità. Seleziona una riga su cui assegnarla."
     },
     {
         "name": "Back",
@@ -44,10 +48,6 @@
         "value": "Zona"
     },
     {
-        "name": "BinContentBinSelectionScreen_ScreenNameSubtitle2Label",
-        "value": "Cont. coll. per collocazione"
-    },
-    {
         "name": "BinContentBinSelectionScreen_SubHeaderContainer_binHeaderTextLabel",
         "value": "Collocazione"
     },
@@ -74,10 +74,6 @@
     {
         "name": "BinContentItemSelectionScreen_Gallery_zoneHeaderTextLabel",
         "value": "Zona"
-    },
-    {
-        "name": "BinContentItemSelectionScreen_ScreenNameSubtitle2Label",
-        "value": "Cont. coll. per articolo"
     },
     {
         "name": "BinContentItemSelectionScreen_SubHeaderContainer_itemNoHeaderTextLabel",
@@ -144,16 +140,16 @@
         "value": "Zona"
     },
     {
-        "name": "BinContentTrackingSelectionScreen_ScreenNameSubtitle2Label",
-        "value": "Cont. coll. per tracciabilità"
-    },
-    {
         "name": "BinContentTrackingSelectionScreen_SubHeaderContainer_locationHeaderTextLabel",
         "value": "Ubicazione"
     },
     {
         "name": "BinContentTrackingSelectionScreen_SubHeaderContainer_lotNoHeaderTextLabel",
         "value": "Nr. lotto"
+    },
+    {
+        "name": "BinContentTrackingSelectionScreen_SubHeaderContainer_packageNoHeaderTextLabel",
+        "value": "Nr. pacco"
     },
     {
         "name": "BinContentTrackingSelectionScreen_SubHeaderContainer_serialNoHeaderTextLabel",
@@ -170,10 +166,6 @@
     {
         "name": "BinReclassificationScreen_FiltersComponent_ToBinTextLabel",
         "value": "A collocazione"
-    },
-    {
-        "name": "BinReclassificationScreen_ScreenNameSubtitle2Label",
-        "value": "Riclassificazione collocazione"
     },
     {
         "name": "Cancel",
@@ -194,6 +186,50 @@
     {
         "name": "Create",
         "value": "Crea"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_autoTrackCheckbox",
+        "value": "Tracciabilità automatica"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_binHeaderTextLabel",
+        "value": "Collocazione"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_expirationDateHeaderTextLabel",
+        "value": "Data scadenza"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_handlingUnitNoHeaderTextLabel",
+        "value": "Nr. unità di carico"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_locationHeaderTextLabel",
+        "value": "Ubicazione"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_lotNoHeaderTextLabel",
+        "value": "Nr. lotto"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_outstandingQuantityHeaderTextLabel",
+        "value": "Qtà da gestire"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_packageNoHeaderTextLabel",
+        "value": "Nr. pacco"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_receivedQuantityHeaderTextLabel",
+        "value": "Qtà gestita"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_serialNoHeaderTextLabel",
+        "value": "Nr. seriale"
+    },
+    {
+        "name": "CustomActivityLineSelectionScreen_Gallery_warrantyDateHeaderTextLabel",
+        "value": "Data garanzia"
     },
     {
         "name": "Delete",
@@ -224,6 +260,10 @@
         "value": "Data scadenza"
     },
     {
+        "name": "DocumentLineDetailsScreen_Gallery_handlingUnitNoHeaderTextLabel",
+        "value": "Nr. unità di carico"
+    },
+    {
         "name": "DocumentLineDetailsScreen_Gallery_lotNoHeaderTextLabel",
         "value": "Nr. lotto"
     },
@@ -233,7 +273,7 @@
     },
     {
         "name": "DocumentLineDetailsScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Qtà ricevuta"
+        "value": "Qtà gestita"
     },
     {
         "name": "DocumentLineDetailsScreen_Gallery_serialNoHeaderTextLabel",
@@ -242,6 +282,10 @@
     {
         "name": "DocumentLineDetailsScreen_Gallery_warrantyDateHeaderTextLabel",
         "value": "Data garanzia"
+    },
+    {
+        "name": "DocumentLineDetailsScreen_handlingUnitNoHeaderTextLabel",
+        "value": "Nr. unità di carico"
     },
     {
         "name": "DocumentLineDetailsScreen_itemIdHeaderTextLabel",
@@ -257,11 +301,11 @@
     },
     {
         "name": "DocumentLineDetailsScreen_outstandingQuantityHeaderTextLabel",
-        "value": "Qtà inevasa"
+        "value": "Qtà gestita"
     },
     {
         "name": "DocumentLineDetailsScreen_receivedQuantityHeaderTextLabel",
-        "value": "Qtà ricevuta"
+        "value": "Qtà gestita"
     },
     {
         "name": "DocumentLineDetailsScreen_ReservationsGallery_expirationDateHeaderTextLabel",
@@ -309,7 +353,35 @@
     },
     {
         "name": "DocumentLineSelectionScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Qtà ricevuta"
+        "value": "Qtà gestita"
+    },
+    {
+        "name": "DocumentLineSelectionScreen_PackagingGallery_loadCarrierNoHeaderTextLabel",
+        "value": "Nr. portacarico"
+    },
+    {
+        "name": "DocumentLineSelectionScreen_PackagingGallery_maxHeightMmHeaderTextLabel",
+        "value": "Max altezza (mm)"
+    },
+    {
+        "name": "DocumentLineSelectionScreen_PackagingGallery_noOfLayersHeaderTextLabel",
+        "value": "Nr. strati"
+    },
+    {
+        "name": "DocumentLineSelectionScreen_PackagingGallery_packagingInstructionNoHeaderTextLabel",
+        "value": "Nr. istruzioni imb."
+    },
+    {
+        "name": "DocumentLineSelectionScreen_PackagingGallery_packagingMaterialNoHeaderTextLabel",
+        "value": "Nr. materiale imb."
+    },
+    {
+        "name": "DocumentLineSelectionScreen_PackagingGallery_qtyPerLayerHeaderTextLabel",
+        "value": "Qtà per strato"
+    },
+    {
+        "name": "DocumentLineSelectionScreen_PackagingGallery_quantityHeaderTextLabel",
+        "value": "Qtà"
     },
     {
         "name": "DocumentLineSelectionScreen_ReservationsGallery_expirationDateHeaderTextLabel",
@@ -344,8 +416,24 @@
         "value": "Modifica"
     },
     {
+        "name": "EditPackagingInstructionTitle",
+        "value": "Modifica materiale imb."
+    },
+    {
+        "name": "Fast",
+        "value": "Per documento"
+    },
+    {
+        "name": "Filter",
+        "value": "Filtri"
+    },
+    {
+        "name": "Group",
+        "value": "Per gruppo"
+    },
+    {
         "name": "HandlingUnit",
-        "value": "Unità carico"
+        "value": "UdC"
     },
     {
         "name": "HUCreationScreen_FieldsEditorComponent_binCode",
@@ -381,15 +469,59 @@
     },
     {
         "name": "HUDetailsScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Qtà ricevuta"
+        "value": "Qtà gestita"
     },
     {
         "name": "HUDetailsScreen_Gallery_serialNoHeaderTextLabel",
         "value": "Nr. seriale"
     },
     {
+        "name": "HUItemReclassificationScreen_Gallery_expirationDateHeaderTextLabel",
+        "value": "Data scadenza"
+    },
+    {
+        "name": "HUItemReclassificationScreen_Gallery_fromToHandlingUnitNoHeaderTextLabel",
+        "value": "Da/A Unità di carico"
+    },
+    {
+        "name": "HUItemReclassificationScreen_Gallery_handlingUnitNoHeaderTextLabel",
+        "value": "Nr. unità di carico"
+    },
+    {
+        "name": "HUItemReclassificationScreen_Gallery_lotNoHeaderTextLabel",
+        "value": "Nr. lotto"
+    },
+    {
+        "name": "HUItemReclassificationScreen_Gallery_packageNoHeaderTextLabel",
+        "value": "Nr. pacco"
+    },
+    {
+        "name": "HUItemReclassificationScreen_Gallery_receivedQuantityHeaderTextLabel",
+        "value": "Qtà gestita"
+    },
+    {
+        "name": "HUItemReclassificationScreen_Gallery_serialNoHeaderTextLabel",
+        "value": "Nr. seriale"
+    },
+    {
+        "name": "HUItemReclassificationScreen_Gallery_warrantyDateHeaderTextLabel",
+        "value": "Data garanzia"
+    },
+    {
+        "name": "HUItemReclassificationScreen_HUComponent_FromHandlingUnitNoTextLabel",
+        "value": "Unità carico di origine"
+    },
+    {
+        "name": "HUItemReclassificationScreen_HUComponent_ToHandlingUnitNoTextLabel",
+        "value": "Unità carico di destinazione"
+    },
+    {
         "name": "HUJournalScreen_Gallery_binCodeHeaderTextLabel",
         "value": "Cod. collocazione"
+    },
+    {
+        "name": "HUJournalScreen_Gallery_expirationDateHeaderTextLabel",
+        "value": "Data scadenza"
     },
     {
         "name": "HUJournalScreen_Gallery_locationCodeHeaderTextLabel",
@@ -405,11 +537,15 @@
     },
     {
         "name": "HUJournalScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Qtà ricevuta"
+        "value": "Qtà gestita"
     },
     {
         "name": "HUJournalScreen_Gallery_serialNoHeaderTextLabel",
         "value": "Nr. seriale"
+    },
+    {
+        "name": "HUJournalScreen_Gallery_warrantyDateHeaderTextLabel",
+        "value": "Data garanzia"
     },
     {
         "name": "HUJournalScreen_HUComponent_HandlingUnitNoTextLabel",
@@ -461,7 +597,7 @@
     },
     {
         "name": "HUPhysicalInventoryScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Qtà ricevuta"
+        "value": "Qtà gestita"
     },
     {
         "name": "HUPhysicalInventoryScreen_Gallery_serialNoHeaderTextLabel",
@@ -474,10 +610,6 @@
     {
         "name": "HUPhysicalInventoryScreen_HUComponent_HandlingUnitNoTextLabel",
         "value": "Nr. unità di carico"
-    },
-    {
-        "name": "HUPhysicalInventoryScreen_Subtitle2Label",
-        "value": "Nessuna riga da scansionare per unità di carico %1. Genera il batch in Business Central e riprova."
     },
     {
         "name": "HUReclassificationScreen_FiltersComponent_FromBinTextLabel",
@@ -569,7 +701,7 @@
     },
     {
         "name": "ItemJournalScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Qtà ricevuta"
+        "value": "Qtà gestita"
     },
     {
         "name": "ItemJournalScreen_Gallery_serialNoHeaderTextLabel",
@@ -625,7 +757,7 @@
     },
     {
         "name": "ItemReclassificationScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Qtà ricevuta"
+        "value": "Qtà gestita"
     },
     {
         "name": "ItemReclassificationScreen_Gallery_serialNoHeaderTextLabel",
@@ -634,10 +766,6 @@
     {
         "name": "ItemReclassificationScreen_Gallery_warrantyDateHeaderTextLabel",
         "value": "Data garanzia"
-    },
-    {
-        "name": "ItemReclassificationScreen_ScreenNameSubtitle2Label",
-        "value": "Riclassificazione articoli"
     },
     {
         "name": "ItemTrackingReclassificationScreen_Gallery_binCodeHeaderTextLabel",
@@ -656,12 +784,20 @@
         "value": "Nr. lotto"
     },
     {
+        "name": "ItemTrackingReclassificationScreen_Gallery_newExpirationDateHeaderTextLabel",
+        "value": "Nuova data scadenza"
+    },
+    {
+        "name": "ItemTrackingReclassificationScreen_Gallery_newWarrantyDateHeaderTextLabel",
+        "value": "Nuova data garanzaia"
+    },
+    {
         "name": "ItemTrackingReclassificationScreen_Gallery_packageNoHeaderTextLabel",
         "value": "Nr. pacco"
     },
     {
         "name": "ItemTrackingReclassificationScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Qtà ricevuta"
+        "value": "Qtà gestita"
     },
     {
         "name": "ItemTrackingReclassificationScreen_Gallery_serialNoHeaderTextLabel",
@@ -670,6 +806,10 @@
     {
         "name": "ItemTrackingReclassificationScreen_Gallery_warrantyDateHeaderTextLabel",
         "value": "Data garanzia"
+    },
+    {
+        "name": "Line",
+        "value": "Riga"
     },
     {
         "name": "Lines",
@@ -808,6 +948,34 @@
         "value": "Nr. pacco"
     },
     {
+        "name": "PackagingList",
+        "value": "Pkg. List"
+    },
+    {
+        "name": "PackingListGalleryDialogComponent_DataGallery_lotNoHeaderTextLabel",
+        "value": "Nr. lotto"
+    },
+    {
+        "name": "PackingListGalleryDialogComponent_DataGallery_noOfLoadCarriersHeaderTextLabel",
+        "value": "Nr. di portapacchi"
+    },
+    {
+        "name": "PackingListGalleryDialogComponent_DataGallery_noOfParcelsHeaderTextLabel",
+        "value": "Nr. di colli"
+    },
+    {
+        "name": "PackingListGalleryDialogComponent_DataGallery_quantityBaseHeaderTextLabel",
+        "value": "Qtà (base)"
+    },
+    {
+        "name": "PackingListGalleryDialogComponent_DataGallery_quantityHeaderTextLabel",
+        "value": "Qtà"
+    },
+    {
+        "name": "PackingListGalleryDialogComponent_DataGallery_serialNoHeaderTextLabel",
+        "value": "Nr. seriale"
+    },
+    {
         "name": "PhysicalInventoryQuantity",
         "value": "Quantità"
     },
@@ -845,7 +1013,7 @@
     },
     {
         "name": "PhysicalInventoryScreen_Gallery_receivedQuantityHeaderTextLabel",
-        "value": "Qtà ricevuta"
+        "value": "Qtà gestita"
     },
     {
         "name": "PhysicalInventoryScreen_Gallery_serialNoHeaderTextLabel",
@@ -856,8 +1024,20 @@
         "value": "Data garanzia"
     },
     {
-        "name": "PickingSelectionScreen_Gallery_referenceDateHeaderTextLabel",
-        "value": "Data riferimento"
+        "name": "PickAndPack",
+        "value": "P&P"
+    },
+    {
+        "name": "PickingLineSelectionScreen_HUComponent_HandlingUnitNoTextLabel",
+        "value": "Nr. unità di carico"
+    },
+    {
+        "name": "PickingLineSelectionScreen_HUComponent_PackagingMaterialTextLabel",
+        "value": "Materiale di imballaggio"
+    },
+    {
+        "name": "PickingLineSelectionScreen_HUComponent_ParentHandlingUnitNoTextLabel",
+        "value": "Nr. unità di carico padre"
     },
     {
         "name": "Positive Adjmt.",
@@ -886,10 +1066,6 @@
     {
         "name": "PurchaseReturnShipmentSelectionScreen_Gallery_referenceDateHeaderTextLabel",
         "value": "Data ricezione prevista"
-    },
-    {
-        "name": "PutAwaySelectionScreen_Gallery_referenceDateHeaderTextLabel",
-        "value": "Data riferimento"
     },
     {
         "name": "Quantity",
@@ -922,6 +1098,14 @@
     {
         "name": "QuantityLimitExceededError",
         "value": "È stato raggiunto il limite quantità"
+    },
+    {
+        "name": "ReclassFromHU",
+        "value": "Riclassifica da questa unità di carico"
+    },
+    {
+        "name": "ReclassToHU",
+        "value": "Riclassifica a questa unità di carico"
     },
     {
         "name": "RemoveUnit",
@@ -976,12 +1160,28 @@
         "value": "Imposta tracciabilità automatica per le nuove righe"
     },
     {
+        "name": "SetScanMode",
+        "value": "Imposta modalità scansione"
+    },
+    {
         "name": "SetScanSetup",
         "value": "Imposta setup scansione"
     },
     {
         "name": "Settings",
         "value": "Impostazioni"
+    },
+    {
+        "name": "Suggest",
+        "value": "Suggerisci"
+    },
+    {
+        "name": "SuggestionMethodComponent_ActionTextLabel",
+        "value": "Metodo suggerimento"
+    },
+    {
+        "name": "SuggestPackagingInstructionTitle",
+        "value": "Suggerisci pkg. list"
     },
     {
         "name": "Synchronize",
@@ -1082,9 +1282,5 @@
     {
         "name": "WarehouseShipmentSelectionScreen_Gallery_referenceDateHeaderTextLabel",
         "value": "Data riferimento"
-    },
-    {
-        "name": "WMS_ItemActionsComponent_ActionTextLabel",
-        "value": ""
     }
 ]

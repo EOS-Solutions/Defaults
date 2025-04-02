@@ -76,6 +76,10 @@
         "value": "Cambia stato"
     },
     {
+        "name": "ChangeUserActionTitle",
+        "value": "Cambia utente"
+    },
+    {
         "name": "ChangeWorkRequestStatusActionTitle",
         "value": "Cambia stato richiesta lavoro"
     },
@@ -105,7 +109,7 @@
     },
     {
         "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_predictedMaintenanceTime",
-        "value": "Tempo manutenzione"
+        "value": "Tempo manutenzione (ore)"
     },
     {
         "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_resourceGroupNo",
@@ -176,6 +180,10 @@
         "value": "In corso"
     },
     {
+        "name": "ItemDetailsActionTitle",
+        "value": "Dettagli articolo"
+    },
+    {
         "name": "Machine",
         "value": "Macchina"
     },
@@ -212,6 +220,10 @@
         "value": "Data inizio"
     },
     {
+        "name": "MachineDetailsScreen_DataSelection_Actions_Radio",
+        "value": "Azioni"
+    },
+    {
         "name": "MachineDetailsScreen_DataSelection_Attachments_Radio",
         "value": "Allegati"
     },
@@ -234,6 +246,10 @@
     {
         "name": "MachineDetailsScreen_DataSelection_Picture_Radio",
         "value": "Foto"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_Risks_Radio",
+        "value": "Rischi"
     },
     {
         "name": "MachineDetailsScreen_DataSelection_SpareParts_Radio",
@@ -437,7 +453,11 @@
     },
     {
         "name": "PostItemRequestActionTitle",
-        "value": "Richista ricambio"
+        "value": "Richiesta ricambio"
+    },
+    {
+        "name": "PostItemRequestDialogComponent_ItemNoTextLabel",
+        "value": "Nr. articolo"
     },
     {
         "name": "PostItemRequestDialogComponent_QuantityTextLabel",
@@ -458,6 +478,14 @@
     {
         "name": "ReleasedHighPriority",
         "value": "Rilasciato alta priorità"
+    },
+    {
+        "name": "ReleasedLowPriority",
+        "value": "Rilasciato bassa priorità"
+    },
+    {
+        "name": "ReleasedMediumPriority",
+        "value": "Rilasciato media priority"
     },
     {
         "name": "RemoveUnit",
@@ -558,6 +586,10 @@
     {
         "name": "WorkRequestDetailsScreen_ActivitiesHeaderContainer_parameterNoHeader_TextLabel",
         "value": "Nr. parametro"
+    },
+    {
+        "name": "WorkRequestDetailsScreen_DataSelection_Actions_Radio",
+        "value": "Azioni"
     },
     {
         "name": "WorkRequestDetailsScreen_DataSelection_Activities_Radio",

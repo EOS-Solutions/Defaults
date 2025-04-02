@@ -76,6 +76,10 @@
         "value": "Change status"
     },
     {
+        "name": "ChangeUserActionTitle",
+        "value": "Change user"
+    },
+    {
         "name": "ChangeWorkRequestStatusActionTitle",
         "value": "Change work request status"
     },
@@ -105,7 +109,7 @@
     },
     {
         "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_predictedMaintenanceTime",
-        "value": "Maintenance Time"
+        "value": "Maintenance Time (Hours)"
     },
     {
         "name": "CreateWorkRequestDetailsScreen_FieldsViewerComponent_resourceGroupNo",
@@ -176,6 +180,10 @@
         "value": "In progress"
     },
     {
+        "name": "ItemDetailsActionTitle",
+        "value": "Item details"
+    },
+    {
         "name": "Machine",
         "value": "Machine"
     },
@@ -212,6 +220,10 @@
         "value": "Starting date"
     },
     {
+        "name": "MachineDetailsScreen_DataSelection_Actions_Radio",
+        "value": "Actions"
+    },
+    {
         "name": "MachineDetailsScreen_DataSelection_Attachments_Radio",
         "value": "Attachments"
     },
@@ -234,6 +246,10 @@
     {
         "name": "MachineDetailsScreen_DataSelection_Picture_Radio",
         "value": "Picture"
+    },
+    {
+        "name": "MachineDetailsScreen_DataSelection_Risks_Radio",
+        "value": "Risks"
     },
     {
         "name": "MachineDetailsScreen_DataSelection_SpareParts_Radio",
@@ -440,6 +456,10 @@
         "value": "Spare part request"
     },
     {
+        "name": "PostItemRequestDialogComponent_ItemNoTextLabel",
+        "value": "Item No."
+    },
+    {
         "name": "PostItemRequestDialogComponent_QuantityTextLabel",
         "value": "Quantity"
     },
@@ -458,6 +478,14 @@
     {
         "name": "ReleasedHighPriority",
         "value": "Released High Priority"
+    },
+    {
+        "name": "ReleasedLowPriority",
+        "value": "Released Low Priority"
+    },
+    {
+        "name": "ReleasedMediumPriority",
+        "value": "Released Medium Priority"
     },
     {
         "name": "RemoveUnit",
@@ -558,6 +586,10 @@
     {
         "name": "WorkRequestDetailsScreen_ActivitiesHeaderContainer_parameterNoHeader_TextLabel",
         "value": "Parameter no."
+    },
+    {
+        "name": "WorkRequestDetailsScreen_DataSelection_Actions_Radio",
+        "value": "Actions"
     },
     {
         "name": "WorkRequestDetailsScreen_DataSelection_Activities_Radio",

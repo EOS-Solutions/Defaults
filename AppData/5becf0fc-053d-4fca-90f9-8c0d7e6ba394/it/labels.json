@@ -68,6 +68,10 @@
         "value": "Aggiungi membro team"
     },
     {
+        "name": "AddToolActionTitle",
+        "value": "Aggiungi strumento"
+    },
+    {
         "name": "AddUnit",
         "value": "Aggiungi unità"
     },
@@ -201,7 +205,7 @@
     },
     {
         "name": "ConfirmComponentsActionTitle",
-        "value": "Conferma componenti"
+        "value": "Modifica quantità "
     },
     {
         "name": "ConfirmComponentsScreen_RowsDataGallery_actualQtyBase_TextLabel",
@@ -213,7 +217,7 @@
     },
     {
         "name": "ConfirmComponentsScreen_ScreenNameSubtitle2Label",
-        "value": "Conferma componenti"
+        "value": "Modifica quantità "
     },
     {
         "name": "Delete",
@@ -276,6 +280,14 @@
         "value": "Sono presenti movimenti collegati all'impiegato che si vuole eliminare. Se si continua con l'eliminazione i movimenti collegati verranno chiusi."
     },
     {
+        "name": "DeleteToolActionMessage",
+        "value": "Eliminare strumento %1?"
+    },
+    {
+        "name": "DeleteToolActionTitle",
+        "value": "Elimina strumento"
+    },
+    {
         "name": "DeviationCheckActionMessage",
         "value": "Il valore inserito è conforme?"
     },
@@ -302,6 +314,10 @@
     {
         "name": "EmployeeEntriesGalleryActionTitle",
         "value": "Selezione riga ordine prod."
+    },
+    {
+        "name": "EmployeeEntriesLogGalleryActionTitle",
+        "value": "Log"
     },
     {
         "name": "EmployeeNotFound",
@@ -432,6 +448,10 @@
         "value": "KPI"
     },
     {
+        "name": "KPIActionTitle",
+        "value": "KPI"
+    },
+    {
         "name": "KPIAvailability",
         "value": "Disponibilità"
     },
@@ -448,8 +468,20 @@
         "value": "Qualità"
     },
     {
+        "name": "KPIScreen_DevicePropertiesDetailsList_propertyKey",
+        "value": "Proprietà"
+    },
+    {
+        "name": "KPIScreen_DevicePropertiesDetailsList_propertyValue",
+        "value": "Valore"
+    },
+    {
         "name": "MachineCenter",
         "value": "Centro di lavoro"
+    },
+    {
+        "name": "MachineDataIot",
+        "value": "Informazioni macchina (Azure IoT)"
     },
     {
         "name": "MachineStatusCodeActionMessage",
@@ -516,12 +548,16 @@
         "value": "Non sono stati trovati dati da visualizzare in questo momento"
     },
     {
-        "name": "NotAuthorizedActionMessage",
-        "value": "L'utilizzo di questa funzione è riservata ai soli responsabili."
-    },
-    {
         "name": "Notes",
         "value": "Note"
+    },
+    {
+        "name": "Notifications",
+        "value": "Notifiche"
+    },
+    {
+        "name": "NotificationsToReadNotification",
+        "value": "Sono presenti notifiche da leggere."
     },
     {
         "name": "Ok",
@@ -616,10 +652,6 @@
         "value": "Quantità"
     },
     {
-        "name": "PostIndirectTimeDialogComponent_TitleSubtitle1Label",
-        "value": "Registra ore indirette"
-    },
-    {
         "name": "PostTrackedComponentDialogActionTitle",
         "value": "Aggiungi tracciabilità componente"
     },
@@ -652,20 +684,20 @@
         "value": "Sostituisci componente"
     },
     {
+        "name": "ReplaceComponentDialogComponent_ActualItemNoTextLabel",
+        "value": "Nr. articolo attuale"
+    },
+    {
+        "name": "ReplaceComponentDialogComponent_ActualItemVariantCodeTextLabel",
+        "value": "Codice variante attuale"
+    },
+    {
         "name": "ReplaceComponentDialogComponent_NewItemNoTextLabel",
         "value": "Nr. articolo nuovo"
     },
     {
         "name": "ReplaceComponentDialogComponent_NewItemVariantTextLabel",
         "value": "Codice variante nuovo"
-    },
-    {
-        "name": "ReplaceComponentDialogComponent_PreviousItemNoTextLabel",
-        "value": "Nr. articolo precedente"
-    },
-    {
-        "name": "ReplaceComponentDialogComponent_PreviousItemVariantCodeTextLabel",
-        "value": "Codice variante precedente"
     },
     {
         "name": "ResourceSelectionScreen_CurrentScreenHintAltLabel",
@@ -756,6 +788,10 @@
         "value": "Impostazioni"
     },
     {
+        "name": "SingleResourceDetailsScreen_InputDialogComponent_ToolNo",
+        "value": "Nr. strumento"
+    },
+    {
         "name": "SingleResourceScreen_EmployeeEntries_badgeNoHeader_TextLabel",
         "value": "Badge"
     },
@@ -778,6 +814,10 @@
     {
         "name": "SingleResourceScreen_EmployeeEntries_statusHeader_TextLabel",
         "value": "Stato"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntriesLogSubtitle1Label",
+        "value": "Log"
     },
     {
         "name": "SingleResourceScreen_EmployeeEntriesSubtitle1Label",
@@ -1056,10 +1096,6 @@
         "value": "Codice rilavorazione"
     },
     {
-        "name": "SingleResourceScreen_TextViewComponent_EmptyText",
-        "value": "Nessun commento disponibile"
-    },
-    {
         "name": "Status",
         "value": "Stati"
     },
@@ -1070,6 +1106,22 @@
     {
         "name": "SubstituteComponentActionTitle",
         "value": "Componenti sostitutivi"
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_ActualItemNoTextLabel",
+        "value": "Nr. articolo attuale"
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_ActualItemVariantCodeTextLabel",
+        "value": "Codice variante attuale"
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_NewItemNoTextLabel",
+        "value": "Nr. articolo nuovo"
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_NewItemVariantTextLabel",
+        "value": "Codice variante nuovo"
     },
     {
         "name": "Synchronize",
@@ -1282,6 +1334,10 @@
     {
         "name": "ToolsViewComponent_ProdOrderTools_statusHeader_TextLabel",
         "value": "Stato"
+    },
+    {
+        "name": "Totals",
+        "value": "Totali"
     },
     {
         "name": "TrackedComponentsViewComponent_remainingQtyBaseHeader_TextLabel",

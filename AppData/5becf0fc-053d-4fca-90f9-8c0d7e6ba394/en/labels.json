@@ -68,6 +68,10 @@
         "value": "Add team member"
     },
     {
+        "name": "AddToolActionTitle",
+        "value": "Add tool"
+    },
+    {
         "name": "AddUnit",
         "value": "Add unit"
     },
@@ -276,6 +280,14 @@
         "value": "There are entries linked to the employee you want to delete. If you continue with the deletion, the linked entries will be closed."
     },
     {
+        "name": "DeleteToolActionMessage",
+        "value": "Delete tool %1?"
+    },
+    {
+        "name": "DeleteToolActionTitle",
+        "value": "Delete tool"
+    },
+    {
         "name": "DeviationCheckActionMessage",
         "value": "Is the value entered compliant?"
     },
@@ -302,6 +314,10 @@
     {
         "name": "EmployeeEntriesGalleryActionTitle",
         "value": "Select prod. order line"
+    },
+    {
+        "name": "EmployeeEntriesLogGalleryActionTitle",
+        "value": "Log"
     },
     {
         "name": "EmployeeNotFound",
@@ -432,6 +448,10 @@
         "value": "KPI"
     },
     {
+        "name": "KPIActionTitle",
+        "value": "KPI"
+    },
+    {
         "name": "KPIAvailability",
         "value": "Availability"
     },
@@ -448,8 +468,20 @@
         "value": "Quality"
     },
     {
+        "name": "KPIScreen_DevicePropertiesDetailsList_propertyKey",
+        "value": "Property"
+    },
+    {
+        "name": "KPIScreen_DevicePropertiesDetailsList_propertyValue",
+        "value": "Value"
+    },
+    {
         "name": "MachineCenter",
         "value": "Machine Center"
+    },
+    {
+        "name": "MachineDataIot",
+        "value": "Machine information (Azure IoT)"
     },
     {
         "name": "MachineStatusCodeActionMessage",
@@ -516,12 +548,16 @@
         "value": "No data was found to be displayed at the moment"
     },
     {
-        "name": "NotAuthorizedActionMessage",
-        "value": "The usage of this function is restricted to managers only."
-    },
-    {
         "name": "Notes",
         "value": "Notes"
+    },
+    {
+        "name": "Notifications",
+        "value": "Notifications"
+    },
+    {
+        "name": "NotificationsToReadNotification",
+        "value": "There are notifications to read."
     },
     {
         "name": "Ok",
@@ -616,10 +652,6 @@
         "value": "Output"
     },
     {
-        "name": "PostIndirectTimeDialogComponent_TitleSubtitle1Label",
-        "value": "Post indirect time"
-    },
-    {
         "name": "PostTrackedComponentDialogActionTitle",
         "value": "Add component tracking"
     },
@@ -652,20 +684,20 @@
         "value": "Replace component"
     },
     {
+        "name": "ReplaceComponentDialogComponent_ActualItemNoTextLabel",
+        "value": "Actual Item No."
+    },
+    {
+        "name": "ReplaceComponentDialogComponent_ActualItemVariantCodeTextLabel",
+        "value": "Actual Variant Code"
+    },
+    {
         "name": "ReplaceComponentDialogComponent_NewItemNoTextLabel",
         "value": "New Item No."
     },
     {
         "name": "ReplaceComponentDialogComponent_NewItemVariantTextLabel",
         "value": "New Variant Code"
-    },
-    {
-        "name": "ReplaceComponentDialogComponent_PreviousItemNoTextLabel",
-        "value": "Previous Item No."
-    },
-    {
-        "name": "ReplaceComponentDialogComponent_PreviousItemVariantCodeTextLabel",
-        "value": "Previous Variant Code"
     },
     {
         "name": "ResourceSelectionScreen_CurrentScreenHintAltLabel",
@@ -756,6 +788,10 @@
         "value": "Settings"
     },
     {
+        "name": "SingleResourceDetailsScreen_InputDialogComponent_ToolNo",
+        "value": "Tool No."
+    },
+    {
         "name": "SingleResourceScreen_EmployeeEntries_badgeNoHeader_TextLabel",
         "value": "Badge"
     },
@@ -778,6 +814,10 @@
     {
         "name": "SingleResourceScreen_EmployeeEntries_statusHeader_TextLabel",
         "value": "Status"
+    },
+    {
+        "name": "SingleResourceScreen_EmployeeEntriesLogSubtitle1Label",
+        "value": "Log"
     },
     {
         "name": "SingleResourceScreen_EmployeeEntriesSubtitle1Label",
@@ -1056,10 +1096,6 @@
         "value": "Rework code"
     },
     {
-        "name": "SingleResourceScreen_TextViewComponent_EmptyText",
-        "value": "No comment available"
-    },
-    {
         "name": "Status",
         "value": "Status"
     },
@@ -1070,6 +1106,22 @@
     {
         "name": "SubstituteComponentActionTitle",
         "value": "Substitute component"
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_ActualItemNoTextLabel",
+        "value": "Actual Item No."
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_ActualItemVariantCodeTextLabel",
+        "value": "Actual Variant Code"
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_NewItemNoTextLabel",
+        "value": "New Item No."
+    },
+    {
+        "name": "SubstituteComponentDialogComponent_NewItemVariantTextLabel",
+        "value": "New Variant Code"
     },
     {
         "name": "Synchronize",
@@ -1282,6 +1334,10 @@
     {
         "name": "ToolsViewComponent_ProdOrderTools_statusHeader_TextLabel",
         "value": "Status"
+    },
+    {
+        "name": "Totals",
+        "value": "Totals"
     },
     {
         "name": "TrackedComponentsViewComponent_remainingQtyBaseHeader_TextLabel",
