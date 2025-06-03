@@ -172,6 +172,14 @@
         "value": "Chiudi"
     },
     {
+        "name": "CloseEntry",
+        "value": "Chiudi movimento"
+    },
+    {
+        "name": "CloseUnsupervisedMachineEntryTimeActionMessage",
+        "value": "Chiudere movimenti macchina non supervisionata per %1 nr. %2?"
+    },
+    {
         "name": "Company",
         "value": "Società"
     },
@@ -610,6 +618,10 @@
     {
         "name": "PanelSelectionScreen_FilterContainer_ShowAllCheckbox",
         "value": "Mostra tutti"
+    },
+    {
+        "name": "Post",
+        "value": "Registra"
     },
     {
         "name": "PostComponentTrackingLinesDialogComponent_ItemNoTextLabel",
@@ -1366,6 +1378,34 @@
     {
         "name": "UncommittedRefreshActionMessage",
         "value": "Sono presenti delle modifiche non salvate. Vuoi eseguire l'aggiornamento dei dati? Le modifiche non salvate andranno perse."
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_CurrentScreenSubtitle2Label",
+        "value": "Macchina non supervisionata"
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_DetailsList_lineDescriptionRec",
+        "value": "Descrizione"
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_DetailsList_no",
+        "value": "Nr."
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_DetailsList_operationNo",
+        "value": "Operazione"
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_DetailsList_prodOrderNo",
+        "value": "Ordine"
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_DetailsList_type",
+        "value": "Tipo"
+    },
+    {
+        "name": "Warning",
+        "value": "Attenzione"
     },
     {
         "name": "WarningActionTitle",

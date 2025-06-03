@@ -168,6 +168,14 @@
         "value": "Close"
     },
     {
+        "name": "CloseEntry",
+        "value": "Close entry"
+    },
+    {
+        "name": "CloseUnsupervisedMachineEntryTimeActionMessage",
+        "value": "Close unsupervised machine entries for %1 no. %2?"
+    },
+    {
         "name": "Company",
         "value": "Company"
     },
@@ -610,6 +618,10 @@
     {
         "name": "PanelSelectionScreen_FilterContainer_ShowAllCheckbox",
         "value": "Show all"
+    },
+    {
+        "name": "Post",
+        "value": "Post"
     },
     {
         "name": "PostComponentTrackingLinesDialogComponent_ItemNoTextLabel",
@@ -1366,6 +1378,34 @@
     {
         "name": "UncommittedRefreshActionMessage",
         "value": "There are unsaved changes. Do you want to refresh the data? Unsaved changes will be lost."
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_CurrentScreenSubtitle2Label",
+        "value": "Unsupervised machine"
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_DetailsList_lineDescriptionRec",
+        "value": "Description"
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_DetailsList_no",
+        "value": "No."
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_DetailsList_operationNo",
+        "value": "Operation"
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_DetailsList_prodOrderNo",
+        "value": "Order"
+    },
+    {
+        "name": "UnsupervisedMachineEntriesScreen_DetailsList_type",
+        "value": "Type"
+    },
+    {
+        "name": "Warning",
+        "value": "Warning"
     },
     {
         "name": "WarningActionTitle",
