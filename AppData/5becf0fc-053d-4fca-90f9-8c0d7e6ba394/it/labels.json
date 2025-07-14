@@ -296,6 +296,10 @@
         "value": "Elimina strumento"
     },
     {
+        "name": "Details",
+        "value": "Dettagli"
+    },
+    {
         "name": "DeviationCheckActionMessage",
         "value": "Il valore inserito è conforme?"
     },
@@ -338,6 +342,10 @@
     {
         "name": "EmployeeRequiredNotification",
         "value": "Per visualizzare tutte le informazioni e funzioni è necessario autenticarsi come dipendente nel pannello."
+    },
+    {
+        "name": "Employees",
+        "value": "Impiegati"
     },
     {
         "name": "EmptyContactsActionMessage",
@@ -446,6 +454,10 @@
     {
         "name": "InspectionOrderViewComponent_RowsDataGallery_reference_TextLabel",
         "value": "Riferimento"
+    },
+    {
+        "name": "IoT",
+        "value": "IoT"
     },
     {
         "name": "IoTActionTitle",

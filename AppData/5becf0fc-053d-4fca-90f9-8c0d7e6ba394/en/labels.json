@@ -296,6 +296,10 @@
         "value": "Delete tool"
     },
     {
+        "name": "Details",
+        "value": "Details"
+    },
+    {
         "name": "DeviationCheckActionMessage",
         "value": "Is the value entered compliant?"
     },
@@ -338,6 +342,10 @@
     {
         "name": "EmployeeRequiredNotification",
         "value": "You need to authenticate as an employee in the panel to view all information and functions."
+    },
+    {
+        "name": "Employees",
+        "value": "Employees"
     },
     {
         "name": "EmptyContactsActionMessage",
@@ -446,6 +454,10 @@
     {
         "name": "InspectionOrderViewComponent_RowsDataGallery_reference_TextLabel",
         "value": "Reference"
+    },
+    {
+        "name": "IoT",
+        "value": "IoT"
     },
     {
         "name": "IoTActionTitle",
