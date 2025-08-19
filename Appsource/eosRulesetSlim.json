@@ -1,0 +1,13 @@
+{
+    "name": "EOS default ruleset with mandatory rules with Linter Cop",
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/EOS-Solutions/Defaults/master/Appsource/EosRuleset.json"
+        },
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/EOS-Solutions/Defaults/master/Appsource/LinterCopRulesetSlim.json"
+        }
+    ]
+}
