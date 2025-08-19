@@ -1,5 +1,5 @@
 {
-    "name": "EOS default ruleset with mandatory rules with Linter Cop",
+    "name": "EOS default ruleset with mandatory rules with Linter Cop and also Linter Cop infos",
     "includedRuleSets": [
         {
             "action": "Default",
