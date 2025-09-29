@@ -1,0 +1,22 @@
+{
+    "1": {
+        "Name": "Customer",
+        "Caption": "Customer"
+    },
+    "2": {
+        "Name": "Subgroup",
+        "Caption": "Subgroup"
+    },
+    "3": {
+        "Name": "Group",
+        "Caption": "Group"
+    },
+    "4": {
+        "Name": "Central",
+        "Caption": "Central"
+    },
+    "5": {
+        "Name": "Channel",
+        "Caption": "Channel"
+    }
+}
