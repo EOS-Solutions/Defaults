@@ -1,0 +1,108 @@
+{
+  "Children": {
+    "C": {
+      "Caption": "Trade Products",
+      "Children": {
+        "04": {
+          "Caption": "Personal Care",
+          "Children": {
+            "0404": {
+              "Caption": "Personal Accessories",
+              "Children": {
+                "040403": {
+                  "Caption": "Personal Hygiene Accessories"
+                },
+                "040402": {
+                  "Caption": "Hair Accessories"
+                }
+              }
+            },
+            "0402": {
+              "Caption": "Sanitary Sanitary",
+              "Children": {
+                "040203": {
+                  "Caption": "Domestic Pharmacy"
+                },
+                "040202": {
+                  "Caption": "Hygienic Absorbents"
+                },
+                "040103": {
+                  "Caption": "Oral Hygiene"
+                },
+                "040102": {
+                  "Caption": "Hair Hygiene"
+                }
+              }
+            }
+          }
+        },
+        "03": {
+          "Caption": "Drinks",
+          "Children": {
+            "0303": {
+              "Caption": "Wines",
+              "Children": {
+                "030303": {
+                  "Caption": "Liqueur Wines"
+                },
+                "030302": {
+                  "Caption": "Sparkling Wine And Champagne"
+                }
+              }
+            },
+            "0302": {
+              "Caption": "Alcoholic Beverages",
+              "Children": {
+                "030205": {
+                  "Caption": "Bitter"
+                },
+                "030204": {
+                  "Caption": "Appetizers"
+                }
+              }
+            },
+            "0102": {
+              "Caption": "Food Preserved",
+              "Children": {
+                "030107": {
+                  "Caption": "Beverages Children's Drink"
+                },
+                "030106": {
+                  "Caption": "Reintegrates"
+                },
+                "010205": {
+                  "Caption": "Fruit Preserves"
+                },
+                "010204": {
+                  "Caption": "Meat Preserves"
+                }
+              }
+            }
+          }
+        },
+        "01": {
+          "Caption": "Packaging Food",
+          "Children": {
+            "0106": {
+              "Caption": "Pasta- Rice And Flour",
+              "Children": {
+                "010603": {
+                  "Caption": "Flour"
+                },
+                "010602": {
+                  "Caption": "Packed Rice"
+                },
+                "010104": {
+                  "Caption": "Salted Bakery Products"
+                },
+                "010103": {
+                  "Caption": "Bread"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

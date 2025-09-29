@@ -1,0 +1,22 @@
+{
+    "1": {
+        "Name": "Item",
+        "Caption": "Item"
+    },
+    "2": {
+        "Name": "Subfamily",
+        "Caption": "Subfamily"
+    },
+    "3": {
+        "Name": "Family",
+        "Caption": "Family"
+    },
+    "4": {
+        "Name": "Product Line",
+        "Caption": "Product Line"
+    },
+    "5": {
+        "Name": "Product Group",
+        "Caption": "Product Group"
+    }
+}

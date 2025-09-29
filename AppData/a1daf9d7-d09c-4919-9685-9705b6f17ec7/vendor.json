@@ -1,0 +1,103 @@
+{
+    "Children": {
+        "INDIPEND": {
+            "Caption": "Indipendent",
+            "Children": {
+                "060": {
+                    "Caption": "Indipendent",
+                    "Children": {
+                        "06030": {
+                            "Caption": "Lekkerland",
+                            "Children": {
+                                "06030100": {
+                                    "Caption": "Lekkerland"
+                                }
+                            }
+                        },
+                        "06050": {
+                            "Caption": "Eurogrup"
+                        },
+                        "06096": {
+                            "Caption": "Branditalia",
+                            "Children": {
+                                "06096100": {
+                                    "Caption": "Branditalia"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "GDO": {
+            "Caption": "GDO",
+            "Children": {
+                "026": {
+                    "Caption": "Conad",
+                    "Children": {
+                        "02610": {
+                            "Caption": "Conad",
+                            "Children": {
+                                "02610050": {
+                                    "Caption": "Nordiconad"
+                                },
+                                "02610150": {
+                                    "Caption": "Nord Center Conad"
+                                }
+                            }
+                        },
+                        "02630": {
+                            "Caption": "Finiper"
+                        },
+                        "02670": {
+                            "Caption": "Finiper Out of Contract",
+                            "Children": {
+                                "02670100": {
+                                    "Caption": "Finiper Out of Contract"
+                                }
+                            }
+                        }
+                    }
+                },
+                "012": {
+                    "Caption": "Aicube Group",
+                    "Children": {
+                        "01211": {
+                            "Caption": "Carrefour",
+                            "Children": {
+                                "01211200": {
+                                    "Caption": "Ipermarket Carrefour"
+                                },
+                                "01211500": {
+                                    "Caption": "Direct Express"
+                                }
+                            }
+                        },
+                        "01214": {
+                            "Caption": "Despar",
+                            "Children": {
+                                "01214680": {
+                                    "Caption": "Maiora Cash & Carry"
+                                },
+                                "01214750": {
+                                    "Caption": "Ergons"
+                                }
+                            }
+                        },
+                        "01215": {
+                            "Caption": "Vegè",
+                            "Children": {
+                                "01215150": {
+                                    "Caption": "Migross"
+                                },
+                                "01215905": {
+                                    "Caption": "Market Ingros"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
