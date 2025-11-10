@@ -27,6 +27,11 @@
             "justification": "File name incorrect."
         },
         {
+            "id": "AA0247",
+            "action": "None",
+            "justification": "No namespaces"
+        },
+        {
             "id": "AA0248",
             "action": "None",
             "justification": "use 'this' qualifier"
