@@ -12,6 +12,30 @@
         "value": "Aggiungi unità"
     },
     {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_binCodeHeaderTextLabel",
+        "value": "Cod. collocazione"
+    },
+    {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_itemNoHeaderTextLabel",
+        "value": "Nr. articolo"
+    },
+    {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_locationCodeHeaderTextLabel",
+        "value": "Cod. ubicazione"
+    },
+    {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_quantityHeaderTextLabel",
+        "value": "Quantità"
+    },
+    {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_variantCodeHeaderTextLabel",
+        "value": "Cod. variante"
+    },
+    {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_zoneHeaderTextLabel",
+        "value": "Zona"
+    },
+    {
         "name": "AuthActionTitle",
         "value": "Badge impiegato"
     },
@@ -184,6 +208,10 @@
         "value": "Cambia utente"
     },
     {
+        "name": "Comments",
+        "value": "Commenti"
+    },
+    {
         "name": "Create",
         "value": "Crea"
     },
@@ -301,7 +329,7 @@
     },
     {
         "name": "DocumentLineDetailsScreen_outstandingQuantityHeaderTextLabel",
-        "value": "Qtà gestita"
+        "value": "Qtà inevasa"
     },
     {
         "name": "DocumentLineDetailsScreen_receivedQuantityHeaderTextLabel",
@@ -414,6 +442,10 @@
     {
         "name": "Edit",
         "value": "Modifica"
+    },
+    {
+        "name": "EditCommentActionTitle",
+        "value": "Modifica commenti"
     },
     {
         "name": "EditPackagingInstructionTitle",
@@ -1024,6 +1056,14 @@
         "value": "Data garanzia"
     },
     {
+        "name": "PhysInventoryRecordingSelectionScreen_Gallery_sourceNoHeaderTextLabel",
+        "value": "Nr. origine"
+    },
+    {
+        "name": "PhysInventoryRecordingSelectionScreen_Gallery_sourceRecordingNoHeaderTextLabel",
+        "value": "Nr. registrazione"
+    },
+    {
         "name": "PickAndPack",
         "value": "P&P"
     },
@@ -1120,6 +1160,10 @@
         "value": "Reimposta attività"
     },
     {
+        "name": "Rows",
+        "value": "Righe"
+    },
+    {
         "name": "SalesReturnShipmentSelectionScreen_Gallery_referenceDateHeaderTextLabel",
         "value": "Data spedizione"
     },
@@ -1166,6 +1210,14 @@
     {
         "name": "SetScanSetup",
         "value": "Imposta setup scansione"
+    },
+    {
+        "name": "SetScanSetup2",
+        "value": "Imposta setup scansione per inserimento"
+    },
+    {
+        "name": "SetSearchScanSetup",
+        "value": "Imposta setup scansione ricerca"
     },
     {
         "name": "Settings",
@@ -1222,6 +1274,10 @@
     {
         "name": "Variant Code",
         "value": "Cod. variante"
+    },
+    {
+        "name": "Views",
+        "value": "Viste"
     },
     {
         "name": "WarehouseEntriesScreen_Gallery_expirationDateHeaderTextLabel",
