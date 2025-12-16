@@ -12,6 +12,30 @@
         "value": "Add unit"
     },
     {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_binCodeHeaderTextLabel",
+        "value": "Bin Code"
+    },
+    {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_itemNoHeaderTextLabel",
+        "value": "Item No."
+    },
+    {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_locationCodeHeaderTextLabel",
+        "value": "Location Code"
+    },
+    {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_quantityHeaderTextLabel",
+        "value": "Quantity"
+    },
+    {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_variantCodeHeaderTextLabel",
+        "value": "Variant Code"
+    },
+    {
+        "name": "AdvancedBinContentSelectionScreen_Gallery_zoneHeaderTextLabel",
+        "value": "Zone"
+    },
+    {
         "name": "AuthActionTitle",
         "value": "Employee badge"
     },
@@ -182,6 +206,10 @@
     {
         "name": "ChangeUserActionTitle",
         "value": "Change user"
+    },
+    {
+        "name": "Comments",
+        "value": "Comments"
     },
     {
         "name": "Create",
@@ -414,6 +442,10 @@
     {
         "name": "Edit",
         "value": "Edit"
+    },
+    {
+        "name": "EditCommentActionTitle",
+        "value": "Edit comments"
     },
     {
         "name": "EditPackagingInstructionTitle",
@@ -1024,6 +1056,14 @@
         "value": "Warranty Date"
     },
     {
+        "name": "PhysInventoryRecordingSelectionScreen_Gallery_sourceNoHeaderTextLabel",
+        "value": "Source No."
+    },
+    {
+        "name": "PhysInventoryRecordingSelectionScreen_Gallery_sourceRecordingNoHeaderTextLabel",
+        "value": "Recording No."
+    },
+    {
         "name": "PickAndPack",
         "value": "P&P"
     },
@@ -1120,6 +1160,10 @@
         "value": "Reset activity"
     },
     {
+        "name": "Rows",
+        "value": "Rows"
+    },
+    {
         "name": "SalesReturnShipmentSelectionScreen_Gallery_referenceDateHeaderTextLabel",
         "value": "Shipment Date"
     },
@@ -1166,6 +1210,14 @@
     {
         "name": "SetScanSetup",
         "value": "Set scan setup"
+    },
+    {
+        "name": "SetScanSetup2",
+        "value": "Set scan setup for insert"
+    },
+    {
+        "name": "SetSearchScanSetup",
+        "value": "Set search scan setup"
     },
     {
         "name": "Settings",
@@ -1222,6 +1274,10 @@
     {
         "name": "Variant Code",
         "value": "Variant Code"
+    },
+    {
+        "name": "Views",
+        "value": "Views"
     },
     {
         "name": "WarehouseEntriesScreen_Gallery_expirationDateHeaderTextLabel",
