@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://das.dogane.finanze.it" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://das.dogane.finanze.it" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- versione 1.0 del 03/07/2020 -->
+	<xs:include schemaLocation="EsitoType.xsd"/>
+	<xs:element name="Esito">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DatiGenerali" type="DatiGenerali"/>
+				<xs:element name="Segnalazione" type="DatiEsito" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Segnalazioni del sistema</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Errore" type="DatiEsito" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Presente se il codice stato è 198</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Info" type="DatiEsito" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Eventuali ulteriori informazioni</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Documento" type="xs:base64Binary" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Presente, se previsto dal flusso, se il codice stato è 200</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://das.dogane.finanze.it" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://das.dogane.finanze.it" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- versione 1.0 del 03/07/2020 -->
+	<xs:include schemaLocation="DAS_SimpleTypes.xsd"/>
+	<xs:element name="richiediDE801">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="attributiMessaggio" type="AttributiMessaggio"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="AttributiMessaggio">
+		<xs:sequence>
+			<xs:element name="Filename" type="an..25"/>
+			<xs:element name="TraderId">
+				<xs:annotation>
+					<xs:documentation>Codice identificativo dello speditore o destinatario del DAS elettronico (tiene conto dell'omocodia)</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="([A-Z]{6}[0-9]{2}[A-Z]{1}[A-Z0-9]{7}|IT[0-9]{11}|IT00[A-Z0-9]{9})"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="IdentifyNumberSRC" type="an21Upper">
+				<xs:annotation>
+					<xs:documentation>CRS di riferimento</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SeqNumber" type="Prog1-99">
+				<xs:annotation>
+					<xs:documentation>Numero progressivo DAS per CRS di riferimento</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

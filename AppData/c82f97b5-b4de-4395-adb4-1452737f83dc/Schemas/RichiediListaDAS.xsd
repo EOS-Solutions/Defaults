@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://das.dogane.finanze.it" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://das.dogane.finanze.it" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- versione 1.0 del 15/12/2021 -->
+	<xs:include schemaLocation="DAS_SimpleTypes.xsd"/>
+	<xs:element name="richiediListaDAS">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="attributiMessaggio" type="AttributiMessaggio"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="AttributiMessaggio">
+		<xs:sequence>
+			<xs:element name="Filename" type="an..25"/>
+			<xs:element name="TraderId">
+				<xs:annotation>
+					<xs:documentation>Codice identificativo dello speditore o destinatario dei DAS della lista (tiene conto dell'omocodia)</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="([A-Z]{6}[0-9]{2}[A-Z]{1}[A-Z0-9]{7}|IT[0-9]{11}|IT00[A-Z0-9]{9})"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Ruolo">
+				<xs:annotation>
+					<xs:documentation>Ruolo (Speditore o Destinatario) del TraderId specificato. Se il campo TraderId è un Codice fiscale/Partita IVA il ruolo deve essere DESTINATARIO</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="(SPEDITORE|DESTINATARIO)"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DataInizioRiferimento" type="xs:date">
+				<xs:annotation>
+					<xs:documentation>Data di spedizione iniziale del periodo di interesse</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DataFineRiferimento" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Data di spedizione finale del periodo di interesse, se assente il periodo è di una sola giornata </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

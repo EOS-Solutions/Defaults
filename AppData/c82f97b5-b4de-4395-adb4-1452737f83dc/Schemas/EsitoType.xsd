@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 (http://www.altova.com) by vcipriani (EMBRACE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- versione 1.0 del 03/07/2020 -->
+	<xs:include schemaLocation="DAS_SimpleTypes.xsd"/>
+	<xs:complexType name="DatiGenerali">
+		<xs:choice>
+			<xs:element name="MessaggioDich" type="MessaggioDich"/>
+			<xs:element name="MessaggioServizi" type="MessaggioServizi"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="MessaggioDich">
+		<xs:sequence>
+			<xs:element name="AttributiMessaggioDich" type="AttributiMessaggioDich">
+				<xs:annotation>
+					<xs:documentation>Attributi del messaggio per i  flussi dichiarativi DE815, DE810, DE813, DE818</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ElencoSRCnonscortamerce" type="ElencoSRCnonscortamerce" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Presente in caso di DAS collettivo, contiene l'elenco degli CRS dei DAS non scorta merce generati automaticamente a partire dal DAS collettivo</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MessaggioServizi">
+		<xs:sequence>
+			<xs:element name="AttributiMessaggioServizi" type="AttributiMessaggioServizi">
+				<xs:annotation>
+					<xs:documentation>Attributi del messaggio per i flussi non dichiarativi </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ListaDAS" type="ListaDAS" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Presente in caso di DAS che rispondono ai criteri di ricerca indicati nella richiesta</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DE801" type="DE801" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Presente in caso di esito positivo. codice stato 189 oppure 200</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AttributiMessaggio">
+		<xs:choice>
+			<xs:element name="AttributiMessaggioDich" type="AttributiMessaggioDich">
+				<xs:annotation>
+					<xs:documentation>Attributi del messaggio per i  flussi dichiarativi DE815, DE810, DE813, DE818</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AttributiMessaggioServizi" type="AttributiMessaggioServizi">
+				<xs:annotation>
+					<xs:documentation>Attributi del messaggio per i flussi non dichiarativi </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="AttributiMessaggioDich">
+		<xs:sequence>
+			<xs:element name="MessageCode">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="DE815"/>
+						<xs:pattern value="DE810"/>
+						<xs:pattern value="DE813"/>
+						<xs:pattern value="DE818"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DeclaratorIdentifyCode">
+				<xs:annotation>
+					<xs:documentation>Modifica del pattern per codice fiscale che tiene conto della omocodia</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z]{6}[0-9]{2}[A-Z]{1}[A-Z0-9]{7}|IT[0-9]{11}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Filename" type="an..25"/>
+			<xs:element name="ResponseTime" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>Data e ora della produzione dell'esito
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DeclaratorExciseNumber" type="an..13"/>
+			<xs:element name="LocalReferenceNumber" type="an..22"/>
+			<xs:element name="ValidationTime" type="xs:dateTime"/>
+			<xs:element name="IdentifynumberSRC" type="an21Upper" minOccurs="0"/>
+			<xs:element name="SeqNumber" type="Prog1-99" minOccurs="0"/>
+			<xs:element name="FatherSRC" type="an21Upper" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>CRS del DAS di riferimento se IdentifynumberSRC si riferisce a DAS non scorta merce</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AttributiMessaggioServizi">
+		<xs:sequence>
+			<xs:element name="MessageCode">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="ServiziDAS"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DeclaratorIdentifyCode">
+				<xs:annotation>
+					<xs:documentation>Modifica del pattern per codice fiscale che tiene conto della omocodia</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z]{6}[0-9]{2}[A-Z]{1}[A-Z0-9]{7}|IT[0-9]{11}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="TraderId">
+				<xs:annotation>
+					<xs:documentation>Codice identificativo dello speditore o destinatario indicato nella richiesta</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="([A-Z]{6}[0-9]{2}[A-Z]{1}[A-Z0-9]{7}|IT[0-9]{11}|IT00[A-Z0-9]{9})"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ResponseTime" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>Data e ora della produzione dell'esito
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="UpdResponseTime" type="xs:dateTime" minOccurs="0"/>
+			<xs:element name="Ruolo" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Ruolo indicato nella richiesta</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DataInizioRiferimento" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Data iniziale del periodo di riferimento indicato nella richiesta nel formato aaaa-mm-dd</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DataFineRiferimento" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Data finale del periodo di riferimento indicato nella richiesta nel formato aaaa-mm-dd</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NumeroElementiLista" type="Int0-9999" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DatiEsito">
+		<xs:sequence>
+			<xs:element name="Codice" type="xs:string"/>
+			<xs:element name="Descrizione" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ElencoSRCnonscortamerce">
+		<xs:sequence>
+			<xs:element name="SRCnonscortamerce" type="an21Upper" maxOccurs="99"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ListaDAS">
+		<xs:sequence>
+			<xs:element name="Elemento" type="Elemento" maxOccurs="9999"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Elemento">
+		<xs:sequence>
+			<xs:element name="IdentifynumberSRC" type="an21Upper"/>
+			<xs:element name="SeqNumber" type="Prog1-99"/>
+			<xs:element name="DateTimeOfDispatch" type="xs:dateTime"/>
+			<xs:element name="StatoDAS">
+				<xs:annotation>
+					<xs:documentation>Stato del DAS elettronico al ResponseTime (ACCETTATO, ANNULLATO, ecc)</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string"/>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DE801">
+		<xs:sequence>
+			<xs:element name="IdentifynumberSRC" type="an21Upper"/>
+			<xs:element name="SeqNumber" type="Prog1-99"/>
+			<xs:element name="ValidationTime" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>Data di validazione del DAS elettronico (assegnazione CRS)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MessageTypeCode" type="Int0-9"/>
+			<xs:element name="DeferredSubmissionFlag" type="Int0-1"/>
+			<xs:element name="dasElettronico" type="DasElettronico"/>
+			<xs:element name="speditoreELuogoDiSpedizione" type="SpeditoreELuogoDiSpedizione"/>
+			<xs:element name="destinatarioELuogoDiConsegna" type="DestinatarioELuogoDiConsegna"/>
+			<xs:element name="cessionari" type="Cessionari" minOccurs="0" maxOccurs="99"/>
+			<xs:element name="versamenti" type="Versamenti" minOccurs="0"/>
+			<xs:element name="trasporto" type="Trasporto"/>
+			<xs:element name="primoVettore" type="PrimoVettore" minOccurs="0"/>
+			<xs:element name="primoTrasportatore" type="PrimoTrasportatore" minOccurs="0"/>
+			<xs:element name="incaricatoTrasporto" type="IncaricatoTrasporto" minOccurs="0"/>
+			<xs:element name="dettaglioTrasporto" type="DettaglioTrasporto" maxOccurs="99"/>
+			<xs:element name="certificati" type="Certificati" minOccurs="0" maxOccurs="9"/>
+			<xs:element name="merci" type="Merci"/>
+			<xs:element name="infoCommerciali" type="InfoCommerciali" minOccurs="0"/>
+			<xs:element name="depositante" type="Depositante" minOccurs="0"/>
+			<xs:element name="crsRiferimento" type="CRSRiferimento" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DasElettronico">
+		<xs:sequence>
+			<xs:element name="InbulkTransportFlag" type="Int0-1"/>
+			<xs:element name="LocalReferenceNumber" type="an..22" minOccurs="0"/>
+			<xs:element name="MesurementJourneyType" type="xs:string" fixed="H"/>
+			<xs:element name="JourneyTime" type="Int0-99"/>
+			<xs:element name="TransportArrangement" type="Int0-9" minOccurs="0"/>
+			<xs:element name="OriginTypeCode" type="Int0-9"/>
+			<xs:element name="DateTimeOfDispatch" type="xs:dateTime"/>
+			<xs:element name="ISO3166Code" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="GuarantorTypeCode" type="Int0-99" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SpeditoreELuogoDiSpedizione">
+		<xs:sequence>
+			<xs:element name="Speditore" type="Speditore"/>
+			<xs:element name="LuogoDiSpedizione" type="LuogoDiSpedizione"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Speditore">
+		<xs:sequence>
+			<xs:element name="ConsignorExciseNumber">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="IT00[A-Z0-9]{9}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ConsignorName" type="an..350"/>
+			<xs:element name="ConsignorStreetName" type="an..65"/>
+			<xs:element name="ConsignorStreetNumber" type="an..11" minOccurs="0"/>
+			<xs:element name="ConsignorPostcode" type="an..10" minOccurs="0"/>
+			<xs:element name="ConsignorCity" type="an..50"/>
+			<xs:element name="ConsignorLanguage">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="it"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LuogoDiSpedizione">
+		<xs:sequence>
+			<xs:element name="DispatchPlaceTraderid">
+				<xs:annotation>
+					<xs:documentation>Modifica del pattern per codice fiscale che tiene conto della omocodia</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z]{6}[0-9]{2}[A-Z]{1}[A-Z0-9]{7}|IT[0-9]{11}|IT00[A-Z0-9]{9}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DispatchPlaceTraderName" type="an..350" minOccurs="0"/>
+			<xs:element name="DispatchPlaceStreetName" type="an..65" minOccurs="0"/>
+			<xs:element name="DispatchPlaceStreetNumber" type="an..11" minOccurs="0"/>
+			<xs:element name="DispatchPlacePostcode" type="an..10" minOccurs="0"/>
+			<xs:element name="DispatchPlaceCity" type="an..50" minOccurs="0"/>
+			<xs:element name="DispatchPlaceLanguage" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="it"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DestinatarioELuogoDiConsegna">
+		<xs:sequence>
+			<xs:element name="Destinatario" type="Destinatario"/>
+			<xs:element name="LuogoDiDestinazioneConsegna" type="LuogoDiDestinazioneConsegna"/>
+			<xs:element name="AutFiscCompDestinatario" type="AutFiscCompDestinatario"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Destinatario">
+		<xs:sequence>
+			<xs:element name="InvoiceNumber" type="an..35"/>
+			<xs:element name="InvoiceDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="DestinationTypeCode" type="Int0-99" minOccurs="0"/>
+			<xs:element name="ConsigneeTraderid">
+				<xs:simpleType>
+					<xs:restriction base="xs:token">
+						<xs:maxLength value="16" />
+						<xs:pattern value=".{1,16}" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ConsigneeTraderName" type="an..350" minOccurs="0"/>
+			<xs:element name="ConsigneeStreetName" type="an..65" minOccurs="0"/>
+			<xs:element name="ConsigneeStreetNumber" type="an..11" minOccurs="0"/>
+			<xs:element name="ConsigneePostcode" type="an..10" minOccurs="0"/>
+			<xs:element name="ConsigneeCity" type="an..50" minOccurs="0"/>
+			<xs:element name="ConsigneeLanguage" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="it"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LuogoDiDestinazioneConsegna">
+		<xs:sequence>
+			<xs:element name="DeliveryPlaceTraderid">
+				<xs:simpleType>
+					<xs:restriction base="xs:token">
+						<xs:maxLength value="16" />
+						<xs:pattern value=".{1,16}" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DeliveryPlaceTraderName" type="an..350" minOccurs="0"/>
+			<xs:element name="DeliveryPlaceStreetName" type="an..65" minOccurs="0"/>
+			<xs:element name="DeliveryPlaceStreetNumber" type="an..11" minOccurs="0"/>
+			<xs:element name="DeliveryPlacePostcode" type="an..10" minOccurs="0"/>
+			<xs:element name="DeliveryPlaceCity" type="an..50" minOccurs="0"/>
+			<xs:element name="DeliveryPlaceLanguage" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="it"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ShipFlag" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AutFiscCompDestinatario">
+		<xs:sequence>
+			<xs:element name="ReferenceNumber" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="IT[0-9]{6}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Cessionari">
+		<xs:sequence>
+			<xs:element name="TraderNumber">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="IT[0-9]{11}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Versamenti">
+		<xs:sequence>
+			<xs:element name="NoPayment" type="Int0-9" minOccurs="0"/>
+			<xs:element name="PaymentExclusionReason" type="an..50" minOccurs="0"/>
+			<xs:element name="Pagamenti" type="Pagamenti" minOccurs="0" maxOccurs="99"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Pagamenti">
+		<xs:sequence>
+			<xs:element name="PaymentIterationNumber" type="Prog1-99"/>
+			<xs:element name="TaxpayerID">
+				<xs:annotation>
+					<xs:documentation>Modifica del pattern per codice fiscale che tiene conto della omocodia</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z]{6}[0-9]{2}[A-Z]{1}[A-Z0-9]{7}|IT[0-9]{11}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CooTaxpayerID">
+				<xs:annotation>
+					<xs:documentation>Modifica del pattern per codice fiscale che tiene conto della omocodia</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z]{6}[0-9]{2}[A-Z]{1}[A-Z0-9]{7}|IT[0-9]{11}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="PaymentCode" type="PaymentCodeType"/>
+			<xs:element name="PaymentDate" type="xs:date"/>
+			<xs:element name="PaymentAmount" type="Dec13.2"/>
+			<xs:element name="PaymentID" type="an..17"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Trasporto">
+		<xs:sequence>
+			<xs:element name="TransportModeCode" type="Int0-99"/>
+			<xs:element name="TransportComplementaryInformation" type="an..350" minOccurs="0"/>
+			<xs:element name="TransportLanguage" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PrimoVettore">
+		<xs:sequence>
+			<xs:element name="TransportTraderVatNumber">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="IT[0-9]{11}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PrimoTrasportatore">
+		<xs:sequence>
+			<xs:element name="FirstTrVatNumber">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="IT[0-9]{11}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="IncaricatoTrasporto">
+		<xs:sequence>
+			<xs:element name="DriverSurname" type="an1..50"/>
+			<xs:element name="DriverName" type="an1..50"/>
+			<xs:element name="DriverNationality" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DriverID" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Modifica del pattern per codice fiscale che tiene conto della omocodia</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z]{6}[0-9]{2}[A-Z]{1}[A-Z0-9]{7}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DriverADR" type="an1..30" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DettaglioTrasporto">
+		<xs:sequence>
+			<xs:element name="TransportIterationNumber" type="Prog1-99"/>
+			<xs:element name="TransportUnitCode" type="Int0-99"/>
+			<xs:element name="IdentityOfTransportUnits" type="an1..35" minOccurs="0"/>
+			<xs:element name="CommercialSealIdentification" type="an1..35" minOccurs="0"/>
+			<xs:element name="SealInformation" type="an..350" minOccurs="0"/>
+			<xs:element name="SealInfoLanguage" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="TransDetailInfo" type="an..350" minOccurs="0"/>
+			<xs:element name="TransDetailInfoLanguage" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Certificati">
+		<xs:sequence>
+			<xs:element name="DocumentIterationNumber" type="Prog1-9"/>
+			<xs:element name="DocumentDescription" type="an..350" minOccurs="0"/>
+			<xs:element name="DocDescriptionLanguage" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DocumentReference" type="an..350" minOccurs="0"/>
+			<xs:element name="DocReferenceLanguage" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Merci">
+		<xs:sequence>
+			<xs:element name="DettaglioMerci" type="DettaglioMerci" maxOccurs="999"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DettaglioMerci">
+		<xs:sequence>
+			<xs:element name="GoodIterationNumber" type="Prog1-999"/>
+			<xs:element name="CPAProductCategory">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z0-9]{4}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CnCode" type="Int0-99999999"/>
+			<xs:element name="Quantity" type="Dec12.3"/>
+			<xs:element name="Temperature" type="Int-99-99" minOccurs="0"/>
+			<xs:element name="GrossWeight" type="Dec13.2" minOccurs="0"/>
+			<xs:element name="NetWeight" type="Dec13.2"/>
+			<xs:element name="Density" type="Dec4.2" minOccurs="0"/>
+			<xs:element name="Density15" type="Dec4.2"/>
+			<xs:element name="AlcoholicStrength" type="Dec3.2" minOccurs="0"/>
+			<xs:element name="PlatoStrength" type="Dec3.2" minOccurs="0"/>
+			<xs:element name="OriginDesignation" type="an..350" minOccurs="0"/>
+			<xs:element name="OriginDesLanguage" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ProducerSize" type="Int0-999999999999999" minOccurs="0"/>
+			<xs:element name="TARICCode" type="Int0-99" minOccurs="0"/>
+			<xs:element name="CADDCode" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z0-9]{4}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Volume" type="Dec13.2"/>
+			<xs:element name="InitiaValue" type="Dec13.2" minOccurs="0"/>
+			<xs:element name="CommercialDescription" type="an..350"/>
+			<xs:element name="LanguageCommercialDescription" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="BrandNameOfProducts" type="an..350" minOccurs="0"/>
+			<xs:element name="LanguageProduct" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Imballaggi" type="Imballaggi" minOccurs="0" maxOccurs="99"/>
+			<xs:element name="Vino" type="Vino" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Imballaggi">
+		<xs:sequence>
+			<xs:element name="KindOfPackages">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="NumberOfPackages" type="Int0-999999999999999" minOccurs="0"/>
+			<xs:element name="PkgCommSealIdentification" type="an1..35" minOccurs="0"/>
+			<xs:element name="PkgSealInformation" type="an..350" minOccurs="0"/>
+			<xs:element name="PkgLanguage" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Vino">
+		<xs:sequence>
+			<xs:element name="WineProductCategory" type="Int0-9"/>
+			<xs:element name="WineGrowingZoneCode" type="Int0-99" minOccurs="0"/>
+			<xs:element name="ThirdCountryOfOrigin" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="OtherInformation" type="an..350" minOccurs="0"/>
+			<xs:element name="WineInfoLanguage" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:sequence>
+				<xs:element name="TrattamentiDelVino" type="TrattamentiDelVino" minOccurs="0" maxOccurs="99"/>
+			</xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TrattamentiDelVino">
+		<xs:sequence>
+			<xs:element name="WineOperationCode" type="Int0-99"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="InfoCommerciali">
+		<xs:sequence>
+			<xs:element name="AdditionalCommInfo" type="an..1000"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Depositante">
+		<xs:sequence>
+			<xs:element name="HolderNumber" type="an..22"/>
+			<xs:element name="HolderName" type="an..182"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CRSRiferimento">
+		<xs:sequence>
+			<xs:element name="CRSNumber" type="an21Upper"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
