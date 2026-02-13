@@ -1,0 +1,265 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BcContainerSettings",
+  "description": "Full container configuration model",
+  "type": "object",
+  "properties": {
+    "containerName": {
+      "type": "string",
+      "description": "The name of the BC/NAV container"
+    },
+    "artifact": {
+      "type": "string",
+      "description": "The BC artifact to use"
+    },
+    "licenseFile": {
+      "type": "string",
+      "description": "The path to the license file"
+    },
+    "auth": {
+      "type": "string",
+      "enum": [
+        "Windows",
+        "NavUserPassword",
+        "UserPassword",
+        "AAD"
+      ],
+      "description": "The authentication type for the container",
+      "default": "NavUserPassword"
+    },
+    "credential": {
+      "type": "object",
+      "description": "The network credential (username and password) for container access",
+      "properties": {
+        "userName": {
+          "type": "string",
+          "description": "The username"
+        },
+        "password": {
+          "type": "string",
+          "description": "The password"
+        }
+      }
+    },
+    "database": {
+      "type": "object",
+      "description": "The database configuration",
+      "properties": {
+        "server": {
+          "type": "string",
+          "description": "The database server name or IP address",
+          "default": ""
+        },
+        "instance": {
+          "type": "string",
+          "description": "The database instance name",
+          "default": ""
+        },
+        "name": {
+          "type": "string",
+          "description": "The database name",
+          "default": ""
+        },
+        "bakFile": {
+          "type": "string",
+          "description": "The path to a backup file for database restore"
+        },
+        "credential": {
+          "type": "object",
+          "description": "The credentials for database access"
+        }
+      }
+    },
+    "ports": {
+      "type": "object",
+      "description": "The port configuration for the container",
+      "properties": {
+        "webClientPort": {
+          "type": "integer",
+          "description": "The web client port number"
+        },
+        "fileSharePort": {
+          "type": "integer",
+          "description": "The file share port number"
+        },
+        "managementServicesPort": {
+          "type": "integer",
+          "description": "The management services port number"
+        },
+        "clientServicesPort": {
+          "type": "integer",
+          "description": "The client services port number"
+        },
+        "soapServicesPort": {
+          "type": "integer",
+          "description": "The SOAP services port number"
+        },
+        "odataServicesPort": {
+          "type": "integer",
+          "description": "The OData services port number"
+        },
+        "developerServicesPort": {
+          "type": "integer",
+          "description": "The developer services port number"
+        }
+      }
+    },
+    "network": {
+      "type": "object",
+      "description": "The network configuration",
+      "properties": {
+        "dns": {
+          "type": "string",
+          "description": "The DNS server address",
+          "default": "8.8.8.8"
+        },
+        "hostIp": {
+          "type": "string",
+          "description": "The host IP address"
+        },
+        "publicDnsName": {
+          "type": "string",
+          "description": "The public DNS name"
+        },
+        "isolation": {
+          "type": "string",
+          "enum": [
+            "Process",
+            "HyperV"
+          ],
+          "description": "The container isolation mode",
+          "default": "Process"
+        },
+        "memoryLimit": {
+          "type": "string",
+          "description": "The memory limit for the container"
+        }
+      }
+    },
+    "aad": {
+      "type": "object",
+      "description": "The Azure Active Directory (AAD) configuration",
+      "properties": {
+        "tenant": {
+          "type": "string",
+          "description": "The Azure Active Directory (AAD) tenant identifier"
+        },
+        "appIdUri": {
+          "type": "string",
+          "description": "The application ID URI for AAD"
+        },
+        "authenticationEmail": {
+          "type": "string",
+          "description": "The email address for authentication"
+        }
+      }
+    },
+    "features": {
+      "type": "object",
+      "description": "The feature flags for the container",
+      "properties": {
+        "useSsl": {
+          "type": "boolean",
+          "description": "Whether to use SSL for connections"
+        },
+        "filesOnly": {
+          "type": "boolean",
+          "description": "Whether to deploy files only without database"
+        },
+        "enableApiServices": {
+          "type": "boolean",
+          "description": "Whether to enable API services",
+          "default": true
+        },
+        "enableSymbolLoading": {
+          "type": "boolean",
+          "description": "Whether to enable symbol loading"
+        },
+        "clickOnce": {
+          "type": "boolean",
+          "description": "Whether to enable ClickOnce"
+        },
+        "acceptEula": {
+          "type": "boolean",
+          "description": "Whether to accept the EULA automatically",
+          "default": true
+        },
+        "acceptOutdated": {
+          "type": "boolean",
+          "description": "Whether to accept outdated artifacts",
+          "default": true
+        },
+        "alwaysPull": {
+          "type": "boolean",
+          "description": "Whether to always pull the base image",
+          "default": true
+        },
+        "updateHosts": {
+          "type": "boolean",
+          "description": "Whether to update the hosts file",
+          "default": true
+        },
+        "runSandboxAsOnPrem": {
+          "type": "boolean",
+          "description": "Whether to run sandbox environments as on-premises"
+        }
+      }
+    },
+    "advanced": {
+      "type": "object",
+      "description": "The advanced and custom settings for the container",
+      "properties": {
+        "applicationInsightsKey": {
+          "type": "string",
+          "description": "The Application Insights instrumentation key"
+        },
+        "customNavSettings": {
+          "type": "string",
+          "description": "Custom NAV settings to apply"
+        },
+        "customWebSettings": {
+          "type": "string",
+          "description": "Custom web settings to apply"
+        },
+        "shortcuts": {
+          "type": "string",
+          "enum": [
+            "None",
+            "Desktop",
+            "StartMenu",
+            "CommonStartMenu",
+            "CommonDesktop"
+          ],
+          "description": "Shortcut options for the container",
+          "default": "None"
+        },
+        "locale": {
+          "type": "string",
+          "description": "The locale/language for the container"
+        },
+        "sqlTimeout": {
+          "type": "integer",
+          "description": "The SQL timeout in seconds",
+          "default": 300
+        },
+        "restart": {
+          "type": "string",
+          "enum": [
+            "No",
+            "OnFailure",
+            "UnlessStopped",
+            "Always"
+          ],
+          "description": "The Docker restart policy for the container",
+          "default": "UnlessStopped"
+        }
+      }
+    }
+  },
+  "required": [
+    "containerName",
+    "artifact",
+    "credential"
+  ],
+  "additionalProperties": false
+}
