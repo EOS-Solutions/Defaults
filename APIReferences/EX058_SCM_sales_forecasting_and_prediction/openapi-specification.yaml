@@ -1,0 +1,1357 @@
+openapi: 3.2.0
+info:
+  title: SCM Sales Forecasting and Prediction API
+  version: 1.0.0
+  description: |
+    Official API documentation for the EOS Solutions SCM (Supply Chain Management) Sales Forecasting and Prediction extension for Microsoft Dynamics 365 Business Central.
+    
+    This API provides endpoints for managing items, data entries, item ledger entries, calendar changes, manufacturing setup, and ROP (Reorder Point) calculations.
+  contact:
+    name: EOS Solutions
+    url: https://www.eos-solutions.it/
+    email: support@eos-solutions.it
+  license:
+    name: EULA
+    url: https://www.eos-solutions.it/en/eula.html
+  termsOfService: https://www.eos-solutions.it/en/privacy.html
+
+servers:
+  - url: https://api.businesscentral.dynamics.com/v2.0/{tenant}/api/eosSolutions/scmDataAPI/v1.0
+    description: Business Central SaaS Production Server
+    variables:
+      tenant:
+        default: production
+        description: The Business Central tenant identifier
+  - url: http://localhost:7048/{instance}/api/eosSolutions/scmDataAPI/v1.0
+    description: Business Central On-Premise Development Server
+    variables:
+      instance:
+        default: BC260
+        description: The Business Central server instance name
+
+tags:
+  - name: Items
+    description: Operations related to item master data
+  - name: Data Entry
+    description: Operations for managing staging data entries for forecasting
+  - name: Item Ledger Entries
+    description: Read-only access to item ledger entries for analysis
+  - name: Base Calendars
+    description: Calendar change information for planning
+  - name: Manufacturing Setup
+    description: Manufacturing and inventory setup configuration
+  - name: ROP Journal
+    description: Reorder Point calculation journal operations
+
+security:
+  - OAuth2: [user_impersonation]
+  - BasicAuth: []
+
+paths:
+  /scmItems:
+    get:
+      tags:
+        - Items
+      summary: Retrieve a list of items
+      description: Returns a collection of items with basic information including description and category
+      operationId: getScmItems
+      parameters:
+        - $ref: '#/components/parameters/top'
+        - $ref: '#/components/parameters/skip'
+        - $ref: '#/components/parameters/filter'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved items
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  value:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/ScmItem'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+  
+  /scmItems({id}):
+    get:
+      tags:
+        - Items
+      summary: Retrieve a specific item
+      description: Returns a single item by its system ID
+      operationId: getScmItem
+      parameters:
+        - $ref: '#/components/parameters/id'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved item
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScmItem'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+
+  /scmDataEntries:
+    get:
+      tags:
+        - Data Entry
+      summary: Retrieve data entries
+      description: Returns a collection of staging data entries used for forecasting calculations
+      operationId: getScmDataEntries
+      parameters:
+        - $ref: '#/components/parameters/top'
+        - $ref: '#/components/parameters/skip'
+        - $ref: '#/components/parameters/filter'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved data entries
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  value:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/ScmDataEntry'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+    
+    post:
+      tags:
+        - Data Entry
+      summary: Create a new data entry
+      description: Creates a new staging data entry for forecasting
+      operationId: createScmDataEntry
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ScmDataEntryCreate'
+      responses:
+        '201':
+          description: Data entry created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScmDataEntry'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+  
+  /scmDataEntries({id}):
+    get:
+      tags:
+        - Data Entry
+      summary: Retrieve a specific data entry
+      description: Returns a single data entry by its system ID
+      operationId: getScmDataEntry
+      parameters:
+        - $ref: '#/components/parameters/id'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved data entry
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScmDataEntry'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+    
+    patch:
+      tags:
+        - Data Entry
+      summary: Update a data entry
+      description: Updates an existing data entry with partial data
+      operationId: updateScmDataEntry
+      parameters:
+        - $ref: '#/components/parameters/id'
+        - $ref: '#/components/parameters/ifMatch'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ScmDataEntryUpdate'
+      responses:
+        '200':
+          description: Data entry updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScmDataEntry'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '412':
+          $ref: '#/components/responses/PreconditionFailed'
+        default:
+          $ref: '#/components/responses/Error'
+    
+    delete:
+      tags:
+        - Data Entry
+      summary: Delete a data entry
+      description: Deletes an existing data entry
+      operationId: deleteScmDataEntry
+      parameters:
+        - $ref: '#/components/parameters/id'
+        - $ref: '#/components/parameters/ifMatch'
+      responses:
+        '204':
+          description: Data entry deleted successfully
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '412':
+          $ref: '#/components/responses/PreconditionFailed'
+        default:
+          $ref: '#/components/responses/Error'
+
+  /scmItemLedgerEntries:
+    get:
+      tags:
+        - Item Ledger Entries
+      summary: Retrieve item ledger entries
+      description: Returns a collection of item ledger entries for analysis and reporting
+      operationId: getScmItemLedgerEntries
+      parameters:
+        - $ref: '#/components/parameters/top'
+        - $ref: '#/components/parameters/skip'
+        - $ref: '#/components/parameters/filter'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved item ledger entries
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  value:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/ScmItemLedgerEntry'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+  
+  /scmItemLedgerEntries({id}):
+    get:
+      tags:
+        - Item Ledger Entries
+      summary: Retrieve a specific item ledger entry
+      description: Returns a single item ledger entry by its system ID
+      operationId: getScmItemLedgerEntry
+      parameters:
+        - $ref: '#/components/parameters/id'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved item ledger entry
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScmItemLedgerEntry'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+
+  /scmBaseCalendars:
+    get:
+      tags:
+        - Base Calendars
+      summary: Retrieve base calendar changes
+      description: Returns a collection of base calendar changes for planning purposes
+      operationId: getScmBaseCalendars
+      parameters:
+        - $ref: '#/components/parameters/top'
+        - $ref: '#/components/parameters/skip'
+        - $ref: '#/components/parameters/filter'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved base calendar changes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  value:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/ScmBaseCalendar'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+  
+  /scmBaseCalendars({id}):
+    get:
+      tags:
+        - Base Calendars
+      summary: Retrieve a specific base calendar change
+      description: Returns a single base calendar change by its system ID
+      operationId: getScmBaseCalendar
+      parameters:
+        - $ref: '#/components/parameters/id'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved base calendar change
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScmBaseCalendar'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+
+  /scmManufSetup:
+    get:
+      tags:
+        - Manufacturing Setup
+      summary: Retrieve manufacturing setup
+      description: Returns the manufacturing and inventory setup configuration
+      operationId: getScmManufSetup
+      parameters:
+        - $ref: '#/components/parameters/top'
+        - $ref: '#/components/parameters/skip'
+        - $ref: '#/components/parameters/filter'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved manufacturing setup
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  value:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/ScmManufSetup'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+  
+  /scmManufSetup({id}):
+    get:
+      tags:
+        - Manufacturing Setup
+      summary: Retrieve specific manufacturing setup entry
+      description: Returns a single manufacturing setup entry by its system ID
+      operationId: getScmManufSetupEntry
+      parameters:
+        - $ref: '#/components/parameters/id'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved manufacturing setup entry
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScmManufSetup'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+
+  /scmROPJnlLines:
+    get:
+      tags:
+        - ROP Journal
+      summary: Retrieve ROP journal lines
+      description: Returns a collection of Reorder Point calculation journal lines
+      operationId: getScmROPJnlLines
+      parameters:
+        - $ref: '#/components/parameters/top'
+        - $ref: '#/components/parameters/skip'
+        - $ref: '#/components/parameters/filter'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved ROP journal lines
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  value:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/ScmROPJnlLine'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+    
+    post:
+      tags:
+        - ROP Journal
+      summary: Create a new ROP journal line
+      description: Creates a new Reorder Point calculation journal line
+      operationId: createScmROPJnlLine
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ScmROPJnlLineCreate'
+      responses:
+        '201':
+          description: ROP journal line created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScmROPJnlLine'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+  
+  /scmROPJnlLines({id}):
+    get:
+      tags:
+        - ROP Journal
+      summary: Retrieve a specific ROP journal line
+      description: Returns a single ROP journal line by its system ID
+      operationId: getScmROPJnlLine
+      parameters:
+        - $ref: '#/components/parameters/id'
+        - $ref: '#/components/parameters/select'
+        - $ref: '#/components/parameters/expand'
+      responses:
+        '200':
+          description: Successfully retrieved ROP journal line
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScmROPJnlLine'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        default:
+          $ref: '#/components/responses/Error'
+    
+    patch:
+      tags:
+        - ROP Journal
+      summary: Update a ROP journal line
+      description: Updates an existing ROP journal line with partial data
+      operationId: updateScmROPJnlLine
+      parameters:
+        - $ref: '#/components/parameters/id'
+        - $ref: '#/components/parameters/ifMatch'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ScmROPJnlLineUpdate'
+      responses:
+        '200':
+          description: ROP journal line updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScmROPJnlLine'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '412':
+          $ref: '#/components/responses/PreconditionFailed'
+        default:
+          $ref: '#/components/responses/Error'
+    
+    delete:
+      tags:
+        - ROP Journal
+      summary: Delete a ROP journal line
+      description: Deletes an existing ROP journal line
+      operationId: deleteScmROPJnlLine
+      parameters:
+        - $ref: '#/components/parameters/id'
+        - $ref: '#/components/parameters/ifMatch'
+      responses:
+        '204':
+          description: ROP journal line deleted successfully
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '412':
+          $ref: '#/components/responses/PreconditionFailed'
+        default:
+          $ref: '#/components/responses/Error'
+
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      description: Azure Active Directory OAuth2 authentication
+      flows:
+        authorizationCode:
+          authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+          tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+          scopes:
+            user_impersonation: Access Business Central on behalf of the signed-in user
+    
+    BasicAuth:
+      type: http
+      scheme: basic
+      description: Basic authentication using username and web service access key
+
+  parameters:
+    id:
+      name: id
+      in: path
+      required: true
+      description: The unique system identifier (GUID) of the resource
+      schema:
+        type: string
+        format: uuid
+      example: 5d115c9c-44e3-ea11-bb43-000d3a2feca1
+    
+    top:
+      name: $top
+      in: query
+      description: Show only the first n items
+      schema:
+        type: integer
+        minimum: 1
+        maximum: 10000
+      example: 20
+    
+    skip:
+      name: $skip
+      in: query
+      description: Skip the first n items
+      schema:
+        type: integer
+        minimum: 0
+      example: 0
+    
+    filter:
+      name: $filter
+      in: query
+      description: Filter items by property values (OData filter syntax)
+      schema:
+        type: string
+      example: itemNo eq '1000'
+    
+    select:
+      name: $select
+      in: query
+      description: Select specific properties to return
+      schema:
+        type: string
+      example: itemNo,description,quantity
+    
+    expand:
+      name: $expand
+      in: query
+      description: Expand related entities
+      schema:
+        type: string
+      example: item
+    
+    ifMatch:
+      name: If-Match
+      in: header
+      description: ETag value for optimistic concurrency control
+      required: true
+      schema:
+        type: string
+      example: W/"JzQ0O0VnQUFBQUo3QlRnQU1BQXdBREFBTUFBd0FEeHJRVUFBO1NBQUFBQUFBQUFBd0FEQUFNQUF3QURBQScn"
+
+  schemas:
+    ScmItem:
+      type: object
+      description: Represents an item in the inventory system
+      properties:
+        systemId:
+          type: string
+          format: uuid
+          description: Unique system identifier
+          readOnly: true
+          example: 5d115c9c-44e3-ea11-bb43-000d3a2feca1
+        no:
+          type: string
+          description: Item number
+          maxLength: 20
+          example: "1000"
+        description:
+          type: string
+          description: Item description
+          maxLength: 100
+          example: "Bicycle"
+        description2:
+          type: string
+          description: Additional description
+          maxLength: 50
+          example: "Mountain Bike"
+        itemCategoryCode:
+          type: string
+          description: Item category code
+          maxLength: 20
+          example: "BIKE"
+        baseUnitOfMeasure:
+          type: string
+          description: Base unit of measure
+          maxLength: 10
+          example: "PCS"
+    
+    ScmDataEntry:
+      type: object
+      description: Represents a staging data entry used for sales forecasting
+      properties:
+        systemId:
+          type: string
+          format: uuid
+          description: Unique system identifier
+          readOnly: true
+        systemCreatedAt:
+          type: string
+          format: date-time
+          description: Timestamp when the record was created
+          readOnly: true
+        systemCreatedBy:
+          type: string
+          format: uuid
+          description: User who created the record
+          readOnly: true
+        systemModifiedAt:
+          type: string
+          format: date-time
+          description: Timestamp when the record was last modified
+          readOnly: true
+        systemModifiedBy:
+          type: string
+          format: uuid
+          description: User who last modified the record
+          readOnly: true
+        entryNo:
+          type: integer
+          description: Entry number
+          readOnly: true
+        itemNo:
+          type: string
+          description: Item number
+          maxLength: 20
+        variantCode:
+          type: string
+          description: Item variant code
+          maxLength: 10
+        locationCode:
+          type: string
+          description: Location code
+          maxLength: 10
+        description:
+          type: string
+          description: Description
+          maxLength: 100
+        entryType:
+          type: integer
+          description: Entry type
+          enum: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+        postingDate:
+          type: string
+          format: date
+          description: Posting date
+        planningDate:
+          type: string
+          format: date
+          description: Planning date
+        quantity:
+          type: number
+          format: decimal
+          description: Quantity
+        sourceQuantity:
+          type: number
+          format: decimal
+          description: Source quantity
+        planningQuantity:
+          type: number
+          format: decimal
+          description: Planning quantity
+        documentNo:
+          type: string
+          description: Document number
+          maxLength: 20
+        itemLedgerEntryNo:
+          type: integer
+          description: Related item ledger entry number
+        campaignNo:
+          type: string
+          description: Campaign number
+          maxLength: 20
+        forecastGroupCode:
+          type: string
+          description: Forecast group code
+          maxLength: 20
+        derivedFromBlanketOrder:
+          type: boolean
+          description: Indicates if derived from blanket order
+        excluded:
+          type: boolean
+          description: Indicates if entry is excluded from calculations
+        fixed:
+          type: boolean
+          description: Indicates if entry is fixed
+        unusual:
+          type: boolean
+          description: Indicates if entry represents unusual demand
+    
+    ScmDataEntryCreate:
+      type: object
+      required:
+        - itemNo
+        - postingDate
+        - quantity
+      properties:
+        itemNo:
+          type: string
+          maxLength: 20
+        variantCode:
+          type: string
+          maxLength: 10
+        locationCode:
+          type: string
+          maxLength: 10
+        description:
+          type: string
+          maxLength: 100
+        entryType:
+          type: integer
+        postingDate:
+          type: string
+          format: date
+        planningDate:
+          type: string
+          format: date
+        quantity:
+          type: number
+          format: decimal
+        sourceQuantity:
+          type: number
+          format: decimal
+        planningQuantity:
+          type: number
+          format: decimal
+        documentNo:
+          type: string
+          maxLength: 20
+        itemLedgerEntryNo:
+          type: integer
+        campaignNo:
+          type: string
+          maxLength: 20
+        forecastGroupCode:
+          type: string
+          maxLength: 20
+        derivedFromBlanketOrder:
+          type: boolean
+        excluded:
+          type: boolean
+        fixed:
+          type: boolean
+        unusual:
+          type: boolean
+    
+    ScmDataEntryUpdate:
+      type: object
+      properties:
+        description:
+          type: string
+          maxLength: 100
+        planningDate:
+          type: string
+          format: date
+        quantity:
+          type: number
+          format: decimal
+        planningQuantity:
+          type: number
+          format: decimal
+        excluded:
+          type: boolean
+        fixed:
+          type: boolean
+        unusual:
+          type: boolean
+    
+    ScmItemLedgerEntry:
+      type: object
+      description: Represents an item ledger entry for transaction history
+      properties:
+        systemId:
+          type: string
+          format: uuid
+          description: Unique system identifier
+          readOnly: true
+        systemCreatedAt:
+          type: string
+          format: date-time
+          description: Timestamp when the record was created
+          readOnly: true
+        systemCreatedBy:
+          type: string
+          format: uuid
+          description: User who created the record
+          readOnly: true
+        systemModifiedAt:
+          type: string
+          format: date-time
+          description: Timestamp when the record was last modified
+          readOnly: true
+        systemModifiedBy:
+          type: string
+          format: uuid
+          description: User who last modified the record
+          readOnly: true
+        postingDate:
+          type: string
+          format: date
+          description: Posting date
+        entryType:
+          type: integer
+          description: Entry type (0=Purchase, 1=Sale, 2=Positive Adjmt., etc.)
+          enum: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+        itemNo:
+          type: string
+          description: Item number
+          maxLength: 20
+        variantCode:
+          type: string
+          description: Item variant code
+          maxLength: 10
+        quantity:
+          type: number
+          format: decimal
+          description: Quantity
+        sourceType:
+          type: integer
+          description: Source type
+        sourceNo:
+          type: string
+          description: Source number
+          maxLength: 20
+        locationCode:
+          type: string
+          description: Location code
+          maxLength: 10
+    
+    ScmBaseCalendar:
+      type: object
+      description: Represents base calendar changes for working/non-working days
+      properties:
+        systemId:
+          type: string
+          format: uuid
+          description: Unique system identifier
+          readOnly: true
+        systemCreatedAt:
+          type: string
+          format: date-time
+          description: Timestamp when the record was created
+          readOnly: true
+        systemCreatedBy:
+          type: string
+          format: uuid
+          description: User who created the record
+          readOnly: true
+        systemModifiedAt:
+          type: string
+          format: date-time
+          description: Timestamp when the record was last modified
+          readOnly: true
+        systemModifiedBy:
+          type: string
+          format: uuid
+          description: User who last modified the record
+          readOnly: true
+        baseCalendarCode:
+          type: string
+          description: Base calendar code
+          maxLength: 10
+        date:
+          type: string
+          format: date
+          description: Date of the change
+        day:
+          type: integer
+          description: Day of the week (0=Sunday, 1=Monday, etc.)
+          minimum: 0
+          maximum: 6
+        description:
+          type: string
+          description: Description of the calendar change
+          maxLength: 100
+        nonworking:
+          type: boolean
+          description: Indicates if the day is non-working
+        recurringSystem:
+          type: integer
+          description: Recurring system type
+    
+    ScmManufSetup:
+      type: object
+      description: Represents manufacturing and inventory setup configuration
+      properties:
+        systemId:
+          type: string
+          format: uuid
+          description: Unique system identifier
+          readOnly: true
+        systemCreatedAt:
+          type: string
+          format: date-time
+          description: Timestamp when the record was created
+          readOnly: true
+        systemCreatedBy:
+          type: string
+          format: uuid
+          description: User who created the record
+          readOnly: true
+        systemModifiedAt:
+          type: string
+          format: date-time
+          description: Timestamp when the record was last modified
+          readOnly: true
+        systemModifiedBy:
+          type: string
+          format: uuid
+          description: User who last modified the record
+          readOnly: true
+        primaryKey:
+          type: string
+          description: Primary key
+          readOnly: true
+        normalStartingTime:
+          type: string
+          format: time
+          description: Normal starting time
+        normalEndingTime:
+          type: string
+          format: time
+          description: Normal ending time
+        componentsAtLocation:
+          type: string
+          description: Components at location code
+          maxLength: 10
+        planningWarning:
+          type: boolean
+          description: Show planning warning
+        costInclSetup:
+          type: boolean
+          description: Cost includes setup
+        dynamicLowLevelCode:
+          type: boolean
+          description: Use dynamic low-level code
+        docNoIsProdOrderNo:
+          type: boolean
+          description: Document number is production order number
+        presetOutputQuantity:
+          type: integer
+          description: Preset output quantity option
+        showCapacityIn:
+          type: integer
+          description: Show capacity in (0=Minutes, 1=Hours, 2=Days)
+        plannedOrderNos:
+          type: string
+          description: Planned order number series
+          maxLength: 20
+        firmPlannedOrderNos:
+          type: string
+          description: Firm planned order number series
+          maxLength: 20
+        releasedOrderNos:
+          type: string
+          description: Released order number series
+          maxLength: 20
+        simulatedOrderNos:
+          type: string
+          description: Simulated order number series
+          maxLength: 20
+        productionBOMNos:
+          type: string
+          description: Production BOM number series
+          maxLength: 20
+        routingNos:
+          type: string
+          description: Routing number series
+          maxLength: 20
+        workCenterNos:
+          type: string
+          description: Work center number series
+          maxLength: 20
+        machineCenterNos:
+          type: string
+          description: Machine center number series
+          maxLength: 20
+        currentProductionForecast:
+          type: string
+          description: Current production forecast code
+          maxLength: 10
+        useForecastOnLocations:
+          type: boolean
+          description: Use forecast on locations
+        useForecastOnVariants:
+          type: boolean
+          description: Use forecast on variants
+        defaultSafetyLeadTime:
+          type: string
+          description: Default safety lead time (DateFormula)
+        defaultDampener:
+          type: number
+          format: decimal
+          description: Default dampener percentage
+        defaultDampenerPeriod:
+          type: string
+          description: Default dampener period (DateFormula)
+        blankOverflowLevel:
+          type: string
+          description: Blank overflow level option
+        combinedMPSMRPCalculation:
+          type: boolean
+          description: Combined MPS/MRP calculation
+    
+    ScmROPJnlLine:
+      type: object
+      description: Represents a Reorder Point calculation journal line
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: Unique system identifier (mapped to SystemId)
+          readOnly: true
+        systemCreatedAt:
+          type: string
+          format: date-time
+          description: Timestamp when the record was created
+          readOnly: true
+        systemCreatedBy:
+          type: string
+          format: uuid
+          description: User who created the record
+          readOnly: true
+        lastModifiedDateTime:
+          type: string
+          format: date-time
+          description: Timestamp when the record was last modified (mapped to SystemModifiedAt)
+          readOnly: true
+        systemModifiedBy:
+          type: string
+          format: uuid
+          description: User who last modified the record
+          readOnly: true
+        journalTemplateName:
+          type: string
+          description: Journal template name
+          maxLength: 10
+        journalBatchName:
+          type: string
+          description: Journal batch name
+          maxLength: 10
+        lineNo:
+          type: integer
+          description: Line number
+        itemNo:
+          type: string
+          description: Item number
+          maxLength: 20
+        variantCode:
+          type: string
+          description: Item variant code
+          maxLength: 10
+        locationCode:
+          type: string
+          description: Location code
+          maxLength: 10
+        postingDate:
+          type: string
+          format: date
+          description: Posting date
+        ropCalculationSetupCode:
+          type: string
+          description: ROP calculation setup code
+          maxLength: 20
+        avgDemand:
+          type: number
+          format: decimal
+          description: Average demand
+        stdDevDemand:
+          type: number
+          format: decimal
+          description: Standard deviation of demand
+        avgLeadTime:
+          type: number
+          format: decimal
+          description: Average lead time
+        stdDevLeadTime:
+          type: number
+          format: decimal
+          description: Standard deviation of lead time
+        maxLeadTime:
+          type: number
+          format: decimal
+          description: Maximum lead time
+        oldSafetyStockValue:
+          type: number
+          format: decimal
+          description: Old safety stock value
+        newSafetyStockValue:
+          type: number
+          format: decimal
+          description: New safety stock value
+        oldReorderPointValue:
+          type: number
+          format: decimal
+          description: Old reorder point value
+        newReorderPointValue:
+          type: number
+          format: decimal
+          description: New reorder point value
+        oldReorderQuantityValue:
+          type: number
+          format: decimal
+          description: Old reorder quantity value
+        newReorderQuantityValue:
+          type: number
+          format: decimal
+          description: New reorder quantity value
+        updateSafetyStock:
+          type: boolean
+          description: Indicates if safety stock should be updated
+    
+    ScmROPJnlLineCreate:
+      type: object
+      required:
+        - journalTemplateName
+        - journalBatchName
+        - lineNo
+        - itemNo
+      properties:
+        journalTemplateName:
+          type: string
+          maxLength: 10
+        journalBatchName:
+          type: string
+          maxLength: 10
+        lineNo:
+          type: integer
+        itemNo:
+          type: string
+          maxLength: 20
+        variantCode:
+          type: string
+          maxLength: 10
+        locationCode:
+          type: string
+          maxLength: 10
+        postingDate:
+          type: string
+          format: date
+        ropCalculationSetupCode:
+          type: string
+          maxLength: 20
+        avgDemand:
+          type: number
+          format: decimal
+        stdDevDemand:
+          type: number
+          format: decimal
+        avgLeadTime:
+          type: number
+          format: decimal
+        stdDevLeadTime:
+          type: number
+          format: decimal
+        maxLeadTime:
+          type: number
+          format: decimal
+        newSafetyStockValue:
+          type: number
+          format: decimal
+        newReorderPointValue:
+          type: number
+          format: decimal
+        newReorderQuantityValue:
+          type: number
+          format: decimal
+        updateSafetyStock:
+          type: boolean
+    
+    ScmROPJnlLineUpdate:
+      type: object
+      properties:
+        postingDate:
+          type: string
+          format: date
+        ropCalculationSetupCode:
+          type: string
+          maxLength: 20
+        avgDemand:
+          type: number
+          format: decimal
+        stdDevDemand:
+          type: number
+          format: decimal
+        avgLeadTime:
+          type: number
+          format: decimal
+        stdDevLeadTime:
+          type: number
+          format: decimal
+        maxLeadTime:
+          type: number
+          format: decimal
+        newSafetyStockValue:
+          type: number
+          format: decimal
+        newReorderPointValue:
+          type: number
+          format: decimal
+        newReorderQuantityValue:
+          type: number
+          format: decimal
+        updateSafetyStock:
+          type: boolean
+    
+    Error:
+      type: object
+      description: Error response structure
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+              description: Error code
+            message:
+              type: string
+              description: Error message
+            target:
+              type: string
+              description: The target of the error
+            details:
+              type: array
+              items:
+                type: object
+                properties:
+                  code:
+                    type: string
+                  message:
+                    type: string
+                  target:
+                    type: string
+  
+  responses:
+    BadRequest:
+      description: Bad Request - The request is malformed or contains invalid parameters
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error:
+              code: BadRequest
+              message: "The request is invalid"
+    
+    Unauthorized:
+      description: Unauthorized - Authentication is required and has failed or not been provided
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error:
+              code: Unauthorized
+              message: "Authentication required"
+    
+    NotFound:
+      description: Not Found - The requested resource does not exist
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error:
+              code: NotFound
+              message: "The resource was not found"
+    
+    PreconditionFailed:
+      description: Precondition Failed - The ETag provided does not match the current resource version
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error:
+              code: PreconditionFailed
+              message: "The resource has been modified by another user"
+    
+    Error:
+      description: Unexpected error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
