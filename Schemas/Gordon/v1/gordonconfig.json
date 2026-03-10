@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "gordonconfig.schema.json",
+  "title": "Gordon Project Configuration",
+  "description": "Configuration file for a Gordon project (.gordonconfig).",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "Languages": {
+      "description": "Specifies which languages are to be translated for this project.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/LanguageConfiguration"
+      }
+    },
+    "NugetFeedUris": {
+      "description": "A list of public nuget feeds to use for dependencies. These feeds must not require authentication.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "TranslationProviders": {
+      "description": "Translation providers to use for auto-translating strings.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/TranslationProvider"
+      }
+    }
+  },
+  "$defs": {
+    "LanguageConfiguration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [ "Language" ],
+      "properties": {
+        "Language": {
+          "description": "The name of the language.",
+          "type": "string",
+          "examples": [ "en-US", "it-IT", "de-DE", "fr-FR", "es-ES" ]
+        }
+      }
+    },
+    "TranslationProvider": {
+      "type": "object",
+      "required": [ "Type" ],
+      "properties": {
+        "Type": {
+          "description": "The type of the provider.",
+          "type": "string",
+          "enum": [ "CurrentProject", "TranslationApi", "XliffFiles" ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "Type": { "const": "CurrentProject" } },
+            "required": [ "Type" ]
+          },
+          "then": {
+            "description": "Reads translations from the current AL project's own translation files. No configuration required.",
+            "additionalProperties": false,
+            "properties": {
+              "Type": true,
+              "Configuration": {
+                "description": "Not used for CurrentProject — omit or set to null.",
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "Type": { "const": "TranslationApi" } },
+            "required": [ "Type" ]
+          },
+          "then": {
+            "description": "Calls a remote Translation API service to perform translations.",
+            "additionalProperties": false,
+            "properties": {
+              "Type": true,
+              "Configuration": {
+                "$ref": "#/$defs/TranslationApiProviderConfiguration"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "Type": { "const": "XliffFiles" } },
+            "required": [ "Type" ]
+          },
+          "then": {
+            "description": "Reads translations from a folder containing XLIFF (.xlf) files.",
+            "additionalProperties": false,
+            "required": [ "Configuration" ],
+            "properties": {
+              "Type": true,
+              "Configuration": {
+                "$ref": "#/$defs/XliffProviderConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "TranslationApiProviderConfiguration": {
+      "description": "Configuration for the TranslationApi provider.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ServiceUri": {
+          "description": "Base URI of the translation API service. Defaults to the hosted EOS Translation API.",
+          "type": "string",
+          "format": "uri"
+        },
+        "TranslationSource": {
+          "description": "Translation source/engine to use. Defaults to 'all' (tries all available engines).",
+          "type": "string",
+          "default": "all",
+          "examples": [ "all", "deepl", "openai" ]
+        },
+        "ApiKey": {
+          "description": "API key for authenticating with the translation service. Optional for EOS internal networks.",
+          "type": "string"
+        }
+      }
+    },
+    "XliffProviderConfiguration": {
+      "description": "Configuration for the XliffFiles provider.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [ "FolderPath" ],
+      "properties": {
+        "FolderPath": {
+          "description": "Path to the folder containing XLIFF (.xlf) translation files. Can be relative to the .gordonconfig file.",
+          "type": "string"
+        },
+        "Note": {
+          "description": "Optional human-readable note describing the purpose of this XLIFF folder.",
+          "type": "string"
+        }
+      }
+    }
+  }
+}
