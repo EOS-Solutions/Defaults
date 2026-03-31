@@ -368,6 +368,14 @@
         "value": "Execute action"
     },
     {
+        "name": "GenericStopEntriesActionTitle",
+        "value": "Stop entries"
+    },
+    {
+        "name": "GenericStopEntriesScreen_CurrentScreenSubtitle2Label",
+        "value": "Stop entries"
+    },
+    {
         "name": "HandlingUnit",
         "value": "Handling Unit"
     },
@@ -510,6 +518,14 @@
     {
         "name": "MachineStatusCodeActionTitle",
         "value": "Change machine status"
+    },
+    {
+        "name": "MachineStatusGenericStopCodeActionMessage",
+        "value": "Do you want to stop the machine?"
+    },
+    {
+        "name": "MachineStatusGenericStopCodeActionTitle",
+        "value": "Stop"
     },
     {
         "name": "ManageTeamsActionTitle",
@@ -1154,6 +1170,10 @@
     {
         "name": "SynopticActionTitle",
         "value": "Synoptic"
+    },
+    {
+        "name": "SynopticDetailsActionTitle",
+        "value": "Synoptic details"
     },
     {
         "name": "SynopticListDetailsScreen_DataGallery_dailyOutputQuantityHeader_TextLabel",

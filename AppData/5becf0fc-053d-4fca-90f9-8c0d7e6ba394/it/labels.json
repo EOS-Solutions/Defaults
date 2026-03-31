@@ -368,6 +368,14 @@
         "value": "Esegui azione"
     },
     {
+        "name": "GenericStopEntriesActionTitle",
+        "value": "Movimenti fermo"
+    },
+    {
+        "name": "GenericStopEntriesScreen_CurrentScreenSubtitle2Label",
+        "value": "Movimenti fermo"
+    },
+    {
         "name": "HandlingUnit",
         "value": "Unità di carico"
     },
@@ -510,6 +518,14 @@
     {
         "name": "MachineStatusCodeActionTitle",
         "value": "Cambia stato macchina"
+    },
+    {
+        "name": "MachineStatusGenericStopCodeActionMessage",
+        "value": "Eseguire il fermo macchina?"
+    },
+    {
+        "name": "MachineStatusGenericStopCodeActionTitle",
+        "value": "Fermo"
     },
     {
         "name": "ManageTeamsActionTitle",
@@ -1154,6 +1170,10 @@
     {
         "name": "SynopticActionTitle",
         "value": "Sinottico"
+    },
+    {
+        "name": "SynopticDetailsActionTitle",
+        "value": "Sinottico dettagliato"
     },
     {
         "name": "SynopticListDetailsScreen_DataGallery_dailyOutputQuantityHeader_TextLabel",
