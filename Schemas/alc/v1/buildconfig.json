@@ -64,9 +64,12 @@
                     },
                     "description": "Specifies the assembly probing paths to be used during build."
                 },
-                "PackageCacheFolder": {
-                    "type": "string",
-                    "description": "Indicates the package cache path to use for builds."
+                "PackageCacheFolders": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Indicates the package cache paths to use for builds."
                 },
                 "WarnAsError": {
                     "type": "boolean",
@@ -89,7 +92,7 @@
                     "type": "boolean",
                     "description": "Specifies whether metadata and code should be generated and packaged in the output file. (Default: Disabled)"
                 },
-                "GeneratReportLayout": {
+                "GenerateReportLayout": {
                     "type": "boolean",
                     "description": "Specifies whether report layouts should be created and or updated with the dataset. (Default: Enabled)"
                 },
@@ -170,6 +173,10 @@
         "KeepBuildFolder": {
             "type": "boolean",
             "description": "Specifies if the temporary folder that is used for building the project is kept after the build completes. If this is null or false (default) the folder is deleted."
+        },
+        "RespectMinVersion": {
+            "type": "boolean",
+            "description": "Applies only to workspace builds. When true, the output version is automatically raised to satisfy any minimum version required by other projects in the same workspace."
         }
     }
 }
